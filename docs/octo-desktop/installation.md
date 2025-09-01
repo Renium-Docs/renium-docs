@@ -16,7 +16,13 @@ Genellikle çalışılan veritabanı ve son giren kullanıcının kullanıcı ad
 
 ## Menüler
 
+<img width="1920" height="1101" alt="image" src="https://github.com/user-attachments/assets/0117aded-9b10-4736-8e8d-c19c766fbbe1" />
+
+
 ### Ribbon Menü
+
+<img width="1036" height="240" alt="image" src="https://github.com/user-attachments/assets/6364a05b-0a24-4d67-807a-fb8175b54951" />
+
 
 :::info
 Kullanıcılar; Ribbon menüde yetkisi olduğu ekran, modül ve modül alt grupları görebilmektedir. Bu sebeple ribbon menü kullanıcıların yetkisine göre değişiklik göstermektedir.
