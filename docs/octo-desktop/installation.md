@@ -20,7 +20,7 @@ Genellikle çalışılan veritabanı ve son giren kullanıcının kullanıcı ad
 
 ## Menüler
 
-<img width="1920" height="1101" alt="image" src="https://github.com/user-attachments/assets/0117aded-9b10-4736-8e8d-c19c766fbbe1" />
+<img width="1920" height="1101" alt="image" src="https://github.com/user-attachments/assets/ab80edc5-69e1-41b5-be22-94bceca52ecb" />
 
 
 ### Ribbon Menü
@@ -59,7 +59,7 @@ Modül Alt Grup içinde benzer işlevlerdeki ekranları gruplamak için kullanı
 
 Ekranlara modüllerin altından ulaşılabileceği gibi arama bölümünden de ulaşılabilir. Ekran adlarından yanında numaraları da yazmaktadır.
 
-<img width="495" height="223" alt="image" src="https://github.com/user-attachments/assets/f1e2d3c4-5a6b-7c8d-9e0f-1a2b3c4d5e6f" />
+<img width="1239" height="466" alt="image" src="https://github.com/user-attachments/assets/10935ec7-c719-4b8d-8de6-2fc8f68a388e" />
 
 ### Sol Menü
 
@@ -67,7 +67,7 @@ Sol menüden tasarlanmış Dashboard, Raporlar ve kullanıcının Sık Kullanıl
 
 Resimdeki bölümden anahtar sözcük yazarak sol menüde arama yapabilirsiniz.
 
-<img width="282" height="600" alt="image" src="https://github.com/user-attachments/assets/a1b2c3d4-e5f6-7890-1234-567890abcdef" />
+<img width="250" height="41" alt="image" src="https://github.com/user-attachments/assets/e956733b-5f10-4796-ab5a-0c4452a6ed74" />
 
 **Raporlar**
 
@@ -101,13 +101,13 @@ Ekranlar genel olarak aşağıdaki özelliklere sahiptir:
   - [Özet bandı](#özet-bandı)
   - [Görünüm oluşturma](#görünümler)
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/d4e5f6g7-h8i9-j0k1-l2m3-n4o5p6q7r8s9" />
+ <img width="1229" height="708" alt="image" src="https://github.com/user-attachments/assets/e1dd0ea4-58b4-44d5-963c-759b7ddbcd42" />
 
 :::info
 Yeni kayıt ekleme satırının görünmemesi, ekranın sadece okunabilir bir ekran olduğu anlamına gelir. Bu tür ekranlarda ekleme ve güncelleme işlemi yapılamaz.
 :::
 
-<img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/e5f6g7h8-i9j0-k1l2-m3n4-o5p6q7r8s9t0" />
+<img width="1229" height="645" alt="image" src="https://github.com/user-attachments/assets/09609f7b-d745-4714-8ccb-bf231f3c2c81" />
 
 :::info
 Bir ekranın içinde iki tablonun bulunduğu ekran çeşidi Master-Detay ekran olarak adlandırılır ve resimdeki gibidir. Burada ikinci tablo ilk tabloda seçili kaydın bağlantılı detay kayıtlarını gösterir.
@@ -115,13 +115,13 @@ Bir ekranın içinde iki tablonun bulunduğu ekran çeşidi Master-Detay ekran o
 **Örn:** Resimdeki mamul ürün ekranında mamul ürün bilgileri 1. tablo yer alır. Seçili 866 nolu ürünün ham maddeleri ikinci tabloda yer almaktadır. Bu örnekte tanımlı ham maddesi olmadığı anlaşılmaktadır.
 :::
 
-<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/f6g7h8i9-j0k1-l2m3-n4o5-p6q7r8s9t0u1" />
+<img width="1233" height="644" alt="image" src="https://github.com/user-attachments/assets/935b4aaf-85a9-4b49-bf5e-44aaf96f4f31" />
 
 :::info
 Ekranlar sekme olarak açılmaktadır ve sekme bölümü üzerinden dolaşılabilmektedir. Sekme üzerinde sağ tık > açılan menü ile resimdeki işlemler yapılabilmektedir.
 :::
 
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/g7h8i9j0-k1l2-m3n4-o5p6-q7r8s9t0u1v2" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/130f0c5e-5704-4852-8f38-c83ead74d981" />
 
 ### Kayıt İşlemleri
 
@@ -136,8 +136,8 @@ Kayıt ekleme, alan başlıklarının alt bölümündeki yeni kayıt ekleme sat�
 - Gri renk olması alanın **sadece okunabilir** (read only) olduğunu ifade eder
 - **Sayısal, tarih, checkbox** tipli alanlara, tipine uygun veriler girilebilir
 - Alanlarda varsayılan değerler olabilir. **`F2`** tuşlandığında bu alanların varsayılan değeri gelecektir. Kullanıcı isterse bu değerleri değiştirebilir
-
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/h8i9j0k1-l2m3-n4o5-p6q7-r8s9t0u1v2w3" />
+ 
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/5afeaed5-0d46-4a67-b4d1-89bd76198f95" />
 
 - Bazı alanlar **sadece kütüphane de tanımlı** alanlardaki değeri alabilir. Bu tür alanlarda `(↓)` işareti görünmektedir. Bu tür alanlarda aşağıdaki işlemler yapılabilir:
   - Kütüphaneyi listeleme → Alan üzerindeki iken görünen alt ok sembolü tıklanarak ya da **`F4`** tuşu tuşlanarak kütüphane listelenebilir
@@ -163,8 +163,8 @@ Kayıt güncelle, ekrandaki veriler üzerinde aşağıda belirtilen adımlara ve
 - Satır değiştirilerek güncelleme işlemi tamamlanır. Satır değiştirme işlemi klavye aşağı yukarı tuşları kullanılarak ya da fare ile başka satır tıklanarak gerçekleştirilebilir
 - **`Esc`** tuşu kullanılarak güncelleme işlemi iptal edilir
 - [Ekleme](#ekle) işlemindeki kurallar detaylar güncelleme de geçerlidir
-
-<img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/j0k1l2m3-n4o5-p6q7-r8s9-t0u1v2w3x4y5" />
+ 
+<img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/c00b7cd1-cf78-4803-9f4a-eae64b60343e" />
 
 :::info
 Bir hücre üzerinde **`F2`** tuşuna basmadan klavye tuşları kullanıldığında, imleç, tuşlanan harflere göre sıralı olan kayda otomatik olarak gider. Bu işlem, belirli bir kayda kolayca ulaşmak için kullanılır.
@@ -175,8 +175,7 @@ Bir hücre üzerinde **`F2`** tuşuna basmadan klavye tuşları kullanıldığı
 Ekranda ilgili sayıt seçildikten sonra araç çubuğundaki simgesine tıklanarak yapılmaktadır.
 
 Ekranda seçili satır başka bir renk ile işaretlenir. Renkli satır ile seçili satır takip edilebilir.
-
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/k1l2m3n4-o5p6-q7r8-s9t0-u1v2w3x4y5z6" />
+ 
 
 Birden çok satır seçilip silme tuşu tuşlanarak çoklu silme işlemi gerçekleştirilebilir.
 
@@ -190,12 +189,10 @@ Araç çubuğu tüm ekranlarda standart olarak aşağıdaki özelliklere sahipti
 - Filtrele
 - Ekranı kapat
 - Ekran yardım dokümantasyon linki
-
-<img width="800" height="100" alt="image" src="https://github.com/user-attachments/assets/l2m3n4o5-p6q7-r8s9-t0u1-v2w3x4y5z6a7" />
+ 
 
 Araç çubuğunda ihtiyaçları doğrultusunda ekrana özel veri işlemi butonları ve raporlar eklenebilir. Eğer ekranda veri işlemi ve rapor yoksa araç çubuğu sadece standart butonlardan oluşacaktır.
-
-<img width="800" height="100" alt="image" src="https://github.com/user-attachments/assets/m3n4o5p6-q7r8-s9t0-u1v2-w3x4y5z6a7b8" />
+ 
 
 :::info
 **Master-Detay** ekranlarda, aktif olan bölüm için **araç çubuğu** aktif hale gelir.
@@ -270,8 +267,7 @@ Ekrana özel tanımlanmış filtreler.
 Ekranlarda kayıt logları tutulmaktadır ve sistem yöneticileri tarafından görüntülenebilmektedir.
 
 Log araştırması gereken durumlarda sistem yöneticisi ile iletişime geçilmelidir.
-
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/n4o5p6q7-r8s9-t0u1-v2w3-x4y5z6a7b8c9" />
+ 
 
 ## Görünümler
 
@@ -330,14 +326,12 @@ Sütunların genişliklerini verilerin tamamı sığacak şekilde değiştirilir
 1. Firmalar ekranı firma tipi tedarikçi olarak filtrelendikten sonra görünümü farklı kaydet seçeneği ile kaydedilip tedarikçi olarak kaydedilir
 2. Firma tipi müşteri olarak filtrelendikten sonra görünümü farklı kaydet seçeneği ile kaydedilip Müşteriler olarak kaydedilir
 3. Sonrasında Müşteriler görünümdeki iken tedarikçiler görünümüne geçtiğinde filtre müşterilerden tedarikçilere otomatik değişecektir
-
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/o5p6q7r8-s9t0-u1v2-w3x4-y5z6a7b8c9d0" />
+ 
 
 ### Satır Renklendirme
 
 Belirli koşullara göre ekranlarda satır renklendirme yapılabilmektedir.
-
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/p6q7r8s9-t0u1-v2w3-x4y5-z6a7b8c9d0e1" />
+ 
 
 ## Temalar
 
