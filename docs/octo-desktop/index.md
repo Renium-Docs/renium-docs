@@ -5,7 +5,7 @@ Octo Desktop uygulamasının kullanım kılavuzu ve özellikleri.
 ## İçindekiler
 
 ### Başlangıç
-- [Kurulum](./installation.md)
+- [Genel Kullanım](./installation.md)
 - [İlk Ayarlar](./setup.md)
 - [Hızlı Başlangıç](./quick-start.md)
 
