@@ -7,7 +7,7 @@ Octo "Genel Kullanım" sayfasına hoş geldiniz. Bu bölümde, programın temel 
 ## Giriş Ekranı
 
 Bu ekranda sistem yöneticisi tarafından kullanıcılara tanımlanmış kullanıcı adı ve kullanıcının kendi belirlediği şifreyi girerek işlem yapacağı veri tabanı seçilerek sisteme giriş yapılır.
-
+<img width="301" height="253" alt="image" src="https://github.com/user-attachments/assets/31fa5a87-6432-4715-9367-03b15315fdd4" />
 :::info
 Genellikle çalışılan veritabanı ve son giren kullanıcının kullanıcı adı varsayılan olarak gelmektedir.
 :::
