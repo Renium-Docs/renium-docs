@@ -75,10 +75,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Renium Docs',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Renium Logo',
+        src: 'img/renium-logo.png',
       },
       items: [
         {
@@ -92,11 +92,6 @@ const config: Config = {
           sidebarId: 'octoWebSidebar',
           position: 'left',
           label: 'Octo Web',
-        },
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
         },
       ],
     },
