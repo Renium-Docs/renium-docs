@@ -101,6 +101,21 @@ const config: Config = {
           position: 'left',
           label: 'Octo Web',
         },
+        {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          dropdownActiveClassDisabled: true,
+          dropdownItemsAfter: [
+            {
+              type: 'html',
+              value: '<hr style="margin: 0.3rem 0;">',
+            },
+            {
+              href: 'https://github.com/Renium-Docs/renium-docs/releases',
+              label: 'Tüm Versiyonlar',
+            },
+          ],
+        },
       ],
     },
     
