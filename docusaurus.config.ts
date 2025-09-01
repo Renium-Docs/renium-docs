@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Renium Documentation',
-  tagline: 'Comprehensive documentation for all Renium services',
+  tagline: 'Tüm Renium servisleri için kapsamlı dokümantasyon',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -35,6 +35,7 @@ const config: Config = {
     defaultLocale: 'tr',
     locales: ['tr', 'en'],
   },
+
 
   presets: [
     [
@@ -95,11 +96,44 @@ const config: Config = {
         },
       ],
     },
+    
+    // Algolia DocSearch
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'NUDWOMOH3M',
+      
+      // Public API key: it is safe to commit it
+      apiKey: '2f31d13d31d67a92710c8d508d191129',
+      
+      // The index name
+      indexName: 'renium-docs',
+      
+      // Optional: See doc section below
+      contextualSearch: true,
+      
+      // Optional: Specify domains where the navigation should occur through window.location instead on history.push
+      externalUrlRegex: 'external\\.com|domain\\.com',
+      
+      // Optional: Replace parts of the item URLs from Algolia
+      replaceSearchResultPathname: {
+        from: '/docs/', // or as RegExp: /\/docs\//
+        to: '/',
+      },
+      
+      // Optional: Algolia search parameters
+      searchParameters: {},
+      
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+      
+      //... other Algolia params
+    },
+    
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Dokümantasyon',
           items: [
             {
               label: 'Octo Desktop',
@@ -111,38 +145,8 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Renium. Tüm hakları saklıdır.`,
     },
     prism: {
       theme: prismThemes.github,
