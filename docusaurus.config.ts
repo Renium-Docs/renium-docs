@@ -72,6 +72,17 @@ const config: Config = {
     ],
   ],
 
+  // HTML head meta tags
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: '6B841B51C952B3D3',
+      },
+    },
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
