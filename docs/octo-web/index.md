@@ -6,9 +6,9 @@ Octo Web platformunun kullanım kılavuzu ve özellikleri.
   
   
 ### Başlangıç
-- [Hesap Oluşturma](./getting-started/account.md)
-- [Giriş Yapma](./getting-started/login.md)
-- [İlk Proje](./getting-started/first-project.md)
+- [Hesap Oluşturma](./getting-started#başlangıç)
+- [Giriş Yapma](./getting-started#giriş-yapma)
+- [İlk Proje](./getting-started#ilk-proje)
 
 ### Web Arayüzü
 - [Dashboard](./interface/dashboard.md)
