@@ -109,5 +109,6 @@ Gezinme Menüsü’ndeki arama fonksiyonuna ek olarak, Arama Çubuğu **hem ekra
   - **Parola Bilgileri:** Parola değişikliğinizi bu alanda yapabilirsiniz.
 
 **2. Sistem Bilgileri:** Platformun **versiyonu ve sunucu bilgileri** gibi teknik detayları görüntüleyebilirsiniz.
+
 **3. Çıkış Yap:** Hesabınızdan güvenli bir şekilde çıkış yapmak için bu butona tıklayınız.
 
