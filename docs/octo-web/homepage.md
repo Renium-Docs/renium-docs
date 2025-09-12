@@ -20,7 +20,7 @@ Ana sayfada görebileceğiniz başlıca bölümler:
 
 Takviminiz, günlük toplantılarınızı düzenlemenizi ve yönetmenizi sağlar. Daha önce oluşturduğunuz toplantıları burada görebilir veya yeni toplantılar ekleyebilirsiniz.
 
-### Yeni Toplantı Oluşturma
+### *Yeni Toplantı Oluşturma*
 
 1. Takvimde istediğiniz tarihe gidin ve toplantıyı eklemek istediğiniz saat aralığına tıklayın.
 
@@ -49,17 +49,17 @@ Takviminiz bölümüne eklediğiniz etkinlikler yada toplantılar size toplantı
 
 Favori Ekranlarınız, sık kullandığınız ve hızlı erişmek istediğiniz servis sayfalarına tek tıklamayla ulaşmanızı sağlar.
 
-### Favori Ekran Ekleme
+### *Favori Ekran Ekleme*
 
 1. Anasayfanın sol üst köşesinde bulunan gezinme çubuğunu açın.
 2. Favoriye eklemek istediğiniz ekranın bulunduğu dizine gidin.
 3. Gezinme çubuğunda ilgili ekranın yanında bulunan yıldız (⭐️) ikonuna tıklayın. Bu işlem ekranı favori listenize ekler.
 
-### Favori Ekrandan Çıkarma
+### *Favori Ekrandan Çıkarma*
 
 Daha önce eklediğiniz bir ekranı favorilerinizden çıkarmak için, tekrar ilgili ekranın bulunduğu dizine gezinme çubuğu içinde gidin ve yıldız (⭐️) ikonuna tıklayın. Bu işlem ekranı favori listenizden kaldırır.
 
-### Favori Ekranlarınıza Erişim
+### *Favori Ekranlarınıza Erişim*
 
 Eklediğiniz veya çıkardığınız ekranlar, **Ana Sayfa > Favori Ekranlarım** bölümünde görüntülenir.
 Alternatif olarak, **Gezinme Çubuğu’nu** açıp en üstte bulunan **Favori Ekranlar** bölümüne tıklayarak da favori ekranlarınıza ulaşabilirsiniz.
