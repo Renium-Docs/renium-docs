@@ -11,7 +11,7 @@ Hem yeni başlayan kullanıcılar hem de deneyimli kullanıcılar için uygun ol
 ## İçindekiler
 
 ### Başlangıç
-- [Hesap Oluşturma](./getting-started#başlangıç)
+- [Hesap Oluşturma](./getting-started#hesap-oluşturma)
 - [Giriş Yapma](./getting-started#giriş-yapma)
 - [İlk Proje](./getting-started#ilk-proje)
 
@@ -19,7 +19,8 @@ Hem yeni başlayan kullanıcılar hem de deneyimli kullanıcılar için uygun ol
 - [Dashboard](./homepage#dashboard)
 - [Takviminiz](./homepage#takviminiz)
 - [Favori Ekranlarınız](./homepage#favori-ekranlarınız)
-- [Navigation](./homepage#gezinme-menüsü)
+- [Gezinme Menüsü](./homepage#gezinme-menüsü)
+- [Arama Çubuğu](./homepage#arama-çubuğu)
 - [Kullanıcı Profili](./homepage#kullanıcı-profili)
 
 ### Özellikler
