@@ -10,10 +10,12 @@ Octo Web platformunun kullanım kılavuzu ve özellikleri.
 - [Giriş Yapma](./getting-started#giriş-yapma)
 - [İlk Proje](./getting-started#ilk-proje)
 
-### Web Arayüzü
-- [Dashboard](./interface/dashboard.md)
-- [Navigation](./interface/navigation.md)
-- [Kullanıcı Profili](./interface/profile.md)
+### Anasayfa
+- [Dashboard](./homepage#dashboard)
+- [Takviminiz](./homepage#takviminiz)
+- [Favori Ekranlarınız](./homepage#favori-ekranlarınız)
+- [Navigation](./homepage#gezinme-menüsü)
+- [Kullanıcı Profili](./homepage#kullanıcı-profili)
 
 ### Özellikler
 - [Proje Yönetimi](./features/projects.md)
