@@ -37,5 +37,5 @@ Size ileitlen kullanıcı bilgilerini kullanarak giriş yapmak için;
 3. Bilgiler doğruysa hesabınıza yönlendirileceksiniz ve platformu kullanmaya başlayabilirsiniz.
 
 :::tip
-İlk girişinizin ardından güvenliğiniz için şifrenizi değiştirmenizi tavsiye ederiz. Şifrenizi nasıl güncelleyebileceğinizi bu sayfada adım adım bulabilirsiniz.
+İlk girişinizin ardından güvenliğiniz için şifrenizi değiştirmenizi tavsiye ederiz. Şifrenizi [Kullanıcı Profili](./homepage.md#kullanıcı-profili) ekranından güncelleyebilirsiniz.
 :::
