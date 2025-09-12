@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Başlangıç
 
 Bu bölüm, Octo Web Platformu’nu kullanmaya başlarken ihtiyaç duyacağınız ilk adımları kapsar.
