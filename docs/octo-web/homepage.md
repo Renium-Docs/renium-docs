@@ -102,7 +102,7 @@ Gezinme Menüsü’ndeki arama fonksiyonuna ek olarak, Arama Çubuğu **hem ekra
 
 **1. Kullanıcı Bilgileri:**
    
-- Bu butona tıkladığınızda anasayfanızda **Kullanıcı Bilgileri sekmesi** açılır.
+- Bu butona tıkladığınızda anasayfanızda Kullanıcı Bilgileri sekmesi açılır.
 - Sekme içinde hesabınızla ilgili detayları görebilir ve güncelleyebilirsiniz:
   - **Profil Fotoğrafı:** Mevcut fotoğrafınızı görebilir ve _Select File_ ile yeni bir fotoğraf yükleyebilirsiniz.
   - **Kullanıcı Bilgileri:** Hesap adınız ve sistemde hangi rolde bulunduğunuzu görebilirsiniz.
