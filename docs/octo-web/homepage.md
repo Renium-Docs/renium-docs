@@ -10,7 +10,11 @@ Ana sayfada görebileceğiniz başlıca bölümler:
 - **Gezinme Menüsü:** Platformun farklı modülleri ve sayfaları arasında kolayca geçiş yapın.
 - **Kullanıcı Profili**
 
+---
+
 ## Dashboard
+
+---
 
 ## Takviminiz
 
@@ -26,7 +30,7 @@ Takviminiz, günlük toplantılarınızı düzenlemenizi ve yönetmenizi sağlar
     - Repeat: Gerekirse toplantının tekrar sıklığı
     - Location: Toplantının yapılacağı yer veya link
     - Label: Toplantılarınızı kategorize etmek için kullanbilirsiniz
-    - Status: Toplantı zamanındaki durumunuzu uygunluk durumunuzu belirtebilirsiniz
+    - Status: Toplantı zamanındaki uygunluk durumunuzu belirtebilirsiniz
     - Description: Toplantı ile ilgili ek bilgiler veya notlar
 
 3. Bilgileri girip kontrol ettikten sonra etkinliğinizi kaydetmek için pop-up ekranının sağ üst köşesinde bulunan **Save** butonuna, iptal etmek içinse **Discard** butonuna tıkalyınız.
@@ -39,10 +43,35 @@ Takviminiz bölümüne eklediğiniz etkinlikler yada toplantılar size toplantı
 
 :::
 
+---
+
 ## Favori Ekranlarınız
+
+Favori Ekranlarınız, sık kullandığınız ve hızlı erişmek istediğiniz servis sayfalarına tek tıklamayla ulaşmanızı sağlar.
+
+### Favori Ekran Ekleme
+
+1. Anasayfanın sol üst köşesinde bulunan gezinme çubuğunu açın.
+2. Favoriye eklemek istediğiniz ekranın bulunduğu dizine gidin.
+3. Gezinme çubuğunda ilgili ekranın yanında bulunan yıldız (⭐️) ikonuna tıklayın. Bu işlem ekranı favori listenize ekler.
+
+### Favori Ekrandan Çıkarma
+
+Daha önce eklediğiniz bir ekranı favorilerinizden çıkarmak için, tekrar ilgili ekranın bulunduğu dizine gezinme çubuğu içinde gidin ve yıldız (⭐️) ikonuna tıklayın. Bu işlem ekranı favori listenizden kaldırır.
+
+### Favori Ekranlarınıza Erişim
+
+Eklediğiniz veya çıkardığınız ekranlar, Ana Sayfa > Favori Ekranlarım bölümünde görüntülenir.
+Alternatif olarak, Gezinme Çubuğu’nu açıp en üstte bulunan Favori Ekranlar bölümüne tıklayarak da favori ekranlarınıza ulaşabilirsiniz.
+
+---
 
 ## Gezinme Menüsü
 
+---
+
 ## Arama Çubuğu
+
+---
 
 ## Kullanıcı Profili
