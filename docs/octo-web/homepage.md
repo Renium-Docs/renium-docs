@@ -61,8 +61,8 @@ Daha önce eklediğiniz bir ekranı favorilerinizden çıkarmak için, tekrar il
 
 ### Favori Ekranlarınıza Erişim
 
-Eklediğiniz veya çıkardığınız ekranlar, Ana Sayfa > Favori Ekranlarım bölümünde görüntülenir.
-Alternatif olarak, Gezinme Çubuğu’nu açıp en üstte bulunan Favori Ekranlar bölümüne tıklayarak da favori ekranlarınıza ulaşabilirsiniz.
+Eklediğiniz veya çıkardığınız ekranlar, **Ana Sayfa > Favori Ekranlarım** bölümünde görüntülenir.
+Alternatif olarak, **Gezinme Çubuğu’nu** açıp en üstte bulunan **Favori Ekranlar** bölümüne tıklayarak da favori ekranlarınıza ulaşabilirsiniz.
 
 ---
 
