@@ -77,6 +77,12 @@ Gezinme Menüsü, ekranın sol üst köşesinde bulunan **≡** sembolüne tıkl
 
 ## Arama Çubuğu
 
+Arama çubuğuna tıkladığınızda, aramak istediğiniz ekranın adını veya veriyi yazabilirsiniz. Doğrudan ilgili ekranların veya verilerin bulunduğu sayfalar listelenir, böylece ihtiyaç duyduğunuz bilgilere hızlı ve kolay bir şekilde ulaşabilirsiniz.
+
+:::tip
+Gezinme Menüsü’ndeki arama fonksiyonuna ek olarak, **Arama Çubuğu** *hem ekranlar hem de veriler* için arama yapmanızı sağlar. 
+:::
+
 ---
 
 ## Kullanıcı Profili
