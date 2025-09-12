@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Octo Web Dokümantasyonu
 
 Octo Web platformunun kullanım kılavuzu ve özellikleri.
