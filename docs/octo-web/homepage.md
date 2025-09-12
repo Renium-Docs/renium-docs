@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Anasayfa
 
 Ana Sayfa, Octo Web Platformu’na giriş yaptıktan sonra karşılaşacağınız ilk ekrandır. Buradan platformun tüm özelliklerine kolayca ulaşabilir ve hızlıca yönetebilirsiniz.
