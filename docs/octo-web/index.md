@@ -4,11 +4,12 @@ sidebar_position: 1
 
 # Octo Web Dokümantasyonu
 
-Octo Web platformunun kullanım kılavuzu ve özellikleri.
+Bu dokümantasyon, Octo Web platformunu etkili ve verimli bir şekilde kullanmanız için hazırlanmıştır. Platformun temel işlevlerini ve özelliklerini öğrenerek iş akışlarınızı kolaylaştırabilir, adım adım rehberler, ipuçları ve kullanım önerileri ile platformda neleri nasıl yapacağınızı hızlıca öğrenebilirsiniz.
+
+Hem yeni başlayan kullanıcılar hem de deneyimli kullanıcılar için uygun olan bu rehber, platformun tüm özelliklerini detaylı bir şekilde açıklamakta; kapsamlı bilgiler, örnekler ve en iyi uygulama önerileri sunmaktadır.
 
 ## İçindekiler
-  
-  
+
 ### Başlangıç
 - [Hesap Oluşturma](./getting-started#başlangıç)
 - [Giriş Yapma](./getting-started#giriş-yapma)
