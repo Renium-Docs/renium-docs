@@ -68,6 +68,11 @@ Alternatif olarak, **Gezinme Çubuğu’nu** açıp en üstte bulunan **Favori E
 
 ## Gezinme Menüsü
 
+Gezinme Menüsü, ekranın sol üst köşesinde bulunan **≡** sembolüne tıklayarak açılıp kapatılabilir. Bu menü sayesinde platform içindeki modül ve sayfaları görüntüleyebilir ve hızlıca erişebilirsiniz.
+
+- Menü açıldıktan sonra beliren Menüde Ara fonksiyonunu kullanarak istediğiniz ekranı hızlıca bulabilirsiniz.
+- Menüde listelenen başlıklara tıklayarak farklı modüllere veya sayfalara geçiş yapabilirsiniz.
+
 ---
 
 ## Arama Çubuğu
