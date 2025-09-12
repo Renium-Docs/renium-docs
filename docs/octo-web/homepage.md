@@ -22,7 +22,7 @@ Ana sayfada görebileceğiniz başlıca bölümler:
 Dashboardlar, Octo Web platformunun ana sayfasında yer alan ve kullanıcıya hızlı bir genel bakış sağlayan bölümüdür. Burada belirlediğiniz ekranlar ile ilgili kritik bilgileri özet halinde görüntüleyebilirsiniz.
 
 :::warning
-Dashboardlar her müşteriye özel olarak hazırlanır bu yüzde hesabınızda dashboard oluşması için ekibimizle iletişime geçmeniz gerekmektedir. İleitşime geçilmediği sürece hesabınızda herhangi bir dashboardun oluşmaması normaldir.
+Dashboardlar her müşteriye özel olarak hazırlanır bu yüzde hesabınızda dashboard oluşması için ekibimizle iletişime geçmeniz gerekmektedir. İletişime geçilmediği sürece hesabınızda herhangi bir dashboard belirmeyecektir.
 :::
 
 ---
