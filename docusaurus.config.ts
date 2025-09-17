@@ -80,7 +80,9 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
+    // Replace with your project's social card,
+    docs: {
+      sidebar: {hideable: true,},},
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Renium Docs',
