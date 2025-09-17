@@ -36,13 +36,13 @@ Takviminiz, günlük toplantılarınızı düzenlemenizi ve yönetmenizi sağlar
 1. Takvimde istediğiniz tarihe gidin ve toplantıyı eklemek istediğiniz saat aralığına tıklayın.
 
 2. Açılan pop-up ekranında toplantı ile ilgili bilgileri doldurun:
-    - Subject: Toplantının başlığı veya konusu
-    - Start/End: Toplantının başlangıç ve bitiş tarihi/saati
-    - Repeat: Gerekirse toplantının tekrar sıklığı
-    - Location: Toplantının yapılacağı yer veya link
-    - Label: Toplantılarınızı kategorize etmek için kullanbilirsiniz
-    - Status: Toplantı zamanındaki uygunluk durumunuzu belirtebilirsiniz
-    - Description: Toplantı ile ilgili ek bilgiler veya notlar
+    - ***Subject:*** Toplantının başlığı veya konusu
+    - ***Start/End:*** Toplantının başlangıç ve bitiş tarihi/saati
+    - ***Repeat:*** Gerekirse toplantının tekrar sıklığı
+    - ***Location:*** Toplantının yapılacağı yer veya link
+    - ***Label:*** Toplantılarınızı kategorize etmek için kullanbilirsiniz
+    - ***Status:*** Toplantı zamanındaki uygunluk durumunuzu belirtebilirsiniz
+    - ***Description:*** Toplantı ile ilgili ek bilgiler veya notlar
 
 3. Bilgileri girip kontrol ettikten sonra etkinliğinizi kaydetmek için pop-up ekranının sağ üst köşesinde bulunan **Save** butonuna, iptal etmek içinse **Discard** butonuna tıkalyınız.
 
