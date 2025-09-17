@@ -100,8 +100,15 @@ Gezinme Menüsü’ndeki arama fonksiyonuna ek olarak, Arama Çubuğu **hem ekra
 
 **Kullanıcı Profili**, ana sayfanın sağ üst köşesinde yer alan kullanıcı adınıza tıklayarak açabileceğiniz bir menüdür. Menü üç bölümden oluşur:
 
+<details>
+
+<summary>Resimli yönlendirmeler için tıklayınız.</summary>
+
+![An image from the static](./assets/kullanıcı_profili.png)
+
+</details>
+
 **1. Kullanıcı Bilgileri:**
-   
 - Bu butona tıkladığınızda anasayfanızda Kullanıcı Bilgileri sekmesi açılır.
 - Sekme içinde hesabınızla ilgili detayları görebilir ve güncelleyebilirsiniz:
   - **Profil Fotoğrafı:** Mevcut fotoğrafınızı görebilir ve _Select File_ ile yeni bir fotoğraf yükleyebilirsiniz.
