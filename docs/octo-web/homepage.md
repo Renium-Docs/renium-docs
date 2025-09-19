@@ -75,13 +75,7 @@ Daha önce eklediğiniz bir ekranı favorilerinizden çıkarmak için, tekrar il
 Eklediğiniz veya çıkardığınız ekranlar, **Ana Sayfa > Favori Ekranlarım** bölümünde görüntülenir.
 Alternatif olarak, **Gezinme Çubuğu’nu** açıp en üstte bulunan **Favori Ekranlar** bölümüne tıklayarak da favori ekranlarınıza ulaşabilirsiniz.
 
----
-
-## Gezinme Menüsü
-
-Gezinme Menüsü, ekranın sol üst köşesinde bulunan **≡** sembolüne tıklayarak açılıp kapatılabilir. Bu menü sayesinde platform içindeki modül ve sayfaları görüntüleyebilir ve hızlıca erişebilirsiniz.
-
-    <details>
+  <details>
 
     <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
@@ -89,8 +83,30 @@ Gezinme Menüsü, ekranın sol üst köşesinde bulunan **≡** sembolüne tıkl
 
     </details>
 
+---
+
+## Gezinme Menüsü
+
+Gezinme Menüsü, ekranın sol üst köşesinde bulunan **≡** sembolüne tıklayarak açılıp kapatılabilir. Bu menü sayesinde platform içindeki modül ve sayfaları görüntüleyebilir ve hızlıca erişebilirsiniz.
+
+  <details>
+
+  <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+  ![Gezinme Menüsü](./assets/gezinme_menüsü_1.png)
+
+  </details>
+
 - Menü açıldıktan sonra beliren Menüde Ara fonksiyonunu kullanarak istediğiniz ekranı hızlıca bulabilirsiniz.
 - Menüde listelenen başlıklara tıklayarak farklı modüllere veya sayfalara geçiş yapabilirsiniz.
+
+    <details>
+
+    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+    ![Gezinme Menüsü](./assets/gezinme_menüsü_2.png)
+
+    </details>
 
 ---
 
