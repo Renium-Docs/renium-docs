@@ -77,11 +77,11 @@ Alternatif olarak, **Gezinme Çubuğu’nu** açıp en üstte bulunan **Favori E
 
   <details>
 
-    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+  <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
-    ![Gezinme Çubuğu](./assets/gezinme_menüsü_1.png)
+  ![Gezinme Çubuğu](./assets/favori_ekranlar_1.png)
 
-    </details>
+  </details>
 
 ---
 
