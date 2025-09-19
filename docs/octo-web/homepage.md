@@ -85,7 +85,7 @@ Gezinme Menüsü, ekranın sol üst köşesinde bulunan **≡** sembolüne tıkl
 
     <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
-    ![Gezinme Çubuğu](./assets/gezinme_çubuğu_1.png)
+    ![Gezinme Çubuğu](./assets/gezinme_menüsü_1.png)
 
     </details>
 
@@ -112,7 +112,7 @@ Gezinme Menüsü’ndeki arama fonksiyonuna ek olarak, Arama Çubuğu **hem ekra
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
-![An image from the static](./assets/kullanıcı_profili.png)
+![Kullanıcı Profili](./assets/kullanıcı_profili.png)
 
 </details>
 
