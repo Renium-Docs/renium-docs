@@ -13,7 +13,6 @@ Hem yeni başlayan kullanıcılar hem de deneyimli kullanıcılar için uygun ol
 ### Başlangıç
 - [Hesap Oluşturma](./getting-started#hesap-oluşturma)
 - [Giriş Yapma](./getting-started#giriş-yapma)
-- [İlk Proje](./getting-started#ilk-proje)
 
 ### Anasayfa
 - [Dashboard](./homepage#dashboard)
