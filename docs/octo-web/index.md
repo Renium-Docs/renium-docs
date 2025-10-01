@@ -8,30 +8,15 @@ Bu dokümantasyon, Octo Web platformunu etkili ve verimli bir şekilde kullanman
 
 Hem yeni başlayan kullanıcılar hem de deneyimli kullanıcılar için uygun olan bu rehber, platformun tüm özelliklerini detaylı bir şekilde açıklamakta; kapsamlı bilgiler, örnekler ve en iyi uygulama önerileri sunmaktadır.
 
-## İçindekiler
+Dokümantasyonumuz, size en iyi şekilde yardımcı olmak amacıyla hazırlanmış olup aşağıdaki başlıkları kapsamaktadır. Daha fazla ayrıntıya ulaşmak veya aradığınız bilgiyi bulmak için ilgili sayfaları ziyaret edebilirsiniz.
 
-### Başlangıç
-- [Hesap Oluşturma](./getting-started#hesap-oluşturma)
-- [Giriş Yapma](./getting-started#giriş-yapma)
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
 
-### Anasayfa
-- [Dashboard](./homepage#dashboard)
-- [Takviminiz](./homepage#takviminiz)
-- [Favori Ekranlarınız](./homepage#favori-ekranlarınız)
-- [Gezinme Menüsü](./homepage#gezinme-menüsü)
-- [Arama Çubuğu](./homepage#arama-çubuğu)
-- [Kullanıcı Profili](./homepage#kullanıcı-profili)
+<DocCardList />
+```
 
-### Özellikler
-- [Proje Yönetimi](./features/projects.md)
-- [Takım Çalışması](./features/collaboration.md)
-- [API Entegrasyonu](./features/api.md)
-- [Raporlama](./features/reporting.md)
-
-### Güvenlik
-- [İki Faktörlü Doğrulama](./security/2fa.md)
-- [Veri Güvenliği](./security/data-protection.md)
-- [Erişim Kontrolü](./security/access-control.md)
+---
 
 ## Tarayıcı Desteği
 
@@ -39,3 +24,11 @@ Hem yeni başlayan kullanıcılar hem de deneyimli kullanıcılar için uygun ol
 - **Firefox:** 88+
 - **Safari:** 14+
 - **Edge:** 90+
+
+-----
+
+| Anasayfa          | Alt Sayfalar |
+|-------------------|-----------|
+| Başlarken         | [Başlangıç](./Başlarken/başlangıç), Anasayfa, Genel Kullanım, Kısayollar |
+| Geliştirici       | OctoLab, Ekran Yönetimi, Rapor Tasarımı  |
+| Ürünler           |   Ürünler, Ürün Ağacı |
