@@ -17,7 +17,6 @@ Ana sayfada görebileceğiniz başlıca bölümler:
 - **Dashboard:** Projelerinizin genel durumunu ve özet bilgileri tek ekranda takip edin.
 - **Takviminiz:** Toplantılarınızı, etkinliklerinizi ve önemli tarihleri düzenli şekilde görüntüleyin.
 - **Favori Ekranlarınız:** Sık kullandığınız sayfaları favorilere ekleyerek kolay erişim sağlayın.
-- **Gezinme Menüsü**
 - **Arama Çubuğu** 
 - **Kullanıcı Profili**
 
@@ -91,31 +90,6 @@ Alternatif olarak, **Gezinme Çubuğu’nu** açıp en üstte bulunan **Favori E
 
 ---
 
-### Gezinme Menüsü
-
-Gezinme Menüsü, ekranın sol üst köşesinde bulunan **≡** sembolüne tıklayarak açılıp kapatılabilir. Bu menü sayessinde platform içindeki modül ve sayfaları görüntüleyebilir ve hızlıca erişebilirsiniz.
-
-  <details>
-
-  <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
-  ![Gezinme Menüsü](./assets/gezinme_menüsü_1.png)
-
-  </details>
-
-- Menü açıldıktan sonra beliren Menüde Ara fonksiyonunu kullanarak istediğiniz ekranı hızlıca bulabilirsiniz.
-- Menüde listelenen başlıklara tıklayarak farklı modüllere veya sayfalara geçiş yapabilirsiniz.
-
-    <details>
-
-    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
-    ![Gezinme Menüsü](./assets/gezinme_menüsü_2.png)
-
-    </details>
-
----
-
 ### Arama Çubuğu
 
 Arama çubuğuna tıkladığınızda, aramak istediğiniz ekranın adını veya veriyi yazabilirsiniz. Doğrudan ilgili ekranların veya verilerin bulunduğu sayfalar listelenir, böylece ihtiyaç duyduğunuz bilgilere hızlı ve kolay bir şekilde ulaşabilirsiniz.
@@ -150,3 +124,98 @@ Gezinme Menüsü’ndeki arama fonksiyonuna ek olarak, Arama Çubuğu **hem ekra
 **3. Çıkış Yap:** Hesabınızdan güvenli bir şekilde çıkış yapmak için bu butona tıklayınız.
 
 
+
+-----
+
+## Menüler
+
+### Sol Menü
+
+Sol Menü, ekranın sol üst köşesinde bulunan **≡** sembolüne tıklayarak açılıp kapatılabilir. Bu menü sayessinde platform içindeki modül ve modül alt gruplarını görüntüleyebilir ve hızlıca erişebilirsiniz.
+
+**Modül:**
+- Benzer fonksiyonlara sahip ekranları gruplandırmak için kullanılır.
+- ERP sistemlerinde bazı yaygın modüller şunlardır:
+    * Ürünler
+    * Stok
+    * Satış
+    * Planlama
+    * Üretim vb.
+
+**Modül Alt Grup:**
+- Modül içinde belirli bir işlevi daha da detaylı bir şekilde yönetmek için ayrılmış daha küçük gruplardır. Ekran sayısının çok olduğu modüllerde istenen ekranlara ulaşımı kolaylaştırmak için kullanılabilmektedir.
+
+:::warning
+Kullanıcılar; sol menüde yetkisi olduğu ekran, modül ve modül alt grupları görebilmektedir. Bu sebeple sol menü kullanıcıların yetkisine göre değişiklik göstermektedir.
+:::
+
+
+  <details>
+
+  <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+  ![Gezinme Menüsü](./assets/gezinme_menüsü_1.png)
+
+  </details>
+
+- Menü açıldıktan sonra beliren Menüde Ara fonksiyonunu kullanarak istediğiniz ekranı hızlıca bulabilirsiniz.
+- Menüde listelenen başlıklara tıklayarak farklı modüllere veya sayfalara geçiş yapabilirsiniz.
+
+    :::tip
+    Modül ve Modül Alt Gruplarının yanında bulunan numaralar da o ekranlara ait numaralardır. Ekran araması yaparken ismiyle yada bu numarayla arayabilirsiniz.
+    :::
+
+
+    <details>
+
+    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+    ![Gezinme Menüsü](./assets/gezinme_menüsü_2.png)
+
+    </details>
+
+---
+
+## Ekran Özellikleri
+
+Ekran yapısı tablo (grid) biçiminde, görüntü ve fonksiyon olarak excel' e oldukça benzemektedir. Ekran yapısı sırasıyla üst kısmında araç çubuğu, alan başlıkları,  yeni kayıt ekleme satırı ve verilerden oluşturmaktadır.
+
+Ekranlar genel olarak aşağıdaki özelliklere sahiptir;
+
+* Araç Çubuğu
+  * [Kayıt İşlemleri](./#kayit-islemleri)
+  * [Veri İşlemleri](./)
+  * Rapor İşlemleri
+* Tablo (Grid) Özellikleri
+  * [Filtreleme](./#filtreleme)
+  * [Gruplama](./#gruplama)
+  * [Özet bandı](./#oezet-bandi)
+  * [Görünüm oluşturma](./#goeruenuemler)
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
+
+### Sadece Okunabilir Ekran
+
+Standart olarak yeni veri girişi yapabildiğiniz ekranlarda bunun için 'Yeni' alanı bulunur fakat, bu alanın olmadığı ekranlar da bulunmaktadır. Bu ekranlar Sadece Okunabilir (Read Only) Ekranlardır. Bu tür ekranlarda ekleme ve güncelleme işlemi yapılamaz. 
+
+    <details>
+
+    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+    </details>
+
+### Master - Master Detay Ekranları
+
+Bir ekranın içinde iki tablonun bulunduğu ekran çeşidi Master-Detay ekran olarak adlandırılır ve resimdeki gibidir. Burada ikinci tablo ilk tabloda seçili kaydın bağlantılı detay kayıtlarını gösterir.
+
+-- Örn; Resimdeki mamul ürün ekranında mamul ürün bilgileri 1. tablo yer alır. Seçili 866 nolu ürünün ham maddeleri ikinci tabloda yer almaktadır. Bu örnekte tanımlı ham maddesi olmadığı anlaşılmaktadır. --
+
+    <details>
+
+    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+    </details>
