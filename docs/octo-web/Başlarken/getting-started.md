@@ -7,7 +7,6 @@ Bu bölüm, Octo Web Platformu’nu kullanmaya başlarken ihtiyaç duyacağını
 
 - **Hesap Oluşturma:** Platforma giriş için gerekli kullanıcı hesabının nasıl sağlandığını öğrenin.
 - **Giriş Yapma:** Size verilen bilgilerle Octo’ya nasıl giriş yapacağınızı keşfedin.
-- **İlk Proje:** ---------
 
 Bu adımları tamamladıktan sonra Octo Web Platformu’nu rahatlıkla keşfetmeye hazırsınız.
 
