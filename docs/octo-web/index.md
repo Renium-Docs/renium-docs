@@ -16,19 +16,6 @@ import DocCardList from '@theme/DocCardList';
 <DocCardList />
 ```
 
----
-
 ## Tarayıcı Desteği
 
-- **Chrome:** 90+
-- **Firefox:** 88+
-- **Safari:** 14+
-- **Edge:** 90+
-
------
-
-| Anasayfa          | Alt Sayfalar |
-|-------------------|-----------|
-| Başlarken         | [Başlangıç](./Başlarken/başlangıç), Anasayfa, Genel Kullanım, Kısayollar |
-| Geliştirici       | OctoLab, Ekran Yönetimi, Rapor Tasarımı  |
-| Ürünler           |   Ürünler, Ürün Ağacı |
+Octo Web platformunu en iyi deneyimle kullanabilmeniz için **Chrome** tarayıcısı önerilmektedir. Diğer tarayıcılar (Firefox, Safari, Edge) üzerinde de platform çalışmakla birlikte, bazı işlevler veya görünüm farklılıkları gözlemlenebilir. Bu nedenle, en stabil ve sorunsuz deneyim için Chrome kullanmanız tavsiye edilir.  
