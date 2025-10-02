@@ -177,7 +177,7 @@ Kullanıcılar; sol menüde yetkisi olduğu ekran, modül ve modül alt gruplar�
 ---
 ## Araç Çubuğu
 
-Araç çubuğu, ekranın üst kısmında yer alan ve en sık kullanılan işlemlere hızlı erişim sağlayan alandır. Araç çubuğu genel olarak; Log, Yeni, Düzenle, Sil, İçeri Aktar işlevlerinden oluşur fakat sayfalara göre farklılıklar gösterebilir.
+Araç çubuğu, ekranın üst kısmında yer alan ve en sık kullanılan işlemlere hızlı erişim sağlayan alandır. Araç çubuğu standart olarak; Log, Yeni, Düzenle, Sil, İçeri Aktar ve Arama işlevlerinden oluşur fakat sayfalara göre farklılıklar gösterebilir.
 
 #### Log
 Platformdaki tüm ekranlarda yapılan işlemler için **kayıt logları** tutulmaktadır. Bu loglar yalnızca **sistem yöneticileri** tarafından görüntülenebilir.  
@@ -370,3 +370,27 @@ Gerekli değişiklikleri yaptıktan sonra **"Kaydet"** tuşuna tıklayarak veriy
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
 </details>
+
+---
+
+## Filtreleme
+
+Ekranlarda aşağıda belirtilen filtreleme yöntemi bulunmaktadır. Anlık ihtiyacı göre en uygun filtreleme yöntemini kullanarak istediğiniz verilere hızlıca ulaşabilirsiniz.
+
+**1. Ekran içi arama çubuğu**
+    
+    >* Ekran içi arama çubuğu*, her ekranımızda standart olarak bulunan bir arama fonksiyonudur. İlgili alana aramak istediğiniz değeri girerek, tablo içindeki kayıtlar arasında hızlıca arama yapabilirsiniz.
+
+    <details>
+
+    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+    </details>
+
+**2. Sütundan Filtreleme**
+
+
+**3. Kayıt Üzerinden Filtreleme**
+
+**4. Filtre Satırı ile filtre düzenleme**
+
