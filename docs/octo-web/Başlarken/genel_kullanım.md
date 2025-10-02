@@ -131,7 +131,15 @@ Gezinme Menüsü’ndeki arama fonksiyonuna ek olarak, Arama Çubuğu **hem ekra
 
 ### Sol Menü
 
-Sol Menü, ekranın sol üst köşesinde bulunan **≡** sembolüne tıklayarak açılıp kapatılabilir. Bu menü sayessinde platform içindeki modül ve modül alt gruplarını görüntüleyebilir ve hızlıca erişebilirsiniz.
+Sol Menü, ekranın sol üst köşesinde bulunan **≡** sembolüne tıklayarak açılıp kapatılabilir. Bu menü sayesinde platform içindeki modül ve modül alt gruplarını görüntüleyebilir ve hızlıca erişebilirsiniz.
+
+  <details>
+
+  <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+  ![Gezinme Menüsü](./assets/sol_menü_1.webp)
+
+  </details>
 
 **Modül:**
 - Benzer fonksiyonlara sahip ekranları gruplandırmak için kullanılır.
@@ -149,15 +157,6 @@ Sol Menü, ekranın sol üst köşesinde bulunan **≡** sembolüne tıklayarak 
 Kullanıcılar; sol menüde yetkisi olduğu ekran, modül ve modül alt grupları görebilmektedir. Bu sebeple sol menü kullanıcıların yetkisine göre değişiklik göstermektedir.
 :::
 
-
-  <details>
-
-  <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
-  ![Gezinme Menüsü](./assets/gezinme_menüsü_1.png)
-
-  </details>
-
 - Menü açıldıktan sonra beliren Menüde Ara fonksiyonunu kullanarak istediğiniz ekranı hızlıca bulabilirsiniz.
 - Menüde listelenen başlıklara tıklayarak farklı modüllere veya sayfalara geçiş yapabilirsiniz.
 
@@ -170,7 +169,7 @@ Kullanıcılar; sol menüde yetkisi olduğu ekran, modül ve modül alt gruplar�
 
     <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
-    ![Gezinme Menüsü](./assets/gezinme_menüsü_2.png)
+    ![Gezinme Menüsü](./assets/sol_menü_2.webp)
 
     </details>
 
@@ -178,6 +177,14 @@ Kullanıcılar; sol menüde yetkisi olduğu ekran, modül ve modül alt gruplar�
 ## Araç Çubuğu
 
 Araç çubuğu, ekranın üst kısmında yer alan ve en sık kullanılan işlemlere hızlı erişim sağlayan alandır. Araç çubuğu standart olarak; Log, Yeni, Düzenle, Sil, İçeri Aktar ve Arama işlevlerinden oluşur fakat sayfalara göre farklılıklar gösterebilir.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+![Araç Çubuğu](./assets/araç_çubuğu_1.webp)
+
+</details>
 
 #### Log
 Platformdaki tüm ekranlarda yapılan işlemler için **kayıt logları** tutulmaktadır. Bu loglar yalnızca **sistem yöneticileri** tarafından görüntülenebilir.  
@@ -188,7 +195,7 @@ Bir satır veya tabloya ait log bilgilerini görmek için, ilgili alanın yanın
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
-![Gezinme Menüsü](./assets/gezinme_menüsü_2.png)
+![Log Satır](./assets/log_satır_2.gif)
 
 </details>
 
@@ -230,20 +237,11 @@ Excel dosyanızdaki kolon isimlerinin, sistemdeki kolonlarla uyumlu olması gere
 
 Tablo içindeki veriler arasında arama yapmanızı sağlar. İlgili alana herhangi bir değer veya özelliği yazarak hızlıca istediğiniz kaydı bulabilirsiniz.
 
-
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
-![Gezinme Menüsü](./assets/gezinme_menüsü_2.png)
-
-</details>
-
 ---
 
 ## Ekran Özellikleri
 
-Ekran yapısı tablo (grid) biçiminde, görüntü ve fonksiyon olarak excel' e oldukça benzemektedir. Ekran yapısı sırasıyla üst kısmında araç çubuğu, alan başlıkları,  yeni kayıt ekleme satırı ve verilerden oluşturmaktadır.
+Ekran yapısı tablo (grid) biçiminde, görüntü ve fonksiyon olarak excel' e oldukça benzemektedir. Ekran yapısı sırasıyla üst kısmında araç çubuğu, alan başlıkları ve verilerden oluşturmaktadır.
 
 <details>
 
