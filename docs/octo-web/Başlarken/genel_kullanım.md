@@ -422,3 +422,110 @@ Bu işlem, tablonun en üstüne yeni bir satır ekler ve her sütun için istedi
 
 </details>
 
+## Görünümler
+
+Ekranda alan başlıkları sağ tıklanarak açılan menüden aşağıdaki işlemler yapılabilir.
+
+* Sıralama
+* Gruplama
+* Özet bandı
+* Alan Kaldırma, Değiştirme, Alan Seçici
+* Sütunların genişliklerini verilerin boyutlarına değiştirme (En Uygun)
+* Koşullu Biçimlendirme
+* Görünüm Oluşturma
+* Satır Renklendirme
+* Sütun Formatlama
+
+### Sıralama
+
+Alan (Sütun) başlıklarına tıklanarak excel' deki gibi sıralama özelliği aktif edilir.  Sıralama aktif olan sütunlarda`(↓)`veya`(↑)`sembolleri görünür olur.
+
+Başka sütun başlığına tıklandığında önceki sıralamalar temizlenerek son tıklanan sıralama aktif olur.  Eğer bağlantılı sıralama yapılmak isteniyorsa `shift` tuşuna basarak alan başlıkları tıklanmalıdır.
+
+Sıralama yapılmış alandan sıralama temizlemek sağ tıklandıktan sonra *Sıralamayı temizle* seçimiyle temizlenebilir.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
+
+### Gruplama
+
+Alan (Sütun) başlıklarına sağ tıklanarak **Bu Sütuna Göre Grupla** tıklanarak Gruplama özelliği aktif edilir. Excel deki gruplama ile benzer şekilde çalışmaktadır.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
+
+### Sütun Değiştirme/Gizleme, Sütun Seçici
+
+Sütun başlıkları fare ile tutup, hareket ettirilerek sütunların yerleri değiştirilebilir.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
+
+İstediğiniz sütunu gizlemek için, ilgili sütunun üzerine **sağ tıklayın** ve açılan menüden **Sütunu Gizle** seçeneğini seçin. Bu işlem seçtiğiniz sütunu tabloda görünmez hale getirir.  
+
+Gizlediğiniz sütunları tekrar görünür yapmak veya farklı sütunları gizlemek için, herhangi bir sütuna **sağ tıklayın** ve menüden **Sütun Seçici** seçeneğini seçin.  
+Karşınıza tüm sütun isimlerinin bulunduğu bir **checkbox listesi** gelir:  
+- **İşaretli kutular** tabloda görünen sütunları temsil eder.  
+- **İşaretsiz kutular** ise gizlenmiş sütunları ifade eder.  
+
+Buradan istediğiniz sütunları işaretleyerek görünür yapabilir veya işareti kaldırarak gizleyebilirsiniz.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
+
+### Sütun Genişliği
+
+Tablodaki sütunların genişliğini ihtiyacınıza göre ayarlayabilirsiniz. Bunun için iki farklı yöntem vardır:  
+
+1. **Elle ayarlama:**  
+   Herhangi bir sütunun başlığındaki kenarlığı farenizle sürükleyerek genişliğini dilediğiniz boyuta getirebilirsiniz.  
+
+    <details>
+
+    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+    </details>
+
+2. **Otomatik en uygun boyut:**  
+   Eğer sütunların içerdiği verilere en uygun şekilde otomatik ayarlanmasını isterseniz:  
+   - Herhangi bir sütun başlığının üzerine **sağ tıklayın**  
+   - Açılan menüden **“Tüm Sütunları En İyi Boyutla”** seçeneğini seçin.  
+   Bu işlemle birlikte tüm sütun genişlikleri, içlerindeki verilerin sığabileceği en uygun boyuta getirilir.  
+
+    <details>
+
+    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+    </details>
+
+Bu sayede tablolarınızı hem daha okunabilir hem de düzenli hale getirebilirsiniz.
+
+### Görünüm Oluşturma
+
+Görünümler altında belirtilen özellikleri görünüm olarak kaydedilebilir ve daha sonrasında bu özellikelrin bulunduğu görünüme kolayca ulaşabilirsiniz. İlgili görünüm seçildiğinde görünüm tanımındaki gruplama, filtreleme, sıralama vb. özellikleri otomatik olarak değişecektir.
+
+Tablonuzda istediğiniz *gruplama, filtreleme, sıralama* gibi düzenlemeleri yaptıktan sonra, bu görünümü kaydetmek için:  
+
+1. Araç çubuğundaki ⚙️ simgesine tıklayın.  
+2. Açılan menüden **“Görünüm Kaydet”** seçeneğini seçin.  
+3. Görünümünüze bir isim verin ve kaydedin.  
+
+Böylece aynı ayarlara tekrar ihtiyaç duyduğunuzda, kaydettiğiniz ismi seçerek tabloda aynı görünüme kolayca ulaşabilirsiniz.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
