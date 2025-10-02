@@ -44,7 +44,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           // Edit URL disabled - no edit links will be shown
-          editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/',
+          editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/docs/',
           // Multiple docs instances for different sections
           routeBasePath: 'docs',
         },
@@ -55,7 +55,7 @@ const config: Config = {
             xslt: true,
           },
           // Edit URL disabled - no edit links will be shown
-          editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/',
+          editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/blog/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
