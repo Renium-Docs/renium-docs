@@ -175,6 +175,71 @@ Kullanıcılar; sol menüde yetkisi olduğu ekran, modül ve modül alt gruplar�
     </details>
 
 ---
+## Araç Çubuğu
+
+Araç çubuğu, ekranın üst kısmında yer alan ve en sık kullanılan işlemlere hızlı erişim sağlayan alandır. Araç çubuğu genel olarak; Log, Yeni, Düzenle, Sil, İçeri Aktar işlevlerinden oluşur fakat sayfalara göre farklılıklar gösterebilir.
+
+#### Log
+Platformdaki tüm ekranlarda yapılan işlemler için **kayıt logları** tutulmaktadır. Bu loglar yalnızca **sistem yöneticileri** tarafından görüntülenebilir.  
+
+Bir satır veya tabloya ait log bilgilerini görmek için, ilgili alanın yanındaki **⚙️ simgesine** tıklayın. Açılan menüden **“Log Satır”** veya **“Log Tablo”** seçeneğini seçerek ilgili kayıtların geçmişine ulaşabilirsiniz.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+![Gezinme Menüsü](./assets/gezinme_menüsü_2.png)
+
+</details>
+
+#### Yeni
+
+*Yeni* butonu, bulunduğunuz ekrana yeni bir kayıt eklemenizi sağlar. Bu işlemin adımlarını daha detaylı öğrenmek için dokümantasyonun [Yeni Kayıt Ekleme](#yeni-kayıt-ekleme) bölümünü inceleyebilirsiniz.
+
+#### Düzenle
+
+*Düzenle* butonu, bulunduğunuz ekrandaki bir kayıdı güncellemenizi sağlar. Bu işlemin adımlarını daha detaylı öğrenmek için dokümantasyonun [Kayıt Güncelleme](#kayıt-güncelleme) bölümünü inceleyebilirsiniz.
+
+#### Sil
+
+*Sil* butonu, bulunduğunuz ekrandaki bir veye birkaç kaydı silmenizi sağlar. Bu işlemin adımlarını daha detaylı öğrenmek için dokümantasyonun [Kayıt Silme](#kayıt-silme) bölümünü inceleyebilirsiniz.
+
+#### Yenile
+
+Sistemde herhangi bir değişiklik yaptıktan sonra, bu değişikliğin ekrana yansıması biraz zaman alabilir. Değişiklikleri daha hızlı görebilmek için **yenile butonuna** tıklayabilirsiniz. Bu işlem, arka plandaki sorguların tekrar çalışmasını sağlayarak verilerin güncel hâlde görüntülenmesini sağlar.
+
+#### İçe Aktar
+
+*İçeri Aktar* butonu, elinizde bulunan **Excel dosyalarındaki verileri** doğrudan ilgili tabloya yüklemenizi sağlar.  
+
+Yükleme sırasında dosyanın **ilk satırı sütun adları** olarak kabul edilir ve bu başlıklar, Octo Web’deki sütun isimlerinizle eşleştirilir. Eşleştirme tamamlandığında, verileriniz tabloya eklenir ve sistemde kullanılabilir hale gelir.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+![Gezinme Menüsü](./assets/gezinme_menüsü_2.png)
+
+</details>
+
+:::note
+Excel dosyanızdaki kolon isimlerinin, sistemdeki kolonlarla uyumlu olması gerekir. Aksi durumda veriler doğru şekilde eşleşmeyebilir.
+:::
+
+#### Arama
+
+Tablo içindeki veriler arasında arama yapmanızı sağlar. İlgili alana herhangi bir değer veya özelliği yazarak hızlıca istediğiniz kaydı bulabilirsiniz.
+
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+![Gezinme Menüsü](./assets/gezinme_menüsü_2.png)
+
+</details>
+
+---
 
 ## Ekran Özellikleri
 
@@ -257,6 +322,7 @@ Yeni kayıt eklemesi yapılırken;
 - Alan üzerinde görünen alt ok sembolü tıklanarak kütüphane listelenebilir.
 - Listeleme ekranında anahtar sözcükler yazılarak filtreleme işlemi yapılabilir.
 - Aynı alanın yanında bulunan **üç nokta (...)** tuşuna tıklanarak kütüphanenin kaynak ekranına gidilebilir. Kütüphaneye yeni kayıt eklenmek istenirse açılan ekranda yeni kayıt eklenebilir.
+
 <details>
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
@@ -279,10 +345,28 @@ Kayıt güncelleme, ekrandaki veriler üzerinde aşağıda belirtilen adımlara 
 
 Gerekli değişiklikleri yaptıktan sonra **"Kaydet"** tuşuna tıklayarak veriyi güncelleyebilirsiniz.
 
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
+
 ### Kayıt Silme
 
 İlgili kaydın en solunda bulunan **checkbox**'ı işaretleyip ilgili satırı seçtikten sonra araç çubuğundaki **Sil** butonuna tıklayınız. 
 
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
+
 #### Çoklu Kayıt Silme
 
 Çoklu silme işlemi yapmak için, birden fazla satırın **checkbox**'ını seçip araç çubuğundan sil butonuna tıklayabilirsiniz.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
