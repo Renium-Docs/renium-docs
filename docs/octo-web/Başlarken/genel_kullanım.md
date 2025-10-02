@@ -379,18 +379,46 @@ Ekranlarda aşağıda belirtilen filtreleme yöntemi bulunmaktadır. Anlık ihti
 
 **1. Ekran içi arama çubuğu**
     
-    >* Ekran içi arama çubuğu*, her ekranımızda standart olarak bulunan bir arama fonksiyonudur. İlgili alana aramak istediğiniz değeri girerek, tablo içindeki kayıtlar arasında hızlıca arama yapabilirsiniz.
+> *Ekran içi arama çubuğu*, her ekranımızda standart olarak bulunan bir arama fonksiyonudur. İlgili alana aramak istediğiniz değeri girerek, tablo içindeki kayıtlar arasında hızlıca arama yapabilirsiniz.
 
-    <details>
+<details>
 
-    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
-    </details>
+</details>
 
 **2. Sütundan Filtreleme**
 
+> Her sütunun yanında bulunan **filtre simgesine** tıklayarak, o sütundaki verileri istediğiniz kriterlere göre filtreleyebilirsiniz.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
 
 **3. Kayıt Üzerinden Filtreleme**
 
+> * Kayıtların üzerindeki bir değere göre filtreleme yapmak isterseniz, ilgili değerin **üzerine sağ tıklayın** ve açılan menüden **Filtrele** seçeneğini tıklayın.  
+> * Bu işlem, seçtiğiniz değere göre bir filtre oluşturur.
+> * Birden fazla filtre uygulamak isterseniz, diğer değerler için de aynı adımları tekrarlayarak **bileşik filtreler** oluşturabilirsiniz.
+
+Oluşturduğunuz filtreleri, araç çubuğunun altında yer alan **aktif filtre** satırında görüntüleyebilirsiniz.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
+
 **4. Filtre Satırı ile filtre düzenleme**
+
+> Filtre satırına erişmek için, tablodaki **sütun isimlerinin bulunduğu alana sağ tıklayın** ve açılan menüden **Filtre Satırı** seçeneğini tıklayın.  
+Bu işlem, tablonun en üstüne yeni bir satır ekler ve her sütun için istediğiniz değeri girerek veya seçerek filtre oluşturmanıza olanak sağlar.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
 
