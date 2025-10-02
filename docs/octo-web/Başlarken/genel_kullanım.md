@@ -229,7 +229,9 @@ Bir ekranın içinde iki tablonun bulunduğu ekran çeşidi Master-Detay ekran o
 
 </details>
 
-## Kayıt İşlemleri
+---
+
+## Veri İşlemleri
 
 ### Yeni Kayıt Ekleme
 Kayıt ekleme, ilgili modül alt sayfalarındaki **Yeni** tuşuna tıklanarak yapılabilmektedir. 
@@ -238,9 +240,49 @@ Yeni kayıt eklemesi yapılırken;
 - Alanın **Kırmızı** renk olması zorunlu olduğunu ifade eder. Bu tip alanlar doldurulmadan veri girişi yapılamaz.
 - **Gri** renk olması alanın sadece okunabilir (read only) olduğunu ifade eder.
 - **Siyah** renk olması isteğe bağlı doldurulması gereken doldurulması zorunluluk gerektirmeyen alanlardır.
-- Bazı alanlar sadece kütüphane de tanımlı alanlardaki değeri alabilir. Bu tür alanlarda **(↓)** işareti görünmektedir. Bu tür alanlarda aşağıdaki işlemler yapılabilir;
-    - Alan üzerinde görünen alt ok sembolü tıklanarak kütüphane listelenebilir.
-    - Listeleme ekranında anahtar sözcükler yazılarak filtreleme işlemi yapılabilir.
-    - Aynı alanın yanında bulunan **üç nokta (...)** tuşuna tıklanarak kütüphanenin kaynak ekranına gidilebilir. Kütüphaneye yeni kayıt eklenmek istenirse açılan ekranda yeni kayıt eklenebilir.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
+
+- Bazı alanlar sadece kütüphane de tanımlı alanlardaki değeri alabilir. Bu tür alanlarda **(↓)** işareti görünmektedir. Bu işarete tıklayarak tanımlı değerlerden birini seçebilirsiniz.
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
+
+- Alan üzerinde görünen alt ok sembolü tıklanarak kütüphane listelenebilir.
+- Listeleme ekranında anahtar sözcükler yazılarak filtreleme işlemi yapılabilir.
+- Aynı alanın yanında bulunan **üç nokta (...)** tuşuna tıklanarak kütüphanenin kaynak ekranına gidilebilir. Kütüphaneye yeni kayıt eklenmek istenirse açılan ekranda yeni kayıt eklenebilir.
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
+
+- Benzer özellikli kayıtlar eklemek için satır kopyalama özelliği kullanılabilir. 
+    - Bir satırı kopyalamak için, öncelikle kopyalamak istediğiniz satırın yanındaki **checkbox**’ı işaretleyin.
+    - Ardından satırın üzerine **sağ tıklayın**. Açılan menüden **“Satırı Kopyala”** seçeneğini seçtiğinizde, ilgili satır otomatik olarak **yeni kayıt ekleme ekranı**nda açılacaktır. Burada gerekli değişiklikleri yaptıktan sonra **Kaydet** butonuna tıklayarak yeni kaydınızı oluşturabilirsiniz.
 
 *Kayıt işlemleri sırasında çeşitli hata veya uyarılar alınabilir. Bu tür durumlarda işlemler tamamlanmayacaktır. Uyarı alınmıyorsa işlem başarılı bir şekilde gerçekleşmiş anlamına gelir.*
+
+### Kayıt Güncelleme
+
+Kayıt güncelleme, ekrandaki veriler üzerinde aşağıda belirtilen adımlara ve kurallara dikkat edilerek yapılmaktadır.
+
+1. İlgili kaydın en solunda bulunan **checkbox**'ı işaretleyip ilgili satırı seçiniz. 
+2. Daha sonrasında araç çubuğunda bulunan **"Güncelle"** butonuna tıklayınız.
+3. Açılan ekranda, satırla ilgili detayları görüntüleyebilir ve istediğiniz alanları değiştirebilirsiniz. 
+
+Gerekli değişiklikleri yaptıktan sonra **"Kaydet"** tuşuna tıklayarak veriyi güncelleyebilirsiniz.
+
+### Kayıt Silme
+
+İlgili kaydın en solunda bulunan **checkbox**'ı işaretleyip ilgili satırı seçtikten sonra araç çubuğundaki **Sil** butonuna tıklayınız. 
+
+#### Çoklu Kayıt Silme
+
+Çoklu silme işlemi yapmak için, birden fazla satırın **checkbox**'ını seçip araç çubuğundan sil butonuna tıklayabilirsiniz.
