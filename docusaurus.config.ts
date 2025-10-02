@@ -55,7 +55,7 @@ const config: Config = {
             xslt: true,
           },
           // Edit URL disabled - no edit links will be shown
-          editUrl: undefined,
+          editUrl: 'https://github.com/renium/renium-docs/tree/main/docs/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
