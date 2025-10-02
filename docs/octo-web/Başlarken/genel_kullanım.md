@@ -2,6 +2,8 @@
 sidebar_position: 3
 ---
 
+TEST
+
 # Genel Kullanım
 
 Bu bölümde, programın temel özelliklerini, arayüzün nasıl kullanılacağını ve programdan en iyi şekilde nasıl yararlanabileceğinizi adım adım öğreneceksiniz.
