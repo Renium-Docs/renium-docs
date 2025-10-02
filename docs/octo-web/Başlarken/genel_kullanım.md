@@ -202,11 +202,11 @@ Ekranlar genel olarak aşağıdaki özelliklere sahiptir;
 
 Standart olarak yeni veri girişi yapabildiğiniz ekranlarda bunun için 'Yeni' alanı bulunur fakat, bu alanın olmadığı ekranlar da bulunmaktadır. Bu ekranlar Sadece Okunabilir (Read Only) Ekranlardır. Bu tür ekranlarda ekleme ve güncelleme işlemi yapılamaz. 
 
-    <details>
+<details>
 
-    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
-    </details>
+</details>
 
 ### Master - Master Detay Ekranları
 
@@ -214,8 +214,33 @@ Bir ekranın içinde iki tablonun bulunduğu ekran çeşidi Master-Detay ekran o
 
 -- Örn; Resimdeki mamul ürün ekranında mamul ürün bilgileri 1. tablo yer alır. Seçili 866 nolu ürünün ham maddeleri ikinci tabloda yer almaktadır. Bu örnekte tanımlı ham maddesi olmadığı anlaşılmaktadır. --
 
-    <details>
+<details>
 
-    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
-    </details>
+</details>
+
+
+- Ekranlar sekme olarak açılmaktadır ve sekme bölümü üzerinden dolaşılabilmektedir. Sekme üzerinde sağ tıkladıktan sonra açılan menü ile ilgili işlemler yapılabilmektedir.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+</details>
+
+## Kayıt İşlemleri
+
+### Yeni Kayıt Ekleme
+Kayıt ekleme, ilgili modül alt sayfalarındaki **Yeni** tuşuna tıklanarak yapılabilmektedir. 
+
+Yeni kayıt eklemesi yapılırken;
+- Alanın **Kırmızı** renk olması zorunlu olduğunu ifade eder. Bu tip alanlar doldurulmadan veri girişi yapılamaz.
+- **Gri** renk olması alanın sadece okunabilir (read only) olduğunu ifade eder.
+- **Siyah** renk olması isteğe bağlı doldurulması gereken doldurulması zorunluluk gerektirmeyen alanlardır.
+- Bazı alanlar sadece kütüphane de tanımlı alanlardaki değeri alabilir. Bu tür alanlarda **(↓)** işareti görünmektedir. Bu tür alanlarda aşağıdaki işlemler yapılabilir;
+    - Alan üzerinde görünen alt ok sembolü tıklanarak kütüphane listelenebilir.
+    - Listeleme ekranında anahtar sözcükler yazılarak filtreleme işlemi yapılabilir.
+    - Aynı alanın yanında bulunan **üç nokta (...)** tuşuna tıklanarak kütüphanenin kaynak ekranına gidilebilir. Kütüphaneye yeni kayıt eklenmek istenirse açılan ekranda yeni kayıt eklenebilir.
+
+*Kayıt işlemleri sırasında çeşitli hata veya uyarılar alınabilir. Bu tür durumlarda işlemler tamamlanmayacaktır. Uyarı alınmıyorsa işlem başarılı bir şekilde gerçekleşmiş anlamına gelir.*
