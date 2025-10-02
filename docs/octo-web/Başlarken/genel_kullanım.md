@@ -245,18 +245,6 @@ Tablo içindeki veriler arasında arama yapmanızı sağlar. İlgili alana herha
 
 Ekran yapısı tablo (grid) biçiminde, görüntü ve fonksiyon olarak excel' e oldukça benzemektedir. Ekran yapısı sırasıyla üst kısmında araç çubuğu, alan başlıkları,  yeni kayıt ekleme satırı ve verilerden oluşturmaktadır.
 
-Ekranlar genel olarak aşağıdaki özelliklere sahiptir;
-
-* Araç Çubuğu
-  * [Kayıt İşlemleri](./#kayit-islemleri)
-  * [Veri İşlemleri](./)
-  * Rapor İşlemleri
-* Tablo (Grid) Özellikleri
-  * [Filtreleme](./#filtreleme)
-  * [Gruplama](./#gruplama)
-  * [Özet bandı](./#oezet-bandi)
-  * [Görünüm oluşturma](./#goeruenuemler)
-
 <details>
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
