@@ -532,12 +532,20 @@ Tablonuzda istediğiniz *gruplama, filtreleme, sıralama* gibi düzenlemeleri ya
 2. Açılan menüden **“Görünüm Kaydet”** seçeneğini seçin.  
 3. Görünümünüze bir isim verin ve kaydedin.  
 
-Böylece aynı ayarlara tekrar ihtiyaç duyduğunuzda, kaydettiğiniz ismi seçerek tabloda aynı görünüme kolayca ulaşabilirsiniz.
+Böylece aynı ayarlara tekrar ihtiyaç duyduğunuzda, kaydettiğiniz ismi seçerek tabloda aynı görünüme kolayca ulaşabilirsiniz. Oluşturduğunuz görünümlere erişmek için araç çubuğunun yanında bulunan alandan görünümü seçmeniz yeterli olacaktır.
 
 <details>
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
-![Görünüm](./assets/görünüm.gif)
+  <table>
+    <tr>
+      <th>Görünüm Kaydetme</th>
+      <td>![Görünüm](./assets/görünüm.gif) </td>
+    </tr>
+    <tr>
+      <th>Görünüme Erişme</th>
+      <td>![Görünüm](./assets/görünüm_2.gif) </td>
+    </tr>
+  </table>
 
 </details>
