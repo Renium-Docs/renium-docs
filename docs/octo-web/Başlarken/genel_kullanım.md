@@ -84,7 +84,7 @@ Alternatif olarak, **Gezinme Çubuğu’nu** açıp en üstte bulunan **Favori E
 
   <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
-  ![Gezinme Çubuğu](./assets/favori_ekranlar_1.png)
+  ![Gezinme Çubuğu](./assets/favori_ekranlar_1.webp)
 
   </details>
 
@@ -108,7 +108,7 @@ Gezinme Menüsü’ndeki arama fonksiyonuna ek olarak, Arama Çubuğu **hem ekra
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
-![Kullanıcı Profili](./assets/kullanıcı_profili.png)
+![Kullanıcı Profili](./assets/kullanıcı_profili.webp)
 
 </details>
 
