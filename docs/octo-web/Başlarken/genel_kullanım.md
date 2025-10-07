@@ -266,7 +266,7 @@ Bir ekranın içinde iki tablonun bulunduğu ekran çeşidi Master-Detay ekran o
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
-***Örn; Resimdeki ürün ekranında ürün bilgileri 1. tabloda yer alır. Seçili 1 nolu ürünün stok bilgikleri ikinci tabloda yer almaktadır.***
+***Örn; Resimdeki ürün ekranında ürün bilgileri 1. tabloda yer alır. Seçili 1 nolu ürünün stok bilgileri ikinci tabloda yer almaktadır.***
 
 ![Master Detay](./assets/master_detay_1.webp)
 
@@ -430,9 +430,7 @@ Ekranda alan başlıkları sağ tıklanarak açılan menüden aşağıdaki işle
 * Gruplama
 * Alan Kaldırma, Değiştirme, Alan Seçici
 * Sütun Genişliği
-* Koşullu Biçimlendirme
 * Görünüm Oluşturma
-* Satır Renklendirme
 * Sütun Formatlama
 
 ### Sıralama
