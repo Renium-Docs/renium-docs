@@ -221,14 +221,6 @@ Sistemde herhangi bir değişiklik yaptıktan sonra, bu değişikliğin ekrana y
 
 Yükleme sırasında dosyanın **ilk satırı sütun adları** olarak kabul edilir ve bu başlıklar, Octo Web’deki sütun isimlerinizle eşleştirilir. Eşleştirme tamamlandığında, verileriniz tabloya eklenir ve sistemde kullanılabilir hale gelir.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
-![Gezinme Menüsü](./assets/gezinme_menüsü_2.png)
-
-</details>
-
 :::note
 Excel dosyanızdaki kolon isimlerinin, sistemdeki kolonlarla uyumlu olması gerekir. Aksi durumda veriler doğru şekilde eşleşmeyebilir.
 :::
@@ -247,15 +239,22 @@ Ekran yapısı tablo (grid) biçiminde, görüntü ve fonksiyon olarak excel' e 
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
+![Ekran Özellikleri](./assets/ekran_özellikleri_1.webp)
+
 </details>
 
 ### Sadece Okunabilir Ekran
 
-Standart olarak yeni veri girişi yapabildiğiniz ekranlarda bunun için 'Yeni' alanı bulunur fakat, bu alanın olmadığı ekranlar da bulunmaktadır. Bu ekranlar Sadece Okunabilir (Read Only) Ekranlardır. Bu tür ekranlarda ekleme ve güncelleme işlemi yapılamaz. 
+Standart olarak yeni veri girişi yapabildiğiniz ekranlarda bunun için *Yeni* alanı bulunur fakat, bu alanın olmadığı ekranlar da bulunmaktadır. Bu ekranlar Sadece Okunabilir (Read Only) Ekranlardır. 
+
+Bu tür ekranlarda *Yeni*, *Düzenle* veya *Sil* gibi işlem butonları bulunmaz; bu nedenle veri ekleme ya da güncelleme işlemleri yapılamaz. **Read Only** ekranlar genellikle **veri analizi**, **raporlama** veya **izleme amaçlı** kullanılır.
 
 <details>
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+![Sadece Okunabilir Ekran](./assets/readonly_ekran.webp)
+
 
 </details>
 
@@ -263,11 +262,13 @@ Standart olarak yeni veri girişi yapabildiğiniz ekranlarda bunun için 'Yeni' 
 
 Bir ekranın içinde iki tablonun bulunduğu ekran çeşidi Master-Detay ekran olarak adlandırılır ve resimdeki gibidir. Burada ikinci tablo ilk tabloda seçili kaydın bağlantılı detay kayıtlarını gösterir.
 
--- Örn; Resimdeki mamul ürün ekranında mamul ürün bilgileri 1. tablo yer alır. Seçili 866 nolu ürünün ham maddeleri ikinci tabloda yer almaktadır. Bu örnekte tanımlı ham maddesi olmadığı anlaşılmaktadır. --
-
 <details>
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+***Örn; Resimdeki ürün ekranında ürün bilgileri 1. tabloda yer alır. Seçili 1 nolu ürünün stok bilgikleri ikinci tabloda yer almaktadır.***
+
+![Master Detay](./assets/master_detay_1.webp)
 
 </details>
 
@@ -277,6 +278,8 @@ Bir ekranın içinde iki tablonun bulunduğu ekran çeşidi Master-Detay ekran o
 <details>
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+![Sekme Yönetimi](./assets/master_detay_2.webp)
 
 </details>
 
@@ -296,15 +299,11 @@ Yeni kayıt eklemesi yapılırken;
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
+![Yeni Kayıt](./assets/yeni_kayıt_1.webp)
+
 </details>
 
 - Bazı alanlar sadece kütüphane de tanımlı alanlardaki değeri alabilir. Bu tür alanlarda **(↓)** işareti görünmektedir. Bu işarete tıklayarak tanımlı değerlerden birini seçebilirsiniz.
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
-</details>
-
 - Alan üzerinde görünen alt ok sembolü tıklanarak kütüphane listelenebilir.
 - Listeleme ekranında anahtar sözcükler yazılarak filtreleme işlemi yapılabilir.
 - Aynı alanın yanında bulunan **üç nokta (...)** tuşuna tıklanarak kütüphanenin kaynak ekranına gidilebilir. Kütüphaneye yeni kayıt eklenmek istenirse açılan ekranda yeni kayıt eklenebilir.
@@ -313,11 +312,21 @@ Yeni kayıt eklemesi yapılırken;
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
+![Yeni Kayıt](./assets/yeni_kayıt_2.gif)
+
 </details>
 
 - Benzer özellikli kayıtlar eklemek için satır kopyalama özelliği kullanılabilir. 
     - Bir satırı kopyalamak için, öncelikle kopyalamak istediğiniz satırın yanındaki **checkbox**’ı işaretleyin.
     - Ardından satırın üzerine **sağ tıklayın**. Açılan menüden **“Satırı Kopyala”** seçeneğini seçtiğinizde, ilgili satır otomatik olarak **yeni kayıt ekleme ekranı**nda açılacaktır. Burada gerekli değişiklikleri yaptıktan sonra **Kaydet** butonuna tıklayarak yeni kaydınızı oluşturabilirsiniz.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+![Yeni Kayıt](./assets/satır_kopyala.gif)
+
+</details>
 
 *Kayıt işlemleri sırasında çeşitli hata veya uyarılar alınabilir. Bu tür durumlarda işlemler tamamlanmayacaktır. Uyarı alınmıyorsa işlem başarılı bir şekilde gerçekleşmiş anlamına gelir.*
 
@@ -335,17 +344,13 @@ Gerekli değişiklikleri yaptıktan sonra **"Kaydet"** tuşuna tıklayarak veriy
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
+![Kayıt Günzelleme](./assets/kayıt_güncelleme.gif)
+
 </details>
 
 ### Kayıt Silme
 
 İlgili kaydın en solunda bulunan **checkbox**'ı işaretleyip ilgili satırı seçtikten sonra araç çubuğundaki **Sil** butonuna tıklayınız. 
-
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
-</details>
 
 #### Çoklu Kayıt Silme
 
@@ -354,6 +359,8 @@ Gerekli değişiklikleri yaptıktan sonra **"Kaydet"** tuşuna tıklayarak veriy
 <details>
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+![Kayıt Silme](./assets/kayıt_silme.gif)
 
 </details>
 
@@ -371,6 +378,8 @@ Ekranlarda aşağıda belirtilen filtreleme yöntemi bulunmaktadır. Anlık ihti
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
+![Ekran İçi Arama](./assets/ekran_içi_arama.webp)
+
 </details>
 
 **2. Sütundan Filtreleme**
@@ -380,6 +389,8 @@ Ekranlarda aşağıda belirtilen filtreleme yöntemi bulunmaktadır. Anlık ihti
 <details>
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+![Sütundan Filtreleme](./assets/sütundan_filtreleme.gif)
 
 </details>
 
@@ -395,16 +406,19 @@ Oluşturduğunuz filtreleri, araç çubuğunun altında yer alan **aktif filtre*
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
+![Kayıt Üzerinden](./assets/kayıt_üzerinden_filtreleme.gif)
+
 </details>
 
 **4. Filtre Satırı ile filtre düzenleme**
 
-> Filtre satırına erişmek için, tablodaki **sütun isimlerinin bulunduğu alana sağ tıklayın** ve açılan menüden **Filtre Satırı** seçeneğini tıklayın.  
-Bu işlem, tablonun en üstüne yeni bir satır ekler ve her sütun için istediğiniz değeri girerek veya seçerek filtre oluşturmanıza olanak sağlar.
+> Filtre satırına erişmek için, tablodaki **sütun isimlerinin bulunduğu alana sağ tıklayın** ve açılan menüden **Filtre Satırı** seçeneğini tıklayın. Bu işlem, tablonun en üstüne yeni bir satır ekler ve her sütun için istediğiniz değeri girerek veya seçerek filtre oluşturmanıza olanak sağlar.
 
 <details>
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+![Filtre Satırı](./assets/filtre_Satırı.gif)
 
 </details>
 
@@ -414,9 +428,8 @@ Ekranda alan başlıkları sağ tıklanarak açılan menüden aşağıdaki işle
 
 * Sıralama
 * Gruplama
-* Özet bandı
 * Alan Kaldırma, Değiştirme, Alan Seçici
-* Sütunların genişliklerini verilerin boyutlarına değiştirme (En Uygun)
+* Sütun Genişliği
 * Koşullu Biçimlendirme
 * Görünüm Oluşturma
 * Satır Renklendirme
@@ -428,11 +441,13 @@ Alan (Sütun) başlıklarına tıklanarak excel' deki gibi sıralama özelliği 
 
 Başka sütun başlığına tıklandığında önceki sıralamalar temizlenerek son tıklanan sıralama aktif olur.  Eğer bağlantılı sıralama yapılmak isteniyorsa `shift` tuşuna basarak alan başlıkları tıklanmalıdır.
 
-Sıralama yapılmış alandan sıralama temizlemek sağ tıklandıktan sonra *Sıralamayı temizle* seçimiyle temizlenebilir.
+Sıralama yapılmış alandan sıralamayı temizlemek için sağ tıklandıktan sonra *Sıralamayı temizle* seçimiyle temizlenebilir.
 
 <details>
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+![Sıralama](./assets/sıralama.gif)
 
 </details>
 
@@ -444,21 +459,25 @@ Alan (Sütun) başlıklarına sağ tıklanarak **Bu Sütuna Göre Grupla** tıkl
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
+![Gruplama](./assets/gruplama.gif)
+
 </details>
 
-### Sütun Değiştirme/Gizleme, Sütun Seçici
+### Alan Değiştirme/Gizleme, Alan Seçici
 
-Sütun başlıkları fare ile tutup, hareket ettirilerek sütunların yerleri değiştirilebilir.
+Alan başlıkları fare ile tutup, hareket ettirilerek sütunların yerleri değiştirilebilir.
 
 <details>
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
+![Alan Değiştirme](./assets/alan_değiştirme_1.gif)
+
 </details>
 
-İstediğiniz sütunu gizlemek için, ilgili sütunun üzerine **sağ tıklayın** ve açılan menüden **Sütunu Gizle** seçeneğini seçin. Bu işlem seçtiğiniz sütunu tabloda görünmez hale getirir.  
+İstediğiniz alanı gizlemek için, ilgili sütunun üzerine **sağ tıklayın** ve açılan menüden **Sütunu Gizle** seçeneğini seçin. Bu işlem seçtiğiniz sütunu tabloda görünmez hale getirir.  
 
-Gizlediğiniz sütunları tekrar görünür yapmak veya farklı sütunları gizlemek için, herhangi bir sütuna **sağ tıklayın** ve menüden **Sütun Seçici** seçeneğini seçin.  
+Gizlediğiniz alanları tekrar görünür yapmak veya farklı sütunları gizlemek için, herhangi bir sütuna **sağ tıklayın** ve menüden **Sütun Seçici** seçeneğini seçin.  
 Karşınıza tüm sütun isimlerinin bulunduğu bir **checkbox listesi** gelir:  
 - **İşaretli kutular** tabloda görünen sütunları temsil eder.  
 - **İşaretsiz kutular** ise gizlenmiş sütunları ifade eder.  
@@ -468,6 +487,8 @@ Buradan istediğiniz sütunları işaretleyerek görünür yapabilir veya işare
 <details>
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+![Sütun Seçici](./assets/sütun_seçici.gif)
 
 </details>
 
@@ -482,6 +503,8 @@ Tablodaki sütunların genişliğini ihtiyacınıza göre ayarlayabilirsiniz. Bu
 
     <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
+    ![Sütun Genişliği](./assets/sütun_genişliği_1.gif)
+
     </details>
 
 2. **Otomatik en uygun boyut:**  
@@ -493,6 +516,8 @@ Tablodaki sütunların genişliğini ihtiyacınıza göre ayarlayabilirsiniz. Bu
     <details>
 
     <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+    ![Sütun Genişliği](./assets/sütun_genişliği_2.webp)
 
     </details>
 
@@ -513,5 +538,7 @@ Böylece aynı ayarlara tekrar ihtiyaç duyduğunuzda, kaydettiğiniz ismi seçe
 <details>
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+![Görünüm](./assets/görünüm.gif)
 
 </details>
