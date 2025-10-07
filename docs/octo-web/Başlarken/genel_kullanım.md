@@ -79,7 +79,7 @@ Daha önce eklediğiniz bir ekranı favorilerinizden çıkarmak için, tekrar il
 
 Eklediğiniz veya çıkardığınız ekranlar, **Ana Sayfa > Favori Ekranlarım** bölümünde görüntülenir.
 Alternatif olarak, **Gezinme Çubuğu’nu** açıp en üstte bulunan **Favori Ekranlar** bölümüne tıklayarak da favori ekranlarınıza ulaşabilirsiniz.
-
+![Gezinme Çubuğu](./assets/favori_ekranlar_1.webp)
   <details>
 
   <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
