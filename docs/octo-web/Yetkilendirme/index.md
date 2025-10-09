@@ -11,7 +11,7 @@ Yetkilendirme işlemleri yalnızca **admin yetkilerine sahip** roller tarafında
 
 İlgili rolün satırında bulunan **Admin?** sütunu işaretli ise, bu o rolün ve o role atanmış kullanıcıların **yönetici (admin)** yetkilerine sahip olduğunu gösterir.
 
-
+![Yetkilendirme](./assets/yetkilendirme_1.webp)
 :::
 
 ## Roller
@@ -30,6 +30,7 @@ Roller ekranında araç çubuğunun yanında bulunan *Rol Yetki Kopyala* butonun
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
+![Rol Yetki Kopyalama](./assets/rol_yetki_kopyalama.gif)
 
 </details>
 
@@ -53,6 +54,7 @@ bilgileri doldurulduktan sonra *kaydet* butonuna tıklanarak yeni kullanıcı ol
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
+![Yeni Kullanıcı](./assets/yeni_kullanıcı.gif)
 
 </details>
 
@@ -74,7 +76,7 @@ Sistemdeki herhangi bir kullanıcı ile ilgili rol, kullanıcı adı, şifre gib
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
-
+![Kullanıcı Düzenle](./assets/kullanıcı_düzenle.webp)
 </details>
 
 ## Kullanıcı Yetki
@@ -95,5 +97,19 @@ Kullanıcılara ekran yetkileri tanımlamak için aşağıdaki adımları izleye
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
+![Ekran Yetki](./assets/ekran_yetki.webp)
+
+</details>
+
+### Ekran Yetkisi Kaldırma
+
+Aynı şekilde kullanıcı ekran yetkisini kaldırmak için;
+- Ekran Yetkileri kısmından kaldırmak istediğiniz yetkinin yanındaki checkbox'ı işaretleyiniz ve araç çubuğundan **Sil** butonuna tıklayınız.
+
+<details>
+
+<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
+
+![Ekran Yetki](./assets/yetki_kaldırma.gif) 
 
 </details>

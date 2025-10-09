@@ -21,7 +21,7 @@ Proje teslimi sonrasında, **Sistem Yöneticisi** rolündeki kullanıcılar, **Y
 - Mevcut kullanıcıların yetkilerini yönetebilir,
 - Yeni kullanıcı ekleyebilir ve onlara uygun roller atayabilirsiniz.
 
-Yeni bir kullanıcıyı nasıl ekleyeceğinizi veya mevcut kullanıcıların yetkilerini nasıl yöneteceğinizi öğrenmek için **[Erişim Kontrolü](./security/access-control.md)** sayfasını inceleyebilirsiniz.
+Yeni bir kullanıcıyı nasıl ekleyeceğinizi veya mevcut kullanıcıların yetkilerini nasıl yöneteceğinizi öğrenmek için **[Yetkilendirme](/docs/octo-web/Yetkilendirme/index.md)** sayfasını inceleyebilirsiniz.
 
 --- 
 
