@@ -5,4 +5,4 @@ sidebar_position: 2
 
 Tarayıcıda yazan isim resimdeki bölümden yönetilmektedir.
 
-[!frmAnaMenu](.Geliştirici/assets/frmAnaMenu.png)
+![Proje/Şirket Adı](.Geliştirici/assets/frmAnaMenu.png)
