@@ -37,5 +37,5 @@ Size ileitlen kullanıcı bilgilerini kullanarak giriş yapmak için;
 3. Bilgiler doğruysa hesabınıza yönlendirileceksiniz ve platformu kullanmaya başlayabilirsiniz.
 
 :::tip
-İlk girişinizin ardından güvenliğiniz için şifrenizi değiştirmenizi tavsiye ederiz. Şifrenizi [Kullanıcı Profili](./homepage.md#kullanıcı-profili) ekranından güncelleyebilirsiniz.
+İlk girişinizin ardından güvenliğiniz için şifrenizi değiştirmenizi tavsiye ederiz. Şifrenizi [Kullanıcı Profili](/docs/octo-web/Başlarken/genel_kullanım.md#kullanıcı-profili) ekranından güncelleyebilirsiniz.
 :::
