@@ -83,5 +83,5 @@ Kullanıcılara ekran yetkileri tanımlamak için aşağıdaki adımları izleye
 
 ![Ekran Yetki](./assets/yetki_kaldırma.gif) 
 
-Aynı şekilde kullanıcı ekran yetkisini kaldırmak için;
+Herhangi bir kullanıcının ekrana/ekranlara olan erişimini kaldırmak için;
 - Ekran Yetkileri kısmından kaldırmak istediğiniz yetkinin yanındaki checkbox'ı işaretleyiniz ve araç çubuğundan **Sil** butonuna tıklayınız.
