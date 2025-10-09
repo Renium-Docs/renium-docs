@@ -82,13 +82,6 @@ Daha önce eklediğiniz bir ekranı favorilerinizden çıkarmak için, tekrar il
 Eklediğiniz veya çıkardığınız ekranlar, **Ana Sayfa > Favori Ekranlarım** bölümünde görüntülenir.
 Alternatif olarak, **Gezinme Çubuğu’nu** açıp en üstte bulunan **Favori Ekranlar** bölümüne tıklayarak da favori ekranlarınıza ulaşabilirsiniz.
 ![Gezinme Çubuğu](./assets/favori_ekranlar_1.webp)
-  <details>
-
-  <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
-  ![Gezinme Çubuğu](./assets/favori_ekranlar_1.webp)
-
-  </details>
 
 ---
 
@@ -107,14 +100,6 @@ Gezinme Menüsü’ndeki arama fonksiyonuna ek olarak, Arama Çubuğu **hem ekra
 **Kullanıcı Profili**, ana sayfanın sağ üst köşesinde yer alan kullanıcı adınıza tıklayarak açabileceğiniz bir menüdür. Menü üç bölümden oluşur:
 
 ![Kullanıcı Profili](./assets/kullanıcı_profili.webp)
-
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
-![Kullanıcı Profili](./assets/kullanıcı_profili.webp)
-
-</details>
 
 **1. Kullanıcı Bilgileri:**
 - Bu butona tıkladığınızda anasayfanızda Kullanıcı Bilgileri sekmesi açılır.
@@ -137,13 +122,9 @@ Gezinme Menüsü’ndeki arama fonksiyonuna ek olarak, Arama Çubuğu **hem ekra
 
 Sol Menü, ekranın sol üst köşesinde bulunan **≡** sembolüne tıklayarak açılıp kapatılabilir. Bu menü sayesinde platform içindeki modül ve modül alt gruplarını görüntüleyebilir ve hızlıca erişebilirsiniz.
 
-  <details>
-
-  <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
   ![Gezinme Menüsü](./assets/sol_menü_1.webp)
 
-  </details>
 
 **Modül:**
 - Benzer fonksiyonlara sahip ekranları gruplandırmak için kullanılır.
@@ -168,40 +149,24 @@ Kullanıcılar; sol menüde yetkisi olduğu ekran, modül ve modül alt gruplar�
     Modül ve Modül Alt Gruplarının yanında bulunan numaralar da o ekranlara ait numaralardır. Ekran araması yaparken ismiyle yada bu numarayla arayabilirsiniz.
     :::
 
-
-    <details>
-
-    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
     ![Gezinme Menüsü](./assets/sol_menü_2.webp)
 
-    </details>
 
 ---
 ## Araç Çubuğu
 
 Araç çubuğu, ekranın üst kısmında yer alan ve en sık kullanılan işlemlere hızlı erişim sağlayan alandır. Araç çubuğu standart olarak; Log, Yeni, Düzenle, Sil, İçeri Aktar ve Arama işlevlerinden oluşur fakat sayfalara göre farklılıklar gösterebilir.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Araç Çubuğu](./assets/araç_çubuğu_1.webp)
-
-</details>
 
 #### Log
 Platformdaki tüm ekranlarda yapılan işlemler için **kayıt logları** tutulmaktadır. Bu loglar yalnızca **sistem yöneticileri** tarafından görüntülenebilir.  
 
 Bir satır veya tabloya ait log bilgilerini görmek için, ilgili alanın yanındaki **⚙️ simgesine** tıklayın. Açılan menüden **“Log Satır”** veya **“Log Tablo”** seçeneğini seçerek ilgili kayıtların geçmişine ulaşabilirsiniz.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Log Satır](./assets/log_satır_2.gif)
 
-</details>
+
 
 #### Yeni
 
@@ -368,13 +333,8 @@ Ekran içi arama çubuğu, veriler arasında daha kolay ve hedefe yönelik arama
 
 > Her sütunun yanında bulunan **filtre simgesine** tıklayarak, o sütundaki verileri istediğiniz kriterlere göre filtreleyebilirsiniz.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Sütundan Filtreleme](./assets/sütundan_filtreleme.gif)
 
-</details>
 
 **3. Kayıt Üzerinden Filtreleme**
 
@@ -384,25 +344,13 @@ Ekran içi arama çubuğu, veriler arasında daha kolay ve hedefe yönelik arama
 
 Oluşturduğunuz filtreleri, araç çubuğunun altında yer alan **aktif filtre** satırında görüntüleyebilirsiniz.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Kayıt Üzerinden](./assets/kayıt_üzerinden_filtreleme.gif)
-
-</details>
 
 **4. Filtre Satırı ile filtre düzenleme**
 
 > Filtre satırına erişmek için, tablodaki **sütun isimlerinin bulunduğu alana sağ tıklayın** ve açılan menüden **Filtre Satırı** seçeneğini tıklayın. Bu işlem, tablonun en üstüne yeni bir satır ekler ve her sütun için istediğiniz değeri girerek veya seçerek filtre oluşturmanıza olanak sağlar.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Filtre Satırı](./assets/filtre_Satırı.gif)
-
-</details>
 
 ## Görünümler
 
@@ -424,37 +372,19 @@ Başka sütun başlığına tıklandığında önceki sıralamalar temizlenerek 
 
 Sıralama yapılmış alandan sıralamayı temizlemek için sağ tıklandıktan sonra *Sıralamayı temizle* seçimiyle temizlenebilir.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Sıralama](./assets/sıralama.gif)
-
-</details>
 
 ### Gruplama
 
 Alan (Sütun) başlıklarına sağ tıklanarak **Bu Sütuna Göre Grupla** tıklanarak Gruplama özelliği aktif edilir. Excel deki gruplama ile benzer şekilde çalışmaktadır.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Gruplama](./assets/gruplama.gif)
-
-</details>
 
 ### Alan Değiştirme/Gizleme, Alan Seçici
 
 Alan başlıkları fare ile tutup, hareket ettirilerek sütunların yerleri değiştirilebilir.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Alan Değiştirme](./assets/alan_değiştirme_1.gif)
-
-</details>
 
 İstediğiniz alanı gizlemek için, ilgili sütunun üzerine **sağ tıklayın** ve açılan menüden **Sütunu Gizle** seçeneğini seçin. Bu işlem seçtiğiniz sütunu tabloda görünmez hale getirir.  
 
@@ -465,13 +395,7 @@ Karşınıza tüm sütun isimlerinin bulunduğu bir **checkbox listesi** gelir:
 
 Buradan istediğiniz sütunları işaretleyerek görünür yapabilir veya işareti kaldırarak gizleyebilirsiniz.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Sütun Seçici](./assets/sütun_seçici.gif)
-
-</details>
 
 ### Sütun Genişliği
 
@@ -480,13 +404,7 @@ Tablodaki sütunların genişliğini ihtiyacınıza göre ayarlayabilirsiniz. Bu
 1. **Elle ayarlama:**  
    Herhangi bir sütunun başlığındaki kenarlığı farenizle sürükleyerek genişliğini dilediğiniz boyuta getirebilirsiniz.  
 
-    <details>
-
-    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
     ![Sütun Genişliği](./assets/sütun_genişliği_1.gif)
-
-    </details>
 
 2. **Otomatik en uygun boyut:**  
    Eğer sütunların içerdiği verilere en uygun şekilde otomatik ayarlanmasını isterseniz:  
@@ -494,13 +412,7 @@ Tablodaki sütunların genişliğini ihtiyacınıza göre ayarlayabilirsiniz. Bu
    - Açılan menüden **“Tüm Sütunları En İyi Boyutla”** seçeneğini seçin.  
    Bu işlemle birlikte tüm sütun genişlikleri, içlerindeki verilerin sığabileceği en uygun boyuta getirilir.  
 
-    <details>
-
-    <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
     ![Sütun Genişliği](./assets/sütun_genişliği_2.webp)
-
-    </details>
 
 Bu sayede tablolarınızı hem daha okunabilir hem de düzenli hale getirebilirsiniz.
 
@@ -516,9 +428,7 @@ Tablonuzda istediğiniz *gruplama, filtreleme, sıralama* gibi düzenlemeleri ya
 
 Böylece aynı ayarlara tekrar ihtiyaç duyduğunuzda, kaydettiğiniz ismi seçerek tabloda aynı görünüme kolayca ulaşabilirsiniz. Oluşturduğunuz görünümlere erişmek için araç çubuğunun yanında bulunan alandan görünümü seçmeniz yeterli olacaktır.
 
-<details>
 
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
   <table>
     <tr>
       <th>Görünüm Kaydetme</th>
@@ -529,5 +439,3 @@ Böylece aynı ayarlara tekrar ihtiyaç duyduğunuzda, kaydettiğiniz ismi seçe
       <td>![Görünüm](./assets/görünüm_2.gif) </td>
     </tr>
   </table>
-
-</details>
