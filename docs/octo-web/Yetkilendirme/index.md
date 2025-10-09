@@ -24,21 +24,17 @@ Genellikle rol adı olarak organizasyon şemasında yer alan pozisyon veya göre
 
 Yeni bir rol tanımlarken, sistemde hazır olarak bulunan standart rollerden birini temel almanız önerilir. Oluşturmak istediğiniz role en yakın yetkilere sahip mevcut rolün yetkilerini **kopyalayarak** yeni rolünüzü hızlıca oluşturabilir ve ardından gerekli düzenlemeleri yapabilirsiniz.
 
-Roller ekranında araç çubuğunun yanında bulunan *Rol Yetki Kopyala* butonuna tıklayarak seçeceğiniz rolün yetkilerini kopyalabilirsiniz.
-
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Rol Yetki Kopyalama](./assets/rol_yetki_kopyalama.gif)
 
-</details>
+Roller ekranında araç çubuğunun yanında bulunan **Rol Yetki Kopyala** butonuna tıklayarak seçeceğiniz rolün yetkilerini kopyalabilirsiniz.
 
 ## Kullanıcılar
 
 Kullanıcı, sisteme erişim izni verilen ve belirli rollerle ilişkilendirilmiş kişileri ifade eder. Kullanıcının yetkileri, atanmış oldukları role göre farklılık gösterir.
 
 ### Yeni Kullanıcı Tanımlama
+
+![Yeni Kullanıcı](./assets/yeni_kullanıcı.gif)
 
 Yeni bir kullanıcı tanımlamak için;
 - Yönetici modülü altında *Kullanıcı* ekranı tıklanır.
@@ -50,40 +46,30 @@ Yeni bir kullanıcı tanımlamak için;
     - **Kullanıcı Kodu:** Kullanıcının giriş ekranında kullanacağı kod girilir. Veri yönetimini kolaylaştırmak amacıyla, kullanıcı kodlarının standart bir formatta verilmesi önerilir.
 bilgileri doldurulduktan sonra *kaydet* butonuna tıklanarak yeni kullanıcı oluşturulur.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
-![Yeni Kullanıcı](./assets/yeni_kullanıcı.gif)
-
-</details>
-
 Bu sayede seçtiğiniz rolde yeni bir kullanıcıyı oluşturmuş olursunuz.
 
-:::danger
+:::danger[Dikkat]
 
 Kullanıcının ekranlara erişimini sağlamak için [ekran yetkilendirmesi](./index.md#kullanıcı-yetki) yapılması gerektiği unutulmamalıdır. 
 :::
 
 ### Kullanıcı Bilgileri Güncelleme
 
+![Kullanıcı Düzenle](./assets/kullanıcı_düzenle.webp)
+
 Sistemdeki herhangi bir kullanıcı ile ilgili rol, kullanıcı adı, şifre gibi bilgileri güncellemek için;
 - Yönetici modülü altında *Kullanıcı* ekranı tıklanır.
 - Ekrandan istediğiniz kullanıcı seçtikten sonra; araç çubuğunda bulunan *Düzenle* butonuna tıklanır
 - Açılan ekranda düzenleme yapmak istediğiniz alanı güncelledikten sorna kaydet butonuna tıklayınız. 
-
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
-![Kullanıcı Düzenle](./assets/kullanıcı_düzenle.webp)
-</details>
 
 ## Kullanıcı Yetki
 
 Kullanıcılara bir veya birden fazla ekranı, aynı anda hızlı ve kolay bir şekilde yetkilendirmek mümkündür. Bu işlem sayesinde kullanıcıların ilgili ekranlara erişimi sağlanır. Eğer gerekli yetkilendirmeler yapılmazsa, kullanıcılar sistemde bazı ekranları **göremeyebilir veya erişim hatası alabilir**.
 
 Kullanıcılara ekran yetkileri tanımlamak için aşağıdaki adımları izleyebilirsiniz:
+
+![Ekran Yetki](./assets/ekran_yetki.webp)
+
 1. **Yönetim** modülü altındaki **Kullanıcılar** ekranına gidiniz.  
 2. Kullanıcılar ekranında, detay ekranında bulunan **Ekran Yetkileri** sekmesine geçiniz.  
 3. Araç çubuğundan **Yeni** butonuna tıklayınız.  
@@ -93,23 +79,9 @@ Kullanıcılara ekran yetkileri tanımlamak için aşağıdaki adımları izleye
    - **Kullanıcı Adı:** Seçtiğiniz ekranda yetki vermek istediğiniz kullanıcıyı seçiniz.  
 5. Gerekli alanları doldurduktan sonra **Kaydet** butonuna tıklayarak kullanıcıya yeni yetki tanımlamasını tamamlayabilirsiniz.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
-![Ekran Yetki](./assets/ekran_yetki.webp)
-
-</details>
-
 ### Ekran Yetkisi Kaldırma
-
-Aynı şekilde kullanıcı ekran yetkisini kaldırmak için;
-- Ekran Yetkileri kısmından kaldırmak istediğiniz yetkinin yanındaki checkbox'ı işaretleyiniz ve araç çubuğundan **Sil** butonuna tıklayınız.
-
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
 
 ![Ekran Yetki](./assets/yetki_kaldırma.gif) 
 
-</details>
+Aynı şekilde kullanıcı ekran yetkisini kaldırmak için;
+- Ekran Yetkileri kısmından kaldırmak istediğiniz yetkinin yanındaki checkbox'ı işaretleyiniz ve araç çubuğundan **Sil** butonuna tıklayınız.
