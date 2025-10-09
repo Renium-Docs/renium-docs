@@ -20,7 +20,7 @@ Kullanıcıların erişebilecekleri ekranlar ve yapabilecekleri işlemler, hangi
 
 Genellikle rol adı olarak organizasyon şemasında yer alan pozisyon veya görev adları kullanılır. Bu, rollerin tanımlanmasını ve kimin hangi yetkilere sahip olduğunu anlamayı kolaylaştırır.
 
-### *Rol Tanımı Yapma*
+### Rol Tanımı Yapma
 
 Yeni bir rol tanımlarken, sistemde hazır olarak bulunan standart rollerden birini temel almanız önerilir. Oluşturmak istediğiniz role en yakın yetkilere sahip mevcut rolün yetkilerini **kopyalayarak** yeni rolünüzü hızlıca oluşturabilir ve ardından gerekli düzenlemeleri yapabilirsiniz.
 
@@ -49,7 +49,6 @@ bilgileri doldurulduktan sonra *kaydet* butonuna tıklanarak yeni kullanıcı ol
 Bu sayede seçtiğiniz rolde yeni bir kullanıcıyı oluşturmuş olursunuz.
 
 :::danger[Dikkat]
-
 Kullanıcının ekranlara erişimini sağlamak için [ekran yetkilendirmesi](./index.md#kullanıcı-yetki) yapılması gerektiği unutulmamalıdır. 
 :::
 
@@ -61,6 +60,12 @@ Sistemdeki herhangi bir kullanıcı ile ilgili rol, kullanıcı adı, şifre gib
 - Yönetici modülü altında *Kullanıcı* ekranı tıklanır.
 - Ekrandan istediğiniz kullanıcı seçtikten sonra; araç çubuğunda bulunan *Düzenle* butonuna tıklanır
 - Açılan ekranda düzenleme yapmak istediğiniz alanı güncelledikten sorna kaydet butonuna tıklayınız. 
+
+### Kullanıcı Kaldırma
+
+Sisteminizdeki kullanıcıları, artık ihtiyaç duymadığınızda doğrudan kaldırabilirsiniz. 
+
+Kullanıcı/Kullanıcıları silmek için *Kullanıcılar* ekranında dilediğiniz kullanıcıları seçiniz. Daha sonrasında araç çubuğunda bulunan **Sil** butonuna tıklayarak kullancıyı/kullanıcıları sistemden kaldırabilirsiniz.
 
 ## Kullanıcı Yetki
 
