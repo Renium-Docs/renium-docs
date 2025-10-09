@@ -9,7 +9,8 @@ Bu bölüm, Octo Web Platformu’nu kullanmaya başlarken ihtiyaç duyacağını
 - **Giriş Yapma:** Size verilen bilgilerle Octo’ya nasıl giriş yapacağınızı keşfedin.
 
 Bu adımları tamamladıktan sonra Octo Web Platformu’nu rahatlıkla keşfetmeye hazırsınız.
-<img width="1525" height="990" alt="image" src="https://github.com/user-attachments/assets/674bcf12-431d-424a-8ac5-daca704585f1" />
+
+![Gezinme Çubuğu](./assets/login.png)
 
 ---
 
