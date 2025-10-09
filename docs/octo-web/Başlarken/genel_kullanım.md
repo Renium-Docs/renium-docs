@@ -6,8 +6,6 @@ sidebar_position: 3
 
 Bu bölümde, programın temel özelliklerini, arayüzün nasıl kullanılacağını ve programdan en iyi şekilde nasıl yararlanabileceğinizi adım adım öğreneceksiniz.
 
-Programın ana ekranından başlayarak, sık kullanılan özellikler, ayarlar menüsü, dosya yönetimi ve daha fazlası gibi temel bölümler detaylı bir şekilde anlatılacaktır. Ekran görüntüleri ve ipuçları ile desteklenen bu rehber, programı daha verimli kullanmanız için pratik bilgiler sağlar.
-
 ## Anasayfa
 
 Ana Sayfa, Octo Web Platformu’na giriş yaptıktan sonra karşılaşacağınız ilk ekrandır. Buradan platformun tüm özelliklerine kolayca ulaşabilir ve hızlıca yönetebilirsiniz.
