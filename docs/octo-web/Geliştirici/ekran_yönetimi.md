@@ -5,4 +5,4 @@ sidebar_position: 2
 
 Tarayıcıda yazan izin resimdeki bölümden yönetilmektedir.
 
-[!frmAnaMenu](./assets/frmAnaMenu.png)
+[!frmAnaMenu](.Geliştirici/assets/frmAnaMenu.png)
