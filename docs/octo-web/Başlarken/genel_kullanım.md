@@ -382,6 +382,44 @@ Ekranlarda aşağıda belirtilen filtreleme yöntemi bulunmaktadır. Anlık ihti
 
 </details>
 
+:::note
+Ekran içi arama çubuğunda, aramanızı daha etkili hale getirecek bazı gelişmiş arama fonksiyonları bulunmaktadır:
+
+Ekran içi arama çubuğu, veriler arasında daha kolay ve hedefe yönelik arama yapmanızı sağlayan gelişmiş arama fonksiyonlarını destekler:
+
+- **Birleşik Arama:**  
+  `'+'` sembolünü kullanarak birden fazla kriteri aynı anda arayabilirsiniz.  
+  **Örnek:** `seri + ham` → Hem *“seri”* hem de *“ham”* ifadelerini içeren kayıtları getirir.
+
+- **Kolon Bazlı Arama:**  
+  Belirli bir kolonda arama yapmak için kolon adının ilk harflerini, ardından iki nokta üst üste (`:`) ve arama kriterinizi yazınız.  
+  Kolon adı boşluk içeriyorsa çift tırnak (`" "`) içine alınmalıdır.  
+  Eğer belirtilen kolon adı bulunamazsa, sistem tüm görünür kolonlarda arama yapar.  
+  **Örnek:** `"Ürün Adı": demir`
+
+- **Boşluk İçeren İfadeler:**  
+  Boşluk içeren kelime gruplarını aramak için ifadeyi çift tırnak (`" "`) içinde yazınız.  
+  **Örnek:** `"Ham Madde"`
+
+- **Hariç Tutma (Negatif Arama):**  
+  Belirli bir değeri içermeyen kayıtları listelemek için arama teriminin başına `-` ekleyiniz.  
+  **Örnek:** `-demir` → *“demir”* kelimesini içermeyen kayıtları getirir.
+
+- **...İle Başlayan Kayıtlar:**  
+  `^` sembolünü kullanarak belirli bir ifadeyle başlayan kayıtları listeleyebilirsiniz.  
+  **Örnek:** `^152` → *“152”* ile başlayan kayıtları getirir.
+
+- **~ İle Arama:**
+  Arama ifadesine `~` ekleyerek joker karakterlerle (wildcard) eşleşme yapabilirsiniz.  
+
+  - `%` → Sıfır veya daha fazla karakteri temsil eder.  
+  - `_` → Yalnızca tek bir karakteri temsil eder.  
+
+  **Örnekler:**  
+  - `~%yol` → “yol” ile **biten** kayıtları listeler.  
+  - `~dem%` → “dem” ile **başlayan** kayıtları getirir.
+:::
+
 **2. Sütundan Filtreleme**
 
 > Her sütunun yanında bulunan **filtre simgesine** tıklayarak, o sütundaki verileri istediğiniz kriterlere göre filtreleyebilirsiniz.
