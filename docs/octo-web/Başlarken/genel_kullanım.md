@@ -239,13 +239,7 @@ Tablo içindeki veriler arasında arama yapmanızı sağlar. İlgili alana herha
 
 Ekran yapısı tablo (grid) biçiminde, görüntü ve fonksiyon olarak excel' e oldukça benzemektedir. Ekran yapısı sırasıyla üst kısmında araç çubuğu, alan başlıkları ve verilerden oluşturmaktadır.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Ekran Özellikleri](./assets/ekran_özellikleri_1.webp)
-
-</details>
 
 ### Sadece Okunabilir Ekran
 
@@ -253,39 +247,21 @@ Standart olarak yeni veri girişi yapabildiğiniz ekranlarda bunun için *Yeni* 
 
 Bu tür ekranlarda *Yeni*, *Düzenle* veya *Sil* gibi işlem butonları bulunmaz; bu nedenle veri ekleme ya da güncelleme işlemleri yapılamaz. **Read Only** ekranlar genellikle **veri analizi**, **raporlama** veya **izleme amaçlı** kullanılır.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Sadece Okunabilir Ekran](./assets/readonly_ekran.webp)
 
-
-</details>
 
 ### Master - Master Detay Ekranları
 
 Bir ekranın içinde iki tablonun bulunduğu ekran çeşidi Master-Detay ekran olarak adlandırılır ve resimdeki gibidir. Burada ikinci tablo ilk tabloda seçili kaydın bağlantılı detay kayıtlarını gösterir.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ***Örn; Resimdeki ürün ekranında ürün bilgileri 1. tabloda yer alır. Seçili 1 nolu ürünün stok bilgileri ikinci tabloda yer almaktadır.***
 
 ![Master Detay](./assets/master_detay_1.webp)
 
-</details>
-
 
 - Ekranlar sekme olarak açılmaktadır ve sekme bölümü üzerinden dolaşılabilmektedir. Sekme üzerinde sağ tıkladıktan sonra açılan menü ile ilgili işlemler yapılabilmektedir.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Sekme Yönetimi](./assets/master_detay_2.webp)
-
-</details>
 
 ---
 
@@ -299,38 +275,20 @@ Yeni kayıt eklemesi yapılırken;
 - **Gri** renk olması alanın sadece okunabilir (read only) olduğunu ifade eder.
 - **Siyah** renk olması isteğe bağlı doldurulması gereken doldurulması zorunluluk gerektirmeyen alanlardır.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Yeni Kayıt](./assets/yeni_kayıt_1.webp)
-
-</details>
 
 - Bazı alanlar sadece kütüphane de tanımlı alanlardaki değeri alabilir. Bu tür alanlarda **(↓)** işareti görünmektedir. Bu işarete tıklayarak tanımlı değerlerden birini seçebilirsiniz.
 - Alan üzerinde görünen alt ok sembolü tıklanarak kütüphane listelenebilir.
 - Listeleme ekranında anahtar sözcükler yazılarak filtreleme işlemi yapılabilir.
 - Aynı alanın yanında bulunan **üç nokta (...)** tuşuna tıklanarak kütüphanenin kaynak ekranına gidilebilir. Kütüphaneye yeni kayıt eklenmek istenirse açılan ekranda yeni kayıt eklenebilir.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Yeni Kayıt](./assets/yeni_kayıt_2.gif)
-
-</details>
 
 - Benzer özellikli kayıtlar eklemek için satır kopyalama özelliği kullanılabilir. 
     - Bir satırı kopyalamak için, öncelikle kopyalamak istediğiniz satırın yanındaki **checkbox**’ı işaretleyin.
     - Ardından satırın üzerine **sağ tıklayın**. Açılan menüden **“Satırı Kopyala”** seçeneğini seçtiğinizde, ilgili satır otomatik olarak **yeni kayıt ekleme ekranı**nda açılacaktır. Burada gerekli değişiklikleri yaptıktan sonra **Kaydet** butonuna tıklayarak yeni kaydınızı oluşturabilirsiniz.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Yeni Kayıt](./assets/satır_kopyala.gif)
-
-</details>
 
 *Kayıt işlemleri sırasında çeşitli hata veya uyarılar alınabilir. Bu tür durumlarda işlemler tamamlanmayacaktır. Uyarı alınmıyorsa işlem başarılı bir şekilde gerçekleşmiş anlamına gelir.*
 
@@ -344,13 +302,7 @@ Kayıt güncelleme, ekrandaki veriler üzerinde aşağıda belirtilen adımlara 
 
 Gerekli değişiklikleri yaptıktan sonra **"Kaydet"** tuşuna tıklayarak veriyi güncelleyebilirsiniz.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Kayıt Günzelleme](./assets/kayıt_güncelleme.gif)
-
-</details>
 
 ### Kayıt Silme
 
@@ -360,13 +312,7 @@ Gerekli değişiklikleri yaptıktan sonra **"Kaydet"** tuşuna tıklayarak veriy
 
 Çoklu silme işlemi yapmak için, birden fazla satırın **checkbox**'ını seçip araç çubuğundan sil butonuna tıklayabilirsiniz.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Kayıt Silme](./assets/kayıt_silme.gif)
-
-</details>
 
 ---
 
@@ -378,13 +324,7 @@ Ekranlarda aşağıda belirtilen filtreleme yöntemi bulunmaktadır. Anlık ihti
     
 > *Ekran içi arama çubuğu*, her ekranımızda standart olarak bulunan bir arama fonksiyonudur. İlgili alana aramak istediğiniz değeri girerek, tablo içindeki kayıtlar arasında hızlıca arama yapabilirsiniz.
 
-<details>
-
-<summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
-
 ![Ekran İçi Arama](./assets/ekran_içi_arama.webp)
-
-</details>
 
 :::note
 Ekran içi arama çubuğunda, aramanızı daha etkili hale getirecek bazı gelişmiş arama fonksiyonları bulunmaktadır:
