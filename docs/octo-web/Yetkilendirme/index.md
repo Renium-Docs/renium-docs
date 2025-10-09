@@ -66,6 +66,8 @@ Sistemdeki herhangi bir kullanıcı ile ilgili rol, kullanıcı adı, şifre gib
 
 Kullanıcılara bir veya birden fazla ekranı, aynı anda hızlı ve kolay bir şekilde yetkilendirmek mümkündür. Bu işlem sayesinde kullanıcıların ilgili ekranlara erişimi sağlanır. Eğer gerekli yetkilendirmeler yapılmazsa, kullanıcılar sistemde bazı ekranları **göremeyebilir veya erişim hatası alabilir**.
 
+### Ekran Yetkisi Tanımlama
+
 Kullanıcılara ekran yetkileri tanımlamak için aşağıdaki adımları izleyebilirsiniz:
 
 ![Ekran Yetki](./assets/ekran_yetki.webp)
