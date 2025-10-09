@@ -410,14 +410,14 @@ Ekran içi arama çubuğu, veriler arasında daha kolay ve hedefe yönelik arama
   **Örnek:** `^152` → *“152”* ile başlayan kayıtları getirir.
 
 - **~ İle Arama:**
-  Arama ifadesine `~` ekleyerek joker karakterlerle (wildcard) eşleşme yapabilirsiniz.  
+  Arama ifadesine `~` ekleyerek joker karakterlerle eşleşme yapabilirsiniz.  
 
   - `%` → Sıfır veya daha fazla karakteri temsil eder.  
   - `_` → Yalnızca tek bir karakteri temsil eder.  
 
   **Örnekler:**  
-  - `~%yol` → “yol” ile **biten** kayıtları listeler.  
-  - `~dem%` → “dem” ile **başlayan** kayıtları getirir.
+  - `~%gram` → “gram” ile **biten** kayıtları listeler.  
+  - `~kilo%` → “kilo” ile **başlayan** kayıtları getirir.
 :::
 
 **2. Sütundan Filtreleme**
