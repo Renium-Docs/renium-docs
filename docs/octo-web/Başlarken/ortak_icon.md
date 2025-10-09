@@ -13,7 +13,7 @@ Aşağıdaki tablo Octo'da en sık kullanılan ikonları tanımlar.
 | <i class="dxbl-image fa-regular fa-trash-can image"></i> | **[Sil](#sil)** |
 | <i class="fa-solid fa-arrow-rotate-right"></i>| **[Yenile](#yenile)** |
 | <i class="fa-solid fa-caret-down"></i> | **[Açılır liste](#açılır-liste)** |
-| <i class="fa-solid fa-ellipsis"></i> | **[Daha fazla işlem (…)](#daha-fazla-işlem)** |
+| <i class="fa-solid fa-ellipsis"></i> | **[Kütüphaneye erişim](#daha-fazla-işlem)** |
 | <i class="fa-solid fa-up-right-from-square"></i> | **[Dış bağlantı](#dış-bağlantı)** |
 | <i class="dxbl-image fa-solid fa-table dxbl-context-menu-item-icon"></i> | **[Tablo işlemi](#tablo-i̇şlemi)** |
 | <i class="dxbl-image fa-regular fa-solid fa-bolt"></i> | **[Hızlı işlem](#hızlı-i̇şlem)** |
@@ -59,7 +59,6 @@ Tablo/gridi sunucudan yeniden yükler.
 ### <i class="fa-solid fa-caret-down"></i>  Açılır liste
 
 Alan veya butona bağlı seçenek listesini açar.  
-**Kütüphane entegrasyonu:** *Seçenekli alanlar, kütüphane kaynağına ulaştırır.* Veriler daha detaylı incelenebilir; yetkiye göre kütüphanede **düzenlenebilir**.  
 **Ne zaman kullanılır?** Durum seçimi, tip/alt tip seçimi, hızlı filtreleme.  
 **İpucu:** Yazmaya başlayarak listede arama yapabilirsiniz; uzun listelerde bu çok daha hızlıdır.
 
@@ -67,42 +66,39 @@ Alan veya butona bağlı seçenek listesini açar.
 
 ### <i class="fa-solid fa-ellipsis"></i>  Daha fazla işlem (…)
 
-Ana butonlarda yer almayan, bağlama duyarlı ek işlemleri gösterir.  
-**İlişki geçidi:** *İlişkili/bağlantılı kayıtlara ulaşmayı sağlar.*  
+1. Araç Çubuğunda yer almayan ya da sığmayan, bağlama duyarlı ek işlemleri gösterir. 
+2. *Seçenekli alanlar, kütüphane kaynağına ulaştırır.* Veriler daha detaylı incelenebilir; yetkiye göre kütüphanede **düzenlenebilir**.  
 **Örnekler:** “PDF indir”, “Hareketler”, “Etiket Yazdır”, “Kopyala”.  
-**İpucu:** Seçtiğiniz satıra göre menü içeriği değişebilir; önce satırı işaretleyin.
+**İpucu:** Seçilen nesnelere göre menü içeriği değişebilir; önce nesneyi işaretleyin.
 
 ---
 
 ### <i class="fa-solid fa-up-right-from-square"></i>  Dış bağlantı
 
-Octo dışındaki bir kaynağı yeni sekmede açar.  
-**Tanım kısayolu:** *Değerin tanımına götürür; böylece ilgili kayıt detaylı incelenebilir.*  
-**Örnekler:** e-fatura portali, müşteri CRM kartı, üretici teknik dökümanı.  
-**Güvenlik:** Yalnızca yetkili kullanıcılar görebilir; erişim izleri denetim kaydına işlenir.
+*Değerin tanımına götürür; böylece ilgili kayıt detaylı incelenebilir.* 
+
+**Örnekler:** Ürün tanımı, müşteri tanımı, sipariş belgesi vb.  
+**Güvenlik:** Yalnızca yetkili kullanıcılar görebilir.
 
 ---
 
 ### <i class="dxbl-image fa-solid fa-table dxbl-context-menu-item-icon"></i>  Tablo işlemi
 
-Seçili satırlar üzerinde toplu/ızgara tabanlı işlemleri çalıştırır.  
-**Örnekler:** Çoklu durum değişikliği, toplu atama, gruplu yazdırma.  
-**İpucu:** İşlemi çalıştırmadan önce **çoklu seçim** (Ctrl/Shift) ile etkilenecek satırları işaretleyin.
+Seçili satırlar üzerinde ilişkili tablolardaki bilgileri getirir. Herhangi bir işlem yapmaz. Bilgiye ulaşımı hızlandırma amacı taşır. 
+**Örnekler:** Ürün satırında Ürün hareketleri veri işlemi vb.
 
 ---
 
-### <i class="dxbl-image fa-regular fa-solid fa-bolt"></i>  Hızlı işlem
+### <i class="dxbl-image fa-regular fa-solid fa-bolt"></i>  Soru Sormadan işlem
 
-Soru sormadan, tek tıkla çalışan eylemdir.  
+Kullanıcının herhangi bir bilgi girişi yapmadan çalışan veri işlemleridir.  
 **Örnekler:** “Yeniden hesapla”, “Kayıt onayla”, “Etiket üret”.  
-**Uyarı:** Geri alma yoksa sistem bir bilgilendirme gösterir; emin değilseniz önce **[Onay isteyen işlem](#onay-isteyen-i̇şlem)** sürümünü tercih edin.
 
 ---
 
-### <i class="fa-regular fa-square-bolt"></i>  Onay isteyen işlem
+### <i class="fa-regular fa-square-bolt"></i>  Soru Soran işlem
 
-Çalıştırmadan önce onay diyalogu veya parametre formu açar.  
+Çalıştırmadan önce parametre formu açan işlemlerdir.  
 **Örnekler:** “Sevk et” (tarih ve araç ister), “Kapat” (not ister), “İptal” (gerekçe ister).  
-**İpucu:** Onay penceresinde özetlenen etki alanını dikkatle okuyun; parametreler raporlara ve loglara yansır.
 
 ---
