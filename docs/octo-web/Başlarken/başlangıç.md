@@ -16,15 +16,14 @@ Bu adımları tamamladıktan sonra Octo Web Platformu’nu rahatlıkla keşfetme
 
 ## Hesap Oluşturma
 
-Kullanıcı hesapları, proje başlangıcında sistem tarafından oluşturulur. Bu süreçte ilgili kullanıcıların kayıt bilgileri hazırlanır ve tarafınıza teslim edilir.
+Kullanıcı hesapları, proje başlangıcında **Sistem Yöneticisi** rolündeki kullanıcılar tarafından oluşturulur ve tarafınıza teslim edilir.
 
-Proje teslimi sonrasında, **Sistem Yöneticisi** rolündeki kullanıcılar, **Yetkilendirme Modülü**ne erişim kazanır. Bu modül sayesinde:
+:::info
+Yeni bir kullanıcıyı nasıl ekleyeceğinizi veya mevcut kullanıcıların yetkilerini nasıl yöneteceğinizi öğrenmek için **[Yetkilendirme](/docs/octo-web/Yetkilendirme/index.md)** sayfasını inceleyebilirsiniz. Bu modül sayesinde:
 
 - Mevcut kullanıcıların yetkilerini yönetebilir,
 - Yeni kullanıcı ekleyebilir ve onlara uygun roller atayabilirsiniz.
-
-Yeni bir kullanıcıyı nasıl ekleyeceğinizi veya mevcut kullanıcıların yetkilerini nasıl yöneteceğinizi öğrenmek için **[Yetkilendirme](/docs/octo-web/Yetkilendirme/index.md)** sayfasını inceleyebilirsiniz.
-
+:::
 --- 
 
 ## Giriş Yapma
