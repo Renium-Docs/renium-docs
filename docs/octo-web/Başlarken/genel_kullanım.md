@@ -20,7 +20,7 @@ Ana sayfada görebileceğiniz başlıca bölümler:
 - **Arama Çubuğu** 
 - **Kullanıcı Profili**
 
-
+![Ana Sayfa](./assets/anasayfa.png)
 
 ---
 
