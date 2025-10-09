@@ -104,6 +104,8 @@ Gezinme Menüsü’ndeki arama fonksiyonuna ek olarak, Arama Çubuğu **hem ekra
 
 **Kullanıcı Profili**, ana sayfanın sağ üst köşesinde yer alan kullanıcı adınıza tıklayarak açabileceğiniz bir menüdür. Menü üç bölümden oluşur:
 
+![Kullanıcı Profili](./assets/kullanıcı_profili.webp)
+
 <details>
 
 <summary>**Resimli yönlendirmeler için tıklayınız.**</summary>
