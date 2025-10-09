@@ -5,7 +5,7 @@ sidebar_position: 4
 # Ortak İkonlar
 
 Aşağıdaki tablo Octo'da en sık kullanılan ikonları tanımlar.
-
+### Özet
 | İkon | Açıklama |
 |:--:|:--|
 | <i class="dxbl-image fa-regular fa-file image"></i> |  **[Yeni kayıt](#yeni-kayıt)** |
