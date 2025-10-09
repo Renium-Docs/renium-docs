@@ -8,5 +8,6 @@ Octo Web platformunda işlerinizi daha hızlı ve verimli hâle getirmek için �
 
 | Kısayol    | Açıklama |
 | :--------: | :-------: |
+| F2 | Yeni Kayıt     |
 | Ctrl + F | Ekran Arama     |
 | Shift + Enter  | En Uygun (Tüm Satırlar)    |
