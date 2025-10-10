@@ -8,16 +8,17 @@ Aşağıdaki tablo Octo'da en sık kullanılan ikonları tanımlar.
 ### Özet
 | İkon | Açıklama |
 |:--:|:--|
-| <i class="dxbl-image fa-regular fa-file image"></i> |  **[Yeni kayıt](#yeni-kayıt)** |
-| <i class="dxbl-image fa-regular fa-pen-to-square image"></i> | **[Düzenle](#düzenle)** |
-| <i class="dxbl-image fa-regular fa-trash-can image"></i> | **[Sil](#sil)** |
-| <i class="fa-solid fa-arrow-rotate-right"></i>| **[Yenile](#yenile)** |
-| <i class="fa-solid fa-caret-down"></i> | **[Açılır liste](#açılır-liste)** |
-| <i class="fa-solid fa-ellipsis"></i> | **[Kütüphaneye erişim](#daha-fazla-işlem)** |
-| <i class="fa-solid fa-up-right-from-square"></i> | **[Dış bağlantı](#dış-bağlantı)** |
-| <i class="dxbl-image fa-solid fa-table dxbl-context-menu-item-icon"></i> | **[Tablo işlemi](#tablo-i̇şlemi)** |
-| <i class="dxbl-image fa-regular fa-solid fa-bolt"></i> | **[Hızlı işlem](#hızlı-i̇şlem)** |
-| <i class="fa-regular fa-square-bolt"></i>| **[Onay isteyen işlem](#onay-isteyen-i̇şlem)** |
+| <i class="dxbl-image fa-regular fa-file image"></i> | **[Yeni kayıt](#yeni-kayıt)** — Yeni bir kayıt oluşturur; ekleyen kullanıcı ve tarih ilgili alanlara kaydedilir. |
+| <i class="dxbl-image fa-regular fa-pen-to-square image"></i> | **[Düzenle](#düzenle)** — Seçili kaydı düzenler; güncelleyen kullanıcı ve güncelleme tarihi kaydedilir. |
+| <i class="dxbl-image fa-regular fa-trash-can image"></i> | **[Sil](#sil)** — Seçili kaydı siler (yetkiye bağlı). |
+| <i class="fa-solid fa-arrow-rotate-right"></i> | **[Yenile](#yenile)** — Tablo/grid verisini yeniden yükler. |
+| <i class="fa-solid fa-caret-down"></i> | **[Açılır liste](#açılır-liste)** — Seçenekli alanlarda kütüphane kaynağına ulaştırır; veriler yetkiye göre detaylı incelenebilir veya kütüphanede düzenlenebilir. |
+| <i class="fa-solid fa-ellipsis"></i> | **[Daha fazla işlem (…)](#daha-fazla-işlem)** — İlişkili/bağlantılı kayıtlara ulaşmayı sağlar. |
+| <i class="fa-solid fa-up-right-from-square"></i> | **[Kayıt Tanım Bağlantısı](#dış-bağlantı)** — Değerin tanımına götürür; ilgili kayıt detaylı incelenebilir. |
+| <i class="dxbl-image fa-solid fa-table dxbl-context-menu-item-icon"></i> | **[Tablo işlemi](#tablo-i̇şlemi)** — Seçili satırlar yeni ekran açar. |
+| <i class="dxbl-image fa-regular fa-solid fa-bolt"></i> | **[Soru Sormadan işlem](#soru-sormadan-işlem)** — Soru sormadan işlem yapar. |
+| <i class="fa-regular fa-square-bolt"></i> | **[Soru Soran işlem](#soru-soran-işlem)** — İşlemden önce soru sorar. |
+
 
 ---
 
