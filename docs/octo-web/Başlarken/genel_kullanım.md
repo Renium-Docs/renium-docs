@@ -297,24 +297,38 @@ Ekran içi arama çubuğu, veriler arasında daha kolay ve hedefe yönelik arama
 - **Birleşik Arama:**  
   `'+'` sembolünü kullanarak birden fazla kriteri aynı anda arayabilirsiniz.  
   **Örnek:** `seri + ham` → Hem *“seri”* hem de *“ham”* ifadelerini içeren kayıtları getirir.
+  ![Birleşik Arama](./assets/birlesik_arama.webp)
 
-- **Kolon Bazlı Arama:**  
-  Belirli bir kolonda arama yapmak için kolon adının ilk harflerini, ardından iki nokta üst üste (`:`) ve arama kriterinizi yazınız.  
-  Kolon adı boşluk içeriyorsa çift tırnak (`" "`) içine alınmalıdır.  
-  Eğer belirtilen kolon adı bulunamazsa, sistem tüm görünür kolonlarda arama yapar.  
-  **Örnek:** `"Ürün Adı": demir`
+---
+
+- **Alan Bazlı Arama:**  
+  Belirli bir alanda arama yapmak için kolon adının ilk harflerini, ardından iki nokta üst üste (`:`) ve arama kriterinizi yazınız.  
+  Alan adı boşluk içeriyorsa çift tırnak (`" "`) içine alınmalıdır.  
+  Eğer belirtilen kolon adı bulunamazsa, sistem tüm görünür alanlarda arama yapar.  
+  **Örnek:** `"Ürün Tipi": mamul`
+  ![Alan Bazlık Arama](./assets/alan_bazlı_arama.webp)
+
+---
 
 - **Boşluk İçeren İfadeler:**  
   Boşluk içeren kelime gruplarını aramak için ifadeyi çift tırnak (`" "`) içinde yazınız.  
-  **Örnek:** `"Ham Madde"`
+  **Örnek:** `"Alüminyum Profil"`
+  ![Boşluklu Arama](./assets/boşluklu_arama.webp)
+
+---
 
 - **Hariç Tutma (Negatif Arama):**  
   Belirli bir değeri içermeyen kayıtları listelemek için arama teriminin başına `-` ekleyiniz.  
-  **Örnek:** `-demir` → *“demir”* kelimesini içermeyen kayıtları getirir.
+  **Örnek:** `-ham` → *ham* kelimesini içermeyen kayıtları getirir.
+  ![Hariç Tutma](./assets/hariç_tutma.webp)
+
+---
 
 - **...İle Başlayan Kayıtlar:**  
   `^` sembolünü kullanarak belirli bir ifadeyle başlayan kayıtları listeleyebilirsiniz.  
   **Örnek:** `^152` → *“152”* ile başlayan kayıtları getirir.
+
+---
 
 - **~ İle Arama:**
   Arama ifadesine `~` ekleyerek joker karakterlerle eşleşme yapabilirsiniz.  
@@ -325,6 +339,9 @@ Ekran içi arama çubuğu, veriler arasında daha kolay ve hedefe yönelik arama
   **Örnekler:**  
   - `~%gram` → “gram” ile **biten** kayıtları listeler.  
   - `~kilo%` → “kilo” ile **başlayan** kayıtları getirir.
+
+  ![Tilde Arama](./assets/tilde_arama.webp)
+
 :::
 
 **2. Sütundan Filtreleme**
