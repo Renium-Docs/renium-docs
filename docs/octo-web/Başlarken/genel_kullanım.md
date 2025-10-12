@@ -374,7 +374,6 @@ Ekranda alan başlıkları sağ tıklanarak açılan menüden aşağıdaki işle
 * Sıralama
 * Gruplama
 * Alan Kaldırma, Değiştirme, Alan Seçici
-* Koşullu Biçimlendirme
 * Sütun Genişliği
 * Görünüm Oluşturma
 * Sütun Formatlama
