@@ -5,19 +5,20 @@ sidebar_position: 4
 # Ortak İkonlar
 
 Aşağıdaki tablo Octo'da en sık kullanılan ikonları tanımlar.
-
+### Özet
 | İkon | Açıklama |
 |:--:|:--|
-| <i class="dxbl-image fa-regular fa-file image"></i> |  **[Yeni kayıt](#yeni-kayıt)** |
-| <i class="dxbl-image fa-regular fa-pen-to-square image"></i> | **[Düzenle](#düzenle)** |
-| <i class="dxbl-image fa-regular fa-trash-can image"></i> | **[Sil](#sil)** |
-| <i class="fa-solid fa-arrow-rotate-right"></i>| **[Yenile](#yenile)** |
-| <i class="fa-solid fa-caret-down"></i> | **[Açılır liste](#açılır-liste)** |
-| <i class="fa-solid fa-ellipsis"></i> | **[Daha fazla işlem (…)](#daha-fazla-işlem)** |
-| <i class="fa-solid fa-up-right-from-square"></i> | **[Dış bağlantı](#dış-bağlantı)** |
-| <i class="dxbl-image fa-solid fa-table dxbl-context-menu-item-icon"></i> | **[Tablo işlemi](#tablo-i̇şlemi)** |
-| <i class="dxbl-image fa-regular fa-solid fa-bolt"></i> | **[Hızlı işlem](#hızlı-i̇şlem)** |
-| <i class="fa-regular fa-square-bolt"></i>| **[Onay isteyen işlem](#onay-isteyen-i̇şlem)** |
+| <i class="dxbl-image fa-regular fa-file image"></i> | **[Yeni kayıt](#yeni-kayıt)** — Yeni bir kayıt oluşturur; ekleyen kullanıcı ve tarih ilgili alanlara kaydedilir. |
+| <i class="dxbl-image fa-regular fa-pen-to-square image"></i> | **[Düzenle](#düzenle)** — Seçili kaydı düzenler; güncelleyen kullanıcı ve güncelleme tarihi kaydedilir. |
+| <i class="dxbl-image fa-regular fa-trash-can image"></i> | **[Sil](#sil)** — Seçili kaydı siler (yetkiye bağlı). |
+| <i class="fa-solid fa-arrow-rotate-right"></i> | **[Yenile](#yenile)** — Tablo/grid verisini yeniden yükler. |
+| <i class="fa-solid fa-caret-down"></i> | **[Açılır liste](#açılır-liste)** — Seçenekli alanlarda kütüphane kaynağına ulaştırır; veriler yetkiye göre detaylı incelenebilir veya kütüphanede düzenlenebilir. |
+| <i class="fa-solid fa-ellipsis"></i> | **[Daha fazla işlem (…)](#daha-fazla-işlem)** — İlişkili/bağlantılı kayıtlara ulaşmayı sağlar. |
+| <i class="fa-solid fa-up-right-from-square"></i> | **[Kayıt Tanım Bağlantısı](#dış-bağlantı)** — Değerin tanımına götürür; ilgili kayıt detaylı incelenebilir. |
+| <i class="dxbl-image fa-solid fa-table dxbl-context-menu-item-icon"></i> | **[Tablo işlemi](#tablo-i̇şlemi)** — Seçili satırlar yeni ekran açar. |
+| <i class="dxbl-image fa-regular fa-solid fa-bolt"></i> | **[Soru Sormadan işlem](#soru-sormadan-işlem)** — Soru sormadan işlem yapar. |
+| <i class="fa-regular fa-square-bolt"></i> | **[Soru Soran işlem](#soru-soran-işlem)** — İşlemden önce soru sorar. |
+
 
 ---
 
@@ -59,7 +60,6 @@ Tablo/gridi sunucudan yeniden yükler.
 ### <i class="fa-solid fa-caret-down"></i>  Açılır liste
 
 Alan veya butona bağlı seçenek listesini açar.  
-**Kütüphane entegrasyonu:** *Seçenekli alanlar, kütüphane kaynağına ulaştırır.* Veriler daha detaylı incelenebilir; yetkiye göre kütüphanede **düzenlenebilir**.  
 **Ne zaman kullanılır?** Durum seçimi, tip/alt tip seçimi, hızlı filtreleme.  
 **İpucu:** Yazmaya başlayarak listede arama yapabilirsiniz; uzun listelerde bu çok daha hızlıdır.
 
@@ -67,42 +67,39 @@ Alan veya butona bağlı seçenek listesini açar.
 
 ### <i class="fa-solid fa-ellipsis"></i>  Daha fazla işlem (…)
 
-Ana butonlarda yer almayan, bağlama duyarlı ek işlemleri gösterir.  
-**İlişki geçidi:** *İlişkili/bağlantılı kayıtlara ulaşmayı sağlar.*  
+1. Araç Çubuğunda yer almayan ya da sığmayan, bağlama duyarlı ek işlemleri gösterir. 
+2. *Seçenekli alanlar, kütüphane kaynağına ulaştırır.* Veriler daha detaylı incelenebilir; yetkiye göre kütüphanede **düzenlenebilir**.  
 **Örnekler:** “PDF indir”, “Hareketler”, “Etiket Yazdır”, “Kopyala”.  
-**İpucu:** Seçtiğiniz satıra göre menü içeriği değişebilir; önce satırı işaretleyin.
+**İpucu:** Seçilen nesnelere göre menü içeriği değişebilir; önce nesneyi işaretleyin.
 
 ---
 
 ### <i class="fa-solid fa-up-right-from-square"></i>  Dış bağlantı
 
-Octo dışındaki bir kaynağı yeni sekmede açar.  
-**Tanım kısayolu:** *Değerin tanımına götürür; böylece ilgili kayıt detaylı incelenebilir.*  
-**Örnekler:** e-fatura portali, müşteri CRM kartı, üretici teknik dökümanı.  
-**Güvenlik:** Yalnızca yetkili kullanıcılar görebilir; erişim izleri denetim kaydına işlenir.
+*Değerin tanımına götürür; böylece ilgili kayıt detaylı incelenebilir.* 
+
+**Örnekler:** Ürün tanımı, müşteri tanımı, sipariş belgesi vb.  
+**Güvenlik:** Yalnızca yetkili kullanıcılar görebilir.
 
 ---
 
 ### <i class="dxbl-image fa-solid fa-table dxbl-context-menu-item-icon"></i>  Tablo işlemi
 
-Seçili satırlar üzerinde toplu/ızgara tabanlı işlemleri çalıştırır.  
-**Örnekler:** Çoklu durum değişikliği, toplu atama, gruplu yazdırma.  
-**İpucu:** İşlemi çalıştırmadan önce **çoklu seçim** (Ctrl/Shift) ile etkilenecek satırları işaretleyin.
+Seçili satırlar üzerinde ilişkili tablolardaki bilgileri getirir. Herhangi bir işlem yapmaz. Bilgiye ulaşımı hızlandırma amacı taşır. 
+**Örnekler:** Ürün satırında Ürün hareketleri veri işlemi vb.
 
 ---
 
-### <i class="dxbl-image fa-regular fa-solid fa-bolt"></i>  Hızlı işlem
+### <i class="dxbl-image fa-regular fa-solid fa-bolt"></i>  Soru Sormadan işlem
 
-Soru sormadan, tek tıkla çalışan eylemdir.  
+Kullanıcının herhangi bir bilgi girişi yapmadan çalışan veri işlemleridir.  
 **Örnekler:** “Yeniden hesapla”, “Kayıt onayla”, “Etiket üret”.  
-**Uyarı:** Geri alma yoksa sistem bir bilgilendirme gösterir; emin değilseniz önce **[Onay isteyen işlem](#onay-isteyen-i̇şlem)** sürümünü tercih edin.
 
 ---
 
-### <i class="fa-regular fa-square-bolt"></i>  Onay isteyen işlem
+### <i class="fa-regular fa-square-bolt"></i>  Soru Soran işlem
 
-Çalıştırmadan önce onay diyalogu veya parametre formu açar.  
+Çalıştırmadan önce parametre formu açan işlemlerdir.  
 **Örnekler:** “Sevk et” (tarih ve araç ister), “Kapat” (not ister), “İptal” (gerekçe ister).  
-**İpucu:** Onay penceresinde özetlenen etki alanını dikkatle okuyun; parametreler raporlara ve loglara yansır.
 
 ---
