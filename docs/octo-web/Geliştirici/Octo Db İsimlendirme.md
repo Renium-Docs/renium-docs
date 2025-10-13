@@ -7,14 +7,14 @@
 - Store Procedure
 - Funciton
 - Trigger
-- [Index]
-- [FK]
-- [Default Constarit]
-- [Sequence]
+- Index
+- FK
+- Default Constarit
+- Sequence
 
 ## Genel Şablon
 
-`[Prefix]` `[Modul Kodu]` `[_]` `[Nesne Adı]`
+`[Prefix]_[Rn | RnPj]_[Modul Kodu]_[Nesne Adı]`
 
 ### Prefixler
 
