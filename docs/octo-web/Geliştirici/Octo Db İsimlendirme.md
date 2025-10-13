@@ -14,7 +14,7 @@
 
 ## Genel Şablon
 
-`[[Prefix]]` `[[Modul Kodu]]` `[_]` `[Nesne Adı]`
+`[Prefix]` `[Modul Kodu]` `[_]` `[Nesne Adı]`
 
 ### Prefixler
 
