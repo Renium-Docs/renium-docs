@@ -1,9 +1,5 @@
 # Octo Veri Tabanı Nesne İsimlendirme Kuralları
 
-Created by: November 13, 2022 9:45 AM
-Created time: November 13, 2022 9:45 AM
-Etiket: LEO
-
 ## Nesneler
 
 - Tablo
