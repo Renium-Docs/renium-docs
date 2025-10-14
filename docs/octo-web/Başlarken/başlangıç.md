@@ -3,17 +3,6 @@ sidebar_position: 1
 ---
 # Hesap Ayarları
 
-Bu bölüm, Octo Web Platformu’nu kullanmaya başlarken ihtiyaç duyacağınız ilk adımları kapsar.
-
-- **Hesap Oluşturma:** Platforma giriş için gerekli kullanıcı hesabının nasıl sağlandığını öğrenin.
-- **Giriş Yapma    :** Size verilen bilgilerle Octo’ya nasıl giriş yapacağınızı keşfedin.
-
-Bu adımları tamamladıktan sonra Octo Web Platformu’nu rahatlıkla keşfetmeye hazırsınız.
-
-![Gezinme Çubuğu](./assets/login.png)
-
----
-
 ## Hesap Oluşturma
 
 Kullanıcı hesapları, **Sistem Yöneticisi** rolündeki kullanıcılar tarafından oluşturulur ve tarafınıza teslim edilir.
@@ -40,6 +29,10 @@ Size ileitlen kullanıcı bilgilerini kullanarak giriş yapmak için;
 :::tip
 İlk girişinizin ardından güvenliğiniz için şifrenizi değiştirmenizi tavsiye ederiz. Şifrenizi [Kullanıcı Profili](/docs/octo-web/Başlarken/genel_kullanım.md#kullanıcı-profili) ekranından güncelleyebilirsiniz.
 :::
+
+![Gezinme Çubuğu](./assets/login.png)
+
+---
 
 ### Kullanıcı Profili
 
