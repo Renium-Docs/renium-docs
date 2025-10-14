@@ -54,7 +54,7 @@ Size ileitlen kullanıcı bilgilerini kullanarak giriş yapmak için;
   - **Kullanıcı Bilgileri:** Hesap adınız ve sistemde hangi rolde bulunduğunuzu görebilirsiniz.
   - **Parola Bilgileri:** Parola değişikliğinizi bu alanda yapabilirsiniz.
 
-![Kullanıcı Profili](./assets/hesapbilgileri.png‎)
+![Kullanıcı Profili](./assets/hesapbilgileri.png)
 
 **2. Sistem Bilgileri:** Platformun **versiyonu ve sunucu bilgileri** gibi teknik detayları görüntüleyebilirsiniz.
 
