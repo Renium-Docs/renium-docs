@@ -71,24 +71,14 @@ Kullanıcı/Kullanıcıları silmek için *Kullanıcılar* ekranında dilediğin
 
 Kullanıcılara bir veya birden fazla ekranı, aynı anda hızlı ve kolay bir şekilde yetkilendirmek mümkündür. Bu işlem sayesinde kullanıcıların ilgili ekranlara erişimi sağlanır. Eğer gerekli yetkilendirmeler yapılmazsa, kullanıcılar sistemde bazı ekranları **göremeyebilir veya erişim hatası alabilir**.
 
-### Ekran Yetkisi Tanımlama
+### Ekran Yetkilerinin Düzenlenmesi
 
 Kullanıcılara ekran yetkileri tanımlamak için aşağıdaki adımları izleyebilirsiniz:
 
 ![Ekran Yetki](./assets/ekran_yetki.webp)
 
-1. **Yönetim** modülü altındaki **Kullanıcılar** ekranına gidiniz.  
-2. Kullanıcılar ekranında, detay ekranında bulunan **Ekran Yetkileri** sekmesine geçiniz.  
-3. Araç çubuğundan **Yeni** butonuna tıklayınız.  
-4. Açılan ekranda aşağıdaki alanları doldurunuz:
-   - **Ekran Adı:** Yetki vermek istediğiniz ekranı listeden seçiniz.  
-   - **Ekran No:** Yetki vermek istediğiniz ekranın kodunu giriniz. *Ekran Adı* seçildiğinde bu alan otomatik olarak doldurulur.  
-   - **Kullanıcı Adı:** Seçtiğiniz ekranda yetki vermek istediğiniz kullanıcıyı seçiniz.  
-5. Gerekli alanları doldurduktan sonra **Kaydet** butonuna tıklayarak kullanıcıya yeni yetki tanımlamasını tamamlayabilirsiniz.
-
-### Ekran Yetkisi Kaldırma
-
-![Ekran Yetki](./assets/yetki_kaldırma.gif) 
-
-Herhangi bir kullanıcının ekrana/ekranlara olan erişimini kaldırmak için;
-- Ekran Yetkileri kısmından kaldırmak istediğiniz yetkinin yanındaki checkbox'ı işaretleyiniz ve araç çubuğundan **Sil** butonuna tıklayınız.
+1. Yönetim modülü altındaki Kullanıcı Yetki ekranına gidiniz.
+2. Ekranın üst kısmında yer alan Kullanıcı Seç alanından, yetkilerini düzenlemek istediğiniz kullanıcıyı seçiniz ve Ekran Yetkilerini Getir butonuna tıklayınız.
+3. Alt kısımda, seçilen kullanıcının erişebildiği ekranlar ve sahip olduğu roller listelenecektir.
+4. Yetki vermek istediğiniz ekranların yanındaki kutucukları işaretleyerek kullanıcının bu ekranlara erişimini sağlayabilir; işareti kaldırarak erişimini kaldırabilirsiniz.
+5. Gerekli düzenlemeleri tamamladıktan sonra Kaydet butonuna tıklayarak yapılan değişiklikleri kaydediniz.
