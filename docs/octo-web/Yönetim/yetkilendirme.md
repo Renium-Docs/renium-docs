@@ -75,7 +75,7 @@ Kullanıcılara bir veya birden fazla ekranı, aynı anda hızlı ve kolay bir �
 
 Kullanıcılara ekran yetkileri tanımlamak için aşağıdaki adımları izleyebilirsiniz:
 
-![Ekran Yetki](./assets/ekr)
+![Ekran Yetki](./assets/yetki_düzenleme.gif)
 
 1. Yönetim modülü altındaki Kullanıcı Yetki ekranına gidiniz.
 2. Ekranın üst kısmında yer alan Kullanıcı Seç alanından, yetkilerini düzenlemek istediğiniz kullanıcıyı seçiniz ve Ekran Yetkilerini Getir butonuna tıklayınız.
