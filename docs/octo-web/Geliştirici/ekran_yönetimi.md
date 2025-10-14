@@ -9,7 +9,7 @@ sidebar_position: 2
 
 Aşağıda belirtilen özellikler tüm ekran tipleri için tanımı zorunlu olan alanlardır. Açıklamaları aşağıdaki gibidir:
 - **Aktif:** Aktif olmayan kayıtlar menüde görünmez. Checkbox işaretlenmelidir.
-- **Modül Alt Grup:** Bu alan, tanımın menüde hangi modül ve modül alt grubu altında görüneceğini belirtir. Eğer istenen değer listede yer almıyorsa, '...' tuşları ile tanım ekranı açılarak gerekli tanım eklenebilir. Tanımlama işlemi tamamlandıktan sonra, ekran tanımında uygun değer seçimi yapılmalıdır.
+- **Modül Alt Grup:** Bu alan, tanımın menüde hangi modül ve modül alt grubu altında görüneceğini belirtir. Eğer istenen değer listede yer almıyorsa, `...` tuşları ile tanım ekranı açılarak gerekli tanım eklenebilir. Tanımlama işlemi tamamlandıktan sonra, ekran tanımında uygun değer seçimi yapılmalıdır.
 
     Her modülün en az bir alt modülü bulunmak zorundadır. Modül Alt Grup tanımında zaten modül bilgisi yer aldığı için, ekran tanımı sırasında ayrıca modül seçimi yapılmasına gerek yoktur.
 - **Sıra No:** Ekranın Modül içinde hangi sırada görüneceğini ifade eder.
@@ -17,7 +17,7 @@ Aşağıda belirtilen özellikler tüm ekran tipleri için tanımı zorunlu olan
 
 ![Ekran Yetki](./assets/ekran_tanımı.webp) 
 
-- **İcon:** Ekranın menüde hangi iconla görüneceğini ifade eder. İstenen icon yoksa tanım ekranına gidilerek tanımı yapılabilir. İcon görselleri '.png/.jpg/.jpeg' formatında 16px ve 32px alanlarına resim yüklenmelidir.
+- **İcon:** Ekranın menüde hangi iconla görüneceğini ifade eder. İstenen icon yoksa tanım ekranına gidilerek tanımı yapılabilir. İcon görselleri `.png/.jpg/.jpeg` formatında `16px` ve `32px` alanlarına resim yüklenmelidir.
 
 
 ### Ek Özellikler
