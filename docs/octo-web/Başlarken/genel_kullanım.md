@@ -357,6 +357,7 @@ Ekranda alan başlıkları sağ tıklanarak açılan menüden aşağıdaki işle
 * Sütun Genişliği
 * Görünüm Oluşturma
 * Sütun Formatlama
+* Panel / Preview
 
 ### Sıralama
 
@@ -433,3 +434,9 @@ Böylece aynı ayarlara tekrar ihtiyaç duyduğunuzda, kaydettiğiniz ismi seçe
       <td>![Görünüm](./assets/görünüm_2.gif) </td>
     </tr>
   </table>
+
+### Panel / Preview
+
+Uzun metinler veya büyük görseller olduğunda, içeriği kolayca görüntüleyebilmeniz için yan tarafta bir önizleme paneli açılır. Buradan, grid üzerinde görüntülemesi zor olan alanları daha rahat bir şekilde inceleyebilirsiniz.
+
+![Panel Preview](./assets/panel_preview.gif)
