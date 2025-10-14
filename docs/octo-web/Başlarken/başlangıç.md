@@ -34,7 +34,7 @@ Size ileitlen kullanıcı bilgilerini kullanarak giriş yapmak için;
 
 ---
 
-### Kullanıcı Profili
+## Kullanıcı Profili
 
 **Kullanıcı Profili**, ana sayfanın sağ üst köşesinde yer alan kullanıcı adınıza tıklayarak açabileceğiniz bir menüdür. Menü üç bölümden oluşur:
 
