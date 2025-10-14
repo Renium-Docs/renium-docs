@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Başlangıç
+# Hesap Ayarları
 
 Bu bölüm, Octo Web Platformu’nu kullanmaya başlarken ihtiyaç duyacağınız ilk adımları kapsar.
 
