@@ -16,7 +16,7 @@
 * **Sabit/standart kısaltmalar:** Kullanılmamaya çalışılır.
 * **Virgüllü Sayılar:** decimal(18,6) tipi kullanılır.
 * **Geçici yapılar:** Geçici tablo/view adları ilgili `Tmp` öneki ile başlar.
-
+* **BypassTrig:** Bir tabloda Update trigger' ı varsa 'BypassTrig' adında bir alan açılır.
 ---
 
 ## Nesne Türleri
