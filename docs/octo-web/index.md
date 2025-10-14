@@ -2,11 +2,15 @@
 sidebar_position: 1
 ---
 
-# Octo Web Dokümantasyonu
+# Octo Hakkında
 
-Bu dokümantasyon, Octo Web platformunu etkili ve verimli bir şekilde kullanmanız için hazırlanmıştır. Platformun temel işlevlerini ve özelliklerini öğrenerek iş akışlarınızı kolaylaştırabilir, adım adım rehberler, ipuçları ve kullanım önerileri ile platformda neleri nasıl yapacağınızı hızlıca öğrenebilirsiniz.
+**Octo**, farklı ölçeklerdeki işletmelerin için geliştirilmiş entegre kurumsal kaynak planlama (ERP) çözümüdür.
 
-Hem yeni başlayan kullanıcılar hem de deneyimli kullanıcılar için uygun olan bu rehber, platformun tüm özelliklerini detaylı bir şekilde açıklamakta; kapsamlı bilgiler, örnekler ve en iyi uygulama önerileri sunmaktadır.
+**Octo**, tek bir sistem aracılığıyla gerçek zamanlı kurumsal bilgilere erişmenizi sağlayarak şirketinizin her alanını yönetmenizde size destek olur. Uygulama, her biri farklı bir kurumsal işlevi kapsayan çeşitli modüllerden oluşur.
+
+**Octo**, esnek ve genişletilebilir bir çözüm olarak tasarlanmıştır. Uygulama, dahili ve harici veri kaynaklarına, mobil aygıtlara ve diğer analiz araçlarına sağladığı standart arayüzlerle, kolaylıkla geliştirilebilir.
+
+Bu dokümantasyon, Octo Web platformunu etkili ve verimli bir şekilde kullanmanız için hazırlanmıştır. Platformun tüm özelliklerini detaylı bir şekilde açıklamakta; kapsamlı bilgiler, örnekler ve en iyi uygulama önerileri sunmaktadır.
 
 Dokümantasyonumuz, size en iyi şekilde yardımcı olmak amacıyla hazırlanmış olup aşağıdaki başlıkları kapsamaktadır. Daha fazla ayrıntıya ulaşmak veya aradığınız bilgiyi bulmak için ilgili sayfaları ziyaret edebilirsiniz.
 
