@@ -1,4 +1,4 @@
-# Octo Veri Tabanı Nesne İsimlendirme Kuralları
+# Db İsimlendirme Kuralları
 
 ## Temel Kurallar
 
