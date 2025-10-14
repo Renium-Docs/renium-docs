@@ -1,6 +1,6 @@
 # Octo Veri Tabanı Nesne İsimlendirme Kuralları
 
-## Temel Kurallar (PascalCase)
+## Temel Kurallar
 
 * **Genel ilke:** Tüm isim parçaları **PascalCase** (her kelimenin ilk harfi büyük, bitişik yazım) kullanılarak oluşturulur.
 * **Bölümlü yapı:** Nesne adları `_` (alt çizgi) ile ayrılan **segmentlerden** oluşur. Her segment **PascalCase** olmalıdır.
