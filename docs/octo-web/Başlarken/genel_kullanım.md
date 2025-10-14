@@ -304,8 +304,9 @@ Ekran içi arama çubuğu, veriler arasında daha kolay ve hedefe yönelik arama
 ---
 
 - **...İle Başlayan Kayıtlar:**  
-  `^` sembolünü kullanarak belirli bir ifadeyle başlayan kayıtları listeleyebilirsiniz.  
-  **Örnek:** `'152` → *“152”* ile başlayan kayıtları getirir.
+  `'` sembolünü kullanarak belirli bir ifadeyle başlayan kayıtları listeleyebilirsiniz.  
+  **Örnek:** `'97` → *“97”* ile başlayan kayıtları getirir.
+  ![İle Başlayan](./assets/ile_başlayan_kayıtlar.webp)
 
 ---
 
