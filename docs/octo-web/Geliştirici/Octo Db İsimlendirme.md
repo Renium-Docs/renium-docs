@@ -2,21 +2,32 @@
 
 ## Temel Kurallar
 
-* **Genel ilke:** Tüm isim parçaları **PascalCase** (her kelimenin ilk harfi büyük, bitişik yazım) kullanılarak oluşturulur.
+* **Genel ilke:** Tüm isim parçaları **PascalCase** (her kelimenin ilk harfi büyük, bitişik yazım) kullanılarak oluşturulur. (**Id** dahil)
 * **Bölümlü yapı:** Nesne adları `_` (alt çizgi) ile ayrılan **segmentlerden** oluşur. Her segment **PascalCase** olmalıdır.
 
   * Şablon: `[Prefix]_[Rn | RnPj]_[ModulKodu]_[NesneAdi]`
   * Örnek: `Tb_Rn_Inventory_Items`, `Sp_RnPj_Production_CreateBomCost`
 * **İngilizce ifade edilir:** İsimlerde İngilizce kullanılır.
+* **Geçici yapılar:** Geçici tablo/view adları ilgili `Tmp` öneki ile başlar.
 * **Türkçe karakter yok:** İsimlerde `Ç, Ğ, İ, Ö, Ş, Ü` ve boşluk kullanılmaz; ASCII karakterler tercih edilir.
 * **Çoğul isimler:** Tablo adları çoğul olur: `Items`, `Orders`.
 * **Birincil anahtarlar:** `[TekilTabloAdi]Id`  biçimindedir (ör. `ItemId`, `OrderId`).
-* **Tarih/zaman alanları:** `Date`, `DateTime`, `UtcDateTime` son ekleri kullanılır (ör. `AddDate`, `UpdateDate`, `UpdateDateTime`).
-* **Mantıksal alanlar:** `Is*` ile başlar ve bit tipindedir(ör. `IsActive`, `IsFinished`).
-* **Sabit/standart kısaltmalar:** Kullanılmamaya çalışılır.
-* **Virgüllü Sayılar:** decimal(18,6) tipi kullanılır.
-* **Geçici yapılar:** Geçici tablo/view adları ilgili `Tmp` öneki ile başlar.
-* **BypassTrig:** Bir tabloda Update trigger' ı varsa 'BypassTrig' adında bir alan açılır.
+* **Metin alanlar:** 'NVARCHAR' tipi kullanılır. (örn. NVARCHAR(50), NVARCHAR(100), NVARCHAR(250), gerektiğinde NVARCHAR(MAX)). Tüm Unicode sabitleri N'...' biçiminde yazılmalıdır
+* **Tarih/zaman alanları:** `Date`, `DateTime`, `UtcDateTime` son ekleri kullanılır (ör. `AddDate`, `UpdateDate`, `UpdateDateTime`). Datetime tercih edilir. smalldatetime tipinden kaçınılmalıdır.
+* **Mantıksal alanlar:** `Is*` ile başlar ve bit tipindedir(ör. `IsActive`, `IsFinished`). 'Tiynint' tipinden kaçınılmalıdır. 
+* **Sayısal Alanlar:** Tamsayı için 'int', virgüllü sayı için 'decimal(18,6)' tipi kullanılır. 'Tiynint' tipinden kaçınılmalıdır.
+* **Sabit/standart kısaltmalar:** Kullanılmamaya çalışılır. Ancak gerekli olduğunda, herkesçe bilinen ve proje genelinde **tutarlı** bir liste ile sınırlandırılır:
+  * **İzin verilenler (örnek):** `Id`, `No` (numara), `Qty` (miktar), `Avg`, `Min`, `Max`, `Net`, `Gross`, `Ref`, `Code`, `Desc` (gerekliyse).
+  * **Kaçınılacaklar:** ...
+  * **Birim/simge kısaltmaları:** Teknik/uluslararası standartlar aynen kullanılır (`Kg`, `Mm`, `Cm`, `Usd`, `Eur`).
+  * **Kısaltma ilkesi:** Açık isim > kısaltma. Kısaltma yalnızca isim çok uzunsa, tekrar eden bir desen ise veya alanda yer kısıtı varsa kullanılır.
+  * **Tutarlılık:** Bir kez seçilen kısaltma tüm şema boyunca aynı anlamda kullanılmalıdır.
+  *  **Örnekler:**
+    -  **Sıra No:** LineNumber
+    -  **Açıklama:** Notes
+    -  **KullanıcıId:** @sssip (Sp lerde)
+    -  **BypassTrig:** Bir tabloda Update trigger' ı varsa 'BypassTrig' adında bir alan açılır.
+
 ---
 
 ## Nesne Türleri
