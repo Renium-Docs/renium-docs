@@ -93,27 +93,6 @@ Gezinme Menüsü’ndeki arama fonksiyonuna ek olarak, Arama Çubuğu **hem ekra
 
 ---
 
-### Kullanıcı Profili
-
-**Kullanıcı Profili**, ana sayfanın sağ üst köşesinde yer alan kullanıcı adınıza tıklayarak açabileceğiniz bir menüdür. Menü üç bölümden oluşur:
-
-![Kullanıcı Profili](./assets/kullanıcı_profili.webp)
-
-**1. Kullanıcı Bilgileri:**
-- Bu butona tıkladığınızda anasayfanızda Kullanıcı Bilgileri sekmesi açılır.
-- Sekme içinde hesabınızla ilgili detayları görebilir ve güncelleyebilirsiniz:
-  - **Profil Fotoğrafı:** Mevcut fotoğrafınızı görebilir ve _Select File_ ile yeni bir fotoğraf yükleyebilirsiniz.
-  - **Kullanıcı Bilgileri:** Hesap adınız ve sistemde hangi rolde bulunduğunuzu görebilirsiniz.
-  - **Parola Bilgileri:** Parola değişikliğinizi bu alanda yapabilirsiniz.
-
-**2. Sistem Bilgileri:** Platformun **versiyonu ve sunucu bilgileri** gibi teknik detayları görüntüleyebilirsiniz.
-
-**3. Çıkış Yap:** Hesabınızdan güvenli bir şekilde çıkış yapmak için bu butona tıklayınız.
-
-
-
------
-
 ## Menüler
 
 ### Sol Menü
