@@ -83,5 +83,16 @@ Yani, ekranın yapısı ve özellikleri seçtiğiniz ekran tipi temel alınarak 
 
 - **Boş Olması Durumu:**  
 
+**Ekran tipi kısmını boş bıraktığınızda iki ayrı durumla karşılaşırsınız:**
+
+  **1. Sadece Veri Nesnesinin seçilmesi:** Ekran tipini boş bırakıp Veri Nesnesini seçtiğinizde, ekranınızda table ve view tipinde olan veri tabanı nesneleri gözükecektir. Bu şekilde bir seçim yapmanız size master ekranı oluşturacaktır.
+    ![boşdurumu_1](./assets/boş_durumu_1.webp)
+  
+  ---
+
+  **2. Veri Nesnesi ve Detay Veri Nesnesinin seçilmesi:** Ekran tipini boş bırakıp hem Veri Nesnesi hem de Detay Veri Nesnesinin seçildiği durumda ise; Veri Nesnesi için master, Detay Veri Nesnesi için de Detay ekranı oluşacaktır. 
+
+    ![boşdurumu_2](./assets/boş_durumu_2.webp)
+
 
 ---
