@@ -70,7 +70,8 @@ Yani, ekranın yapısı ve özellikleri seçtiğiniz ekran tipi temel alınarak 
 - **Master Where Text:** Veri nesnesi alanında tanımlanan nesnenin ekran açılışında tanımlanan filtre ile açılacağını ifade eder.
 Sistem ekran tıklandığında aşağıdaki sorguyu çalıştırıp dönen veriyi gösterecektir.
     ```sql showLineNumbers
-    SELECT * FROM [VeriNesnesi] WHERE [MasterWhereText]```
+    SELECT * FROM [VeriNesnesi] WHERE [MasterWhereText]
+    ```
 ![Master Where Text](./assets/master-detay.webp)
 
   **2. Veri Nesnesi ve Detay Veri Nesnesinin seçilmesi:** Ekran tipini boş bırakıp hem Veri Nesnesi hem de Detay Veri Nesnesinin seçildiği durumda ise; Veri Nesnesi için master, Detay Veri Nesnesi için de Detay ekranı oluşacaktır. 
