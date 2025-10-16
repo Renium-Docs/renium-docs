@@ -82,6 +82,7 @@ Yani, ekranın yapısı ve özellikleri seçtiğiniz ekran tipi temel alınarak 
 ---
 
 - **Boş Olması Durumu:**  
+
 **Ekran tipi kısmını boş bıraktığınızda iki ayrı durumla karşılaşırsınız:**
 
   **1. Sadece Veri Nesnesinin seçilmesi:** Ekran tipini boş bırakıp Veri Nesnesini seçtiğinizde, ekranınızda table ve view tipinde olan veri tabanı nesneleri gözükecektir. Bu şekilde bir seçim yapmanız size master ekranı oluşturacaktır.
