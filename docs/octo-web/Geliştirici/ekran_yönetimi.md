@@ -28,7 +28,7 @@ Aşağıda belirtilen özellikler tüm ekran tipleri için tanımı zorunlu olan
 Ekran oluştururken seçeceğiniz **Ekran Tipi** parametresi, hem tasarımsal hem de fonksiyonel** açıdan ekranın nasıl görüneceğini ve çalışacağını belirler.  
 Yani, ekranın yapısı ve özellikleri seçtiğiniz ekran tipi temel alınarak oluşturulur.
 
-### frmDetailObjects:  
+### frmDetailObjects
   Master-Multi Detay ekran olarak da tanımlanabilir. Bir *Master ekran* ile bir veya birden fazla *Detay ekranın* bir araya gelmesiyle oluşur. Bu tip ekranlar, bir ana kayda bağlı alt detayların görüntülenmesi ve yönetilmesi için kullanılır.  
   **Örnek:** *Ana Ürünler ekranı.*
 
@@ -36,7 +36,7 @@ Yani, ekranın yapısı ve özellikleri seçtiğiniz ekran tipi temel alınarak 
 
 ---
 
-### frmAnaMenu:   
+### frmAnaMenu
   Bu ekran tipi, sistemin **ana menü yapısını** temsil eder. frmAnaMenu için tanımlanan ekran ismi, üst menüde yer alan bölüm adı olarak görünür. Genellikle proje veya kurum adının bu alanda yer alması önerilir.
 
   ![frmAnaMenu](./assets/frmAnaMenu.png)
@@ -51,7 +51,7 @@ Yani, ekranın yapısı ve özellikleri seçtiğiniz ekran tipi temel alınarak 
 
 ---
 
-### Boş Olması Durumu:
+### Master/Detay (Boş Olması Durumu)
 
 **Ekran tipi kısmını boş bıraktığınızda iki ayrı durumla karşılaşırsınız:**
 
