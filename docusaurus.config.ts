@@ -84,32 +84,36 @@ const config: Config = {
 
     image: 'img/docusaurus-social-card.jpg',
 
-    navbar: {
-      title: 'Renium Docs',
-      logo: {
-        alt: 'Renium Logo',
-        src: 'img/renium-logo.png',
-      },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'octoDesktopSidebar',
-          position: 'left',
-          label: 'Octo Desktop',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'octoWebSidebar',
-          position: 'left',
-          label: 'Octo Web',
-        },
-        {
-          type: 'docsVersionDropdown',
-          position: 'right',
-          dropdownActiveClassDisabled: true,
-        },
-      ],
+      navbar: {
+    title: 'Renium Docs',
+    logo: {
+      alt: 'Renium Logo',
+      src: 'img/renium-logo.png',
     },
+    items: [
+      {
+        type: 'docSidebar',
+        sidebarId: 'octoDesktopSidebar',
+        position: 'left',
+        label: 'Octo Desktop',
+      },
+      {
+        type: 'docSidebar',
+        sidebarId: 'octoWebSidebar',
+        position: 'left',
+        label: 'Octo Web',
+      },
+      {
+        type: 'docsVersionDropdown',
+        position: 'right',
+        dropdownActiveClassDisabled: true,
+      },
+      {
+        type: 'localeDropdown',
+        position: 'right',
+      },
+    ],
+  },
 
     algolia: {
       appId: 'NUDWOMOH3M',

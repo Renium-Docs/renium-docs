@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "1.0.0",
+    "description": "The label for version 1.0.0"
+  },
+  "sidebar.octoDesktopSidebar.category.Octo Desktop": {
+    "message": "Octo Desktop",
+    "description": "The label for category Octo Desktop in sidebar octoDesktopSidebar"
+  },
+  "sidebar.octoWebSidebar.category.Octo Web": {
+    "message": "Octo Web",
+    "description": "The label for category Octo Web in sidebar octoWebSidebar"
+  },
+  "sidebar.clientSidebar.category.Geliştirici Dökümanları": {
+    "message": "Geliştirici Dökümanları",
+    "description": "The label for category Geliştirici Dökümanları in sidebar clientSidebar"
+  }
+}
