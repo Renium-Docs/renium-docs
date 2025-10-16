@@ -17,7 +17,7 @@ Aşağıda belirtilen özellikler tüm ekran tipleri için tanımı zorunlu olan
 
 ![Ekran Yetki](./assets/ekran_tanımı.webp) 
 
-- **İcon:** Ekranın menüde hangi iconla görüneceğini ifade eder. İstenen icon yoksa tanım ekranına gidilerek tanımı yapılabilir. İcon görselleri `.png/.jpg/.jpeg` formatında `16px` ve `32px` alanlarına resim yüklenmelidir.
+- **İcon:** Ekranın menüde hangi iconla görüneceğini ifade eder. İstenen icon yoksa tanım ekranına gidilerek tanımı yapılabilir. İcon görselleri `.png/.jpg/.jpeg` formatında olmalıdır.
 
 
 ### Ek Özellikler
