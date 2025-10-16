@@ -35,3 +35,16 @@
 .hidden {
 display: none !important;
 }
+
+
+/* styles.module.css */
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+}
+
+.heading img {
+  width: 1.2em;
+  height: 1.2em;
+}
