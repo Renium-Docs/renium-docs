@@ -1,0 +1,15 @@
+---
+sidebar_position: 2
+--- 
+
+# Başlarken
+
+Başlarken bölümü, Octo Web platformunu ilk kez kullanacak kullanıcılar için temel adımları ve rehberleri içerir. Bu bölüm sayesinde platforma hızlıca alışabilir, en sık kullanılan işlevleri öğrenebilir ve kendi kullanımınızı daha verimli hâle getirebilirsiniz. Bu bölümde şunları bulabilirsiniz:
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+```
+
+Bu bölümü takip ederek Octo Web’i en verimli şekilde kullanmaya adım atabilirsiniz.

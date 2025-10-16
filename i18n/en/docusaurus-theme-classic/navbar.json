@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Renium Docs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Renium Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Octo Desktop": {
+    "message": "Octo Desktop",
+    "description": "Navbar item with label Octo Desktop"
+  },
+  "item.label.Octo Web": {
+    "message": "Octo Web",
+    "description": "Navbar item with label Octo Web"
+  }
+}
