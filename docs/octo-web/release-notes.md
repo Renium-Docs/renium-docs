@@ -13,3 +13,7 @@
 
 # v1.5.59
 12 Ekim 2025
+
+**Hata Düzeltmeleri**
+
+- Hatalar düzeltildi, kararlılıkla ilgili iyileştirmeler yapıldı, uzay-zaman sürekliliği masaya yatırıldı.
