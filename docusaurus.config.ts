@@ -37,7 +37,7 @@ const config: Config = {
             if (locale === 'en') {
               return `https://github.com/Renium-Docs/renium-docs/tree/main/docs/${docPath}`;
             }
-            return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/tr/docusaurus-plugin-content-docs/current/${docPath}`;
+            return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/en/docusaurus-plugin-content-docs/current/${docPath}`;
           },
           routeBasePath: 'docs',
         },
@@ -51,7 +51,7 @@ const config: Config = {
             if (locale === 'en') {
               return `https://github.com/Renium-Docs/renium-docs/tree/main/blog/${blogPath}`;
             }
-            return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/tr/docusaurus-plugin-content-blog/${blogPath}`;
+            return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/en/docusaurus-plugin-content-blog/${blogPath}`;
           },
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
