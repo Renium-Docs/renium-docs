@@ -1,57 +1,57 @@
 ---
 sidebar_position: 1
 ---
-# Hesap Ayarları
 
-## Hesap Oluşturma
+# Account Settings
 
-Kullanıcı hesapları, **Sistem Yöneticisi** rolündeki kullanıcılar tarafından oluşturulur ve tarafınıza teslim edilir.
+## Creating an Account
+
+User accounts are created and provided to you by users with the **System Administrator** role.
 
 :::info
-Yeni bir kullanıcıyı nasıl ekleyeceğinizi veya mevcut kullanıcıların yetkilerini nasıl yöneteceğinizi öğrenmek için **[Yetkilendirme](/docs/octo-web/Yetkilendirme/index.md)** sayfasını inceleyebilirsiniz. Bu modül sayesinde:
-
-- Mevcut kullanıcıların yetkilerini yönetebilir,
-- Yeni kullanıcı ekleyebilir ve onlara uygun roller atayabilirsiniz.
+To learn how to add a new user or manage permissions for existing users, visit the **[Management](/docs/octo-web/Management/index.md)** page.  
+Through this module, you can:
+- Manage the permissions of existing users  
+- Add new users and assign appropriate roles to them  
 :::
-
---- 
-
-## Giriş Yapma
-
-Size ileitlen kullanıcı bilgilerini kullanarak giriş yapmak için;
-
-1. Tarayıcınızdan [Octo Web](https://demo.renium.app) adresine giderek platformumuza erişebilirsiniz.
-
-2. Size ulaştırılan hesap bilgileri ile; ilgili yerleri doldurup login butonuna tıklayınız. 
-
-3. Bilgiler doğruysa hesabınıza yönlendirileceksiniz ve platformu kullanmaya başlayabilirsiniz.
-
-:::tip
-İlk girişinizin ardından güvenliğiniz için şifrenizi değiştirmenizi tavsiye ederiz. Şifrenizi [Kullanıcı Profili](/docs/octo-web/Başlarken/genel_kullanım.md#kullanıcı-profili) ekranından güncelleyebilirsiniz.
-:::
-
-![Gezinme Çubuğu](./assets/login.png)
 
 ---
 
-## Kullanıcı Profili
+## Logging In
 
-**Kullanıcı Profili**, ana sayfanın sağ üst köşesinde yer alan kullanıcı adınıza tıklayarak açabileceğiniz bir menüdür. Menü üç bölümden oluşur:
+To log in using the credentials provided to you:
 
-![Kullanıcı Profili](./assets/kullanıcı_profili.webp)
+1. Open your browser and go to your **assigned Octo address** to access the platform.  
+2. Enter the account credentials you received in the respective fields and click the **Login** button.  
+3. If your credentials are correct, you will be redirected to your account dashboard and can start using the platform.
 
-**1. Kullanıcı Bilgileri:**
-- Bu butona tıkladığınızda anasayfanızda Kullanıcı Bilgileri sekmesi açılır.
-- Sekme içinde hesabınızla ilgili detayları görebilir ve güncelleyebilirsiniz:
-  - **Profil Fotoğrafı:** Mevcut fotoğrafınızı görebilir ve _Select File_ ile yeni bir fotoğraf yükleyebilirsiniz.
-  - **Kullanıcı Bilgileri:** Hesap adınız ve sistemde hangi rolde bulunduğunuzu görebilirsiniz.
-  - **Parola Bilgileri:** Parola değişikliğinizi bu alanda yapabilirsiniz.
+:::tip
+For your security, we recommend changing your password after your first login.  
+You can update it from the [User Profile](/docs/octo-web/Getting-Started/general_usage.md#user-profile) screen.
+:::
 
-![Kullanıcı Profili](./assets/hesapbilgileri.png)
+![Navigation Bar](./assets/login.png)
 
-**2. Sistem Bilgileri:** Platformun **versiyonu ve sunucu bilgileri** gibi teknik detayları görüntüleyebilirsiniz.
+---
 
-**3. Çıkış Yap:** Hesabınızdan güvenli bir şekilde çıkış yapmak için bu butona tıklayınız.
+## User Profile
 
+The **User Profile** menu can be accessed by clicking your username located at the top-right corner of the homepage.  
+The menu consists of three sections:
 
+![User Profile](./assets/kullanıcı_profili.webp)
 
+**1. User Information:**  
+- Clicking this option opens the *User Information* tab on your homepage.  
+- Within this tab, you can view and update details related to your account:
+  - **Profile Picture:** View your current profile photo and upload a new one using *Select File*.  
+  - **User Details:** See your account name and the role assigned to you within the system.  
+  - **Password Information:** Change your password in this section.
+
+![User Information](./assets/hesapbilgileri.png)
+
+**2. System Information:**  
+View technical details such as the platform **version** and **server information**.
+
+**3. Log Out:**  
+Click this option to securely sign out of your account.

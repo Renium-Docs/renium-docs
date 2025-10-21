@@ -2,9 +2,12 @@
 sidebar_position: 2
 --- 
 
-# Başlarken
+# Getting Started
 
-Başlarken bölümü, Octo Web platformunu ilk kez kullanacak kullanıcılar için temel adımları ve rehberleri içerir. Bu bölüm sayesinde platforma hızlıca alışabilir, en sık kullanılan işlevleri öğrenebilir ve kendi kullanımınızı daha verimli hâle getirebilirsiniz. Bu bölümde şunları bulabilirsiniz:
+The **Getting Started** section provides essential steps and guidance for users who are using the Octo Web platform for the first time.  
+Here, you can quickly get familiar with the platform, learn the most frequently used features, and make your experience more efficient.  
+
+In this section, you’ll find:
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
@@ -12,4 +15,4 @@ import DocCardList from '@theme/DocCardList';
 <DocCardList />
 ```
 
-Bu bölümü takip ederek Octo Web’i en verimli şekilde kullanmaya adım atabilirsiniz.
+By following this section, you’ll take your first steps toward using Octo Web in the most effective way possible.

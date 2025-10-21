@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# Yönetim
+# Management
 
-Yönetim bölümü, sistemin genel yönetim ayarlarını yapılandırabileceğiniz ve farklı modüller üzerinde yetkilendirme işlemlerini gerçekleştirebileceğiniz alandır. Bu bölüm üzerinden kullanıcı hesaplarını oluşturabilir, mevcut kullanıcıları düzenleyebilir veya silebilirsiniz. Ayrıca roller tanımlayarak bu rollere özel yetkiler atayabilir, sistem genelinde gösterilecek uyarı ve bilgilendirme mesajlarını yönetebilirsiniz. Kısacası yönetim bölümü, sistemin işleyişini kontrol etmenizi ve kullanıcı yetkilerini merkezi bir noktadan düzenlemenizi sağlar.
+The Management section is where you can configure overall system settings and manage permissions across different modules. Through this section, you can create user accounts, edit or delete existing users. You can also define roles, assign specific permissions to these roles, and manage system-wide notifications and informational messages. In short, the Management section allows you to control the system’s operation and manage user permissions from a centralized location.
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
