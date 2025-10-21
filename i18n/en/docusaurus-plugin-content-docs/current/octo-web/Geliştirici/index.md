@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Geliştirici
+# Developer
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
