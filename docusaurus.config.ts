@@ -32,31 +32,31 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
-          editUrl: ({locale, docPath}) => {
-            if (locale === 'en') {
-              return `https://github.com/Renium-Docs/renium-docs/tree/main/docs/${docPath}`;
-            }
+        sidebarPath: './sidebars.ts',
+        editUrl: ({locale, docPath}) => {
+          if (locale === 'en') {
             return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/en/docusaurus-plugin-content-docs/current/${docPath}`;
-          },
-          routeBasePath: 'docs',
+          }
+          return `https://github.com/Renium-Docs/renium-docs/tree/main/docs/${docPath}`;
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl: ({locale, blogPath}) => {
-            if (locale === 'en') {
-              return `https://github.com/Renium-Docs/renium-docs/tree/main/blog/${blogPath}`;
-            }
-            return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/en/docusaurus-plugin-content-blog/current${blogPath}`;
-          },
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+        routeBasePath: 'docs',
+      },
+      blog: {
+        showReadingTime: true,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          xslt: true,
         },
+        editUrl: ({locale, blogPath}) => {
+          if (locale === 'en') {
+            return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/en/docusaurus-plugin-content-blog/${blogPath}`;
+          }
+          return `https://github.com/Renium-Docs/renium-docs/tree/main/blog/${blogPath}`;
+        },
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+      },
         theme: {
           customCss: './src/css/custom.css',
         },
