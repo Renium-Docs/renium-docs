@@ -13,5 +13,6 @@ In this section, you’ll find:
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
+```
 
 By following this section, you’ll take your first steps toward using Octo Web in the most effective way possible.
