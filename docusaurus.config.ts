@@ -51,7 +51,7 @@ const config: Config = {
             if (locale === 'en') {
               return `https://github.com/Renium-Docs/renium-docs/tree/main/blog/${blogPath}`;
             }
-            return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/en/docusaurus-plugin-content-blog/${blogPath}`;
+            return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/en/docusaurus-plugin-content-blog/current${blogPath}`;
           },
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
