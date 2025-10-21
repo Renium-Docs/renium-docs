@@ -2,104 +2,102 @@
 sidebar_position: 4
 ---
 
-# Ortak İkonlar
+# Common Icons
 
-Aşağıdaki tablo Octo'da en sık kullanılan ikonları tanımlar.
-### Özet
-| İkon | Açıklama |
+The table below defines the most frequently used icons in Octo.
+
+### Overview
+| Icon | Description |
 |:--:|:--|
-| <i class="dxbl-image fa-regular fa-file image"></i> | **[Yeni kayıt](#yeni-kayıt)** — Yeni bir kayıt oluşturur; ekleyen kullanıcı ve tarih ilgili alanlara kaydedilir. |
-| <i class="dxbl-image fa-regular fa-pen-to-square image"></i> | **[Düzenle](#düzenle)** — Seçili kaydı düzenler; güncelleyen kullanıcı ve güncelleme tarihi kaydedilir. |
-| <i class="dxbl-image fa-regular fa-trash-can image"></i> | **[Sil](#sil)** — Seçili kaydı siler (yetkiye bağlı). |
-| <i class="fa-solid fa-arrow-rotate-right"></i> | **[Yenile](#yenile)** — Tablo/grid verisini yeniden yükler. |
-| <i class="fa-solid fa-caret-down"></i> | **[Açılır liste](#açılır-liste)** — Seçenekli alanlarda kütüphane kaynağına ulaştırır; veriler yetkiye göre detaylı incelenebilir veya kütüphanede düzenlenebilir. |
-| <i class="fa-solid fa-ellipsis"></i> | **[Daha fazla işlem (…)](#daha-fazla-işlem)** — İlişkili/bağlantılı kayıtlara ulaşmayı sağlar. |
-| <i class="fa-solid fa-up-right-from-square"></i> | **[Kayıt Tanım Bağlantısı](#dış-bağlantı)** — Değerin tanımına götürür; ilgili kayıt detaylı incelenebilir. |
-| <i class="dxbl-image fa-solid fa-table dxbl-context-menu-item-icon"></i> | **[Tablo işlemi](#tablo-i̇şlemi)** — Seçili satırlar yeni ekran açar. |
-| <i class="dxbl-image fa-regular fa-solid fa-bolt"></i> | **[Soru Sormadan işlem](#soru-sormadan-işlem)** — Soru sormadan işlem yapar. |
-| <i class="fa-regular fa-square-bolt"></i> | **[Soru Soran işlem](#soru-soran-işlem)** — İşlemden önce soru sorar. |
-
-
----
-
-### <i class="dxbl-image fa-regular fa-file image"></i>  Yeni kayıt
-
-Yeni bir kayıt/evrak oluşturur. Tıklandığında boş bir form veya satır açılır; zorunlu alanları doldurup **Kaydet** ile işlemi tamamlarsınız. Varsayılan değerler ve numaralandırma, sistem ayarlarına göre otomatik atanabilir.  
-**İz kaydı:** *ekleyen kullanıcı ve tarih* ilgili alanlara kaydedilir.  
-**Kısayol:** `F2`  
-**Ne zaman kullanılır?** Yeni müşteri, sipariş, iş emri vb. oluştururken.  
-**İpucu:** Zorunlu alanlar yıldız (*) ile işaretlenir; eksik alanları üstteki uyarı çubuğundan takip edin.
+| <i class="dxbl-image fa-regular fa-file image"></i> | **[New Record](#new-record)** — Creates a new record; the user and creation date are logged. |
+| <i class="dxbl-image fa-regular fa-pen-to-square image"></i> | **[Edit](#edit)** — Edits the selected record; updating user and date are logged. |
+| <i class="dxbl-image fa-regular fa-trash-can image"></i> | **[Delete](#delete)** — Deletes the selected record (permissions apply). |
+| <i class="fa-solid fa-arrow-rotate-right"></i> | **[Refresh](#refresh)** — Reloads the table/grid data. |
+| <i class="fa-solid fa-caret-down"></i> | **[Dropdown](#dropdown)** — Opens the library source for selectable fields; data can be inspected or edited based on permissions. |
+| <i class="fa-solid fa-ellipsis"></i> | **[More Actions (…) ](#more-actions)** — Provides access to related/linked records. |
+| <i class="fa-solid fa-up-right-from-square"></i> | **[Record Link](#external-link)** — Takes you to the definition of the value; record can be examined in detail. |
+| <i class="dxbl-image fa-solid fa-table dxbl-context-menu-item-icon"></i> | **[Table Action](#table-action)** — Opens a new screen with the selected rows. |
+| <i class="dxbl-image fa-regular fa-solid fa-bolt"></i> | **[Action without Prompt](#action-without-prompt)** — Executes without asking for confirmation. |
+| <i class="fa-regular fa-square-bolt"></i> | **[Action with Prompt](#action-with-prompt)** — Asks user for input before execution. |
 
 ---
 
-### <i class="dxbl-image fa-regular fa-pen-to-square image"></i>  Düzenle
+### <i class="dxbl-image fa-regular fa-file image"></i>  New Record
 
-Seçili kaydı düzenleme modunda açar. Kaydın statüsüne ve yetkilere bağlı olarak bazı alanlar kilitli olabilir.  
-**İz kaydı:** *güncelleyen kullanıcı ve güncelleme tarihi* kaydedilir.  
-**Ne zaman kullanılır?** Fiyat, teslim tarihi, açıklama gibi alanları güncellerken.  
-**İpucu:** Düzenleme sırasında değişiklikler otomatik kaydedilmez; formu kapatmadan önce **Kaydet**’i tıklayın.
-
----
-
-### <i class="dxbl-image fa-regular fa-trash-can image"></i>  Sil
-
-Seçili kaydı siler. Çoğu ekranda silme işlemi geri alınamaz veya yalnızca yetkili kullanıcılara açıktır.  
-**Ne zaman kullanılır?** Yanlış oluşturulmuş, test amaçlı veya iptal edilen kayıtları kaldırırken.  
-**Uyarı:** Silme, ilişkili alt kayıtları (satırlar, ekler, hareketler) etkileyebilir. Silmeden önce ilişki uyarılarını kontrol edin.
+Creates a new record/document. Clicking opens a blank form or row; fill mandatory fields and click **Save** to complete. Default values and numbering may be automatically assigned by system settings.  
+**Audit:** *Creating user and date* are logged.  
+**Shortcut:** `F2`  
+**When to use:** Creating new customer, order, work order, etc.  
+**Tip:** Mandatory fields are marked with an asterisk (*); track missing fields via the warning bar.
 
 ---
 
-### <i class="fa-solid fa-arrow-rotate-right"></i>  Yenile
+### <i class="dxbl-image fa-regular fa-pen-to-square image"></i>  Edit
 
-Tablo/gridi sunucudan yeniden yükler.  
-**Ne değişir?** Veriler güncellenir; mevcut filtreler ve sıralama tercihleriniz korunur.  
-**İpucu:** Başka kullanıcıların yaptığı değişiklikleri görmek için listeyi yenileyin; sayfayı komple yenilemenize gerek yok.
-
----
-
-### <i class="fa-solid fa-caret-down"></i>  Açılır liste
-
-Alan veya butona bağlı seçenek listesini açar.  
-**Ne zaman kullanılır?** Durum seçimi, tip/alt tip seçimi, hızlı filtreleme.  
-**İpucu:** Yazmaya başlayarak listede arama yapabilirsiniz; uzun listelerde bu çok daha hızlıdır.
+Opens the selected record in edit mode. Some fields may be locked depending on status and permissions.  
+**Audit:** *Updating user and date* are logged.  
+**When to use:** Updating fields like price, delivery date, description, etc.  
+**Tip:** Changes are not auto-saved; click **Save** before closing the form.
 
 ---
 
-### <i class="fa-solid fa-ellipsis"></i>  Daha fazla işlem (…)
+### <i class="dxbl-image fa-regular fa-trash-can image"></i>  Delete
 
-1. Araç Çubuğunda yer almayan ya da sığmayan, bağlama duyarlı ek işlemleri gösterir. 
-2. *Seçenekli alanlar, kütüphane kaynağına ulaştırır.* Veriler daha detaylı incelenebilir; yetkiye göre kütüphanede **düzenlenebilir**.  
-**Örnekler:** “PDF indir”, “Hareketler”, “Etiket Yazdır”, “Kopyala”.  
-**İpucu:** Seçilen nesnelere göre menü içeriği değişebilir; önce nesneyi işaretleyin.
-
----
-
-### <i class="fa-solid fa-up-right-from-square"></i>  Dış bağlantı
-
-*Değerin tanımına götürür; böylece ilgili kayıt detaylı incelenebilir.* 
-
-**Örnekler:** Ürün tanımı, müşteri tanımı, sipariş belgesi vb.  
-**Güvenlik:** Yalnızca yetkili kullanıcılar görebilir.
+Deletes the selected record. Most screens do not allow undo or only allow users with permissions.  
+**When to use:** Removing incorrect, test, or cancelled records.  
+**Warning:** Deleting may affect related child records (rows, attachments, movements). Check relation warnings before deletion.
 
 ---
 
-### <i class="dxbl-image fa-solid fa-table dxbl-context-menu-item-icon"></i>  Tablo işlemi
+### <i class="fa-solid fa-arrow-rotate-right"></i>  Refresh
 
-Seçili satırlar üzerinde ilişkili tablolardaki bilgileri getirir. Herhangi bir işlem yapmaz. Bilgiye ulaşımı hızlandırma amacı taşır. 
-**Örnekler:** Ürün satırında Ürün hareketleri veri işlemi vb.
-
----
-
-### <i class="dxbl-image fa-regular fa-solid fa-bolt"></i>  Soru Sormadan işlem
-
-Kullanıcının herhangi bir bilgi girişi yapmadan çalışan veri işlemleridir.  
-**Örnekler:** “Yeniden hesapla”, “Kayıt onayla”, “Etiket üret”.  
+Reloads the table/grid from the server.  
+**What changes:** Data is updated; your current filters and sorting preferences are preserved.  
+**Tip:** Use to see updates made by other users; no need to reload the entire page.
 
 ---
 
-### <i class="fa-regular fa-square-bolt"></i>  Soru Soran işlem
+### <i class="fa-solid fa-caret-down"></i>  Dropdown
 
-Çalıştırmadan önce parametre formu açan işlemlerdir.  
-**Örnekler:** “Sevk et” (tarih ve araç ister), “Kapat” (not ister), “İptal” (gerekçe ister).  
+Opens the list of options tied to a field or button.  
+**When to use:** Status selection, type/subtype selection, quick filtering.  
+**Tip:** Start typing to search the list; faster for long lists.
 
 ---
+
+### <i class="fa-solid fa-ellipsis"></i>  More Actions (…)
+
+1. Shows context-sensitive actions not visible in the toolbar.  
+2. *Selectable fields lead to library sources.* Data can be inspected or edited based on permissions.  
+**Examples:** “Download PDF”, “Movements”, “Print Label”, “Copy”.  
+**Tip:** Menu content changes based on selected objects; select the object first.
+
+---
+
+### <i class="fa-solid fa-up-right-from-square"></i>  External Link
+
+Takes you to the definition of the value so the record can be inspected in detail.  
+
+**Examples:** Product description, customer profile, order document, etc.  
+**Security:** Only visible to authorized users.
+
+---
+
+### <i class="dxbl-image fa-solid fa-table dxbl-context-menu-item-icon"></i>  Table Action
+
+Displays related table information for the selected rows. Does not perform actions; accelerates access to data.  
+**Examples:** Product row showing product movements.
+
+---
+
+### <i class="dxbl-image fa-regular fa-solid fa-bolt"></i>  Action without Prompt
+
+Executes a data operation without asking for user input.  
+**Examples:** “Recalculate”, “Approve Record”, “Generate Label”.
+
+---
+
+### <i class="fa-regular fa-square-bolt"></i>  Action with Prompt
+
+Opens a parameter form before execution.  
+**Examples:** “Ship” (requires date and vehicle), “Close” (requires note), “Cancel” (requires reason).
