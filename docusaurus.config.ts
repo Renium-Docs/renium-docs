@@ -25,7 +25,6 @@ const config: Config = {
     locales: ['tr', 'en'],
   },
 
-  // 🔹 Buraya plugin'i ekliyoruz
   plugins: [require.resolve('docusaurus-plugin-image-zoom')],
 
   presets: [
