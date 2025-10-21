@@ -145,19 +145,19 @@ Bir satır veya tabloya ait log bilgilerini görmek için, ilgili alanın yanın
 
 
 
-#### Yeni
+#### <i class="dxbl-image fa-regular fa-file image"></i> Yeni
 
 *Yeni* butonu, bulunduğunuz ekrana yeni bir kayıt eklemenizi sağlar. Bu işlemin adımlarını daha detaylı öğrenmek için dokümantasyonun [Yeni Kayıt Ekleme](#yeni-kayıt-ekleme) bölümünü inceleyebilirsiniz.
 
-#### Düzenle
+#### <i class="dxbl-image fa-regular fa-pen-to-square image"></i> Düzenle
 
 *Düzenle* butonu, bulunduğunuz ekrandaki bir kayıdı güncellemenizi sağlar. Bu işlemin adımlarını daha detaylı öğrenmek için dokümantasyonun [Kayıt Güncelleme](#kayıt-güncelleme) bölümünü inceleyebilirsiniz.
 
-#### Sil
+#### <i class="dxbl-image fa-regular fa-trash-can image"></i>Sil
 
 *Sil* butonu, bulunduğunuz ekrandaki bir veye birkaç kaydı silmenizi sağlar. Bu işlemin adımlarını daha detaylı öğrenmek için dokümantasyonun [Kayıt Silme](#kayıt-silme) bölümünü inceleyebilirsiniz.
 
-#### Yenile
+#### <i class="fa-solid fa-arrow-rotate-right"></i> Yenile
 
 Sistemde herhangi bir değişiklik yaptıktan sonra, bu değişikliğin ekrana yansıması biraz zaman alabilir. Değişiklikleri daha hızlı görebilmek için **yenile butonuna** tıklayabilirsiniz. Bu işlem, arka plandaki sorguların tekrar çalışmasını sağlayarak verilerin güncel hâlde görüntülenmesini sağlar.
 
