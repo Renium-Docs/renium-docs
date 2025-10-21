@@ -34,7 +34,14 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/',
+          editUrl: ({locale, docPath}) => {
+            // İngilizce için ana docs klasörü
+            if (locale === 'en') {
+              return `https://github.com/Renium-Docs/renium-docs/tree/main/docs/${docPath}`;
+            }
+            // Türkçe için i18n klasörü
+            return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/tr/docusaurus-plugin-content-docs/current/${docPath}`;
+          },
           routeBasePath: 'docs',
         },
         blog: {
@@ -43,7 +50,12 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/blog/',
+          editUrl: ({locale, blogPath}) => {
+            if (locale === 'en') {
+              return `https://github.com/Renium-Docs/renium-docs/tree/main/blog/${blogPath}`;
+            }
+            return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/tr/docusaurus-plugin-content-blog/${blogPath}`;
+          },
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -54,7 +66,6 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
   headTags: [
     {
       tagName: 'meta',
