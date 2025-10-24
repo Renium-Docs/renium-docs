@@ -96,3 +96,14 @@ Bu sayede her rapor, içeriğine uygun ve benzersiz bir adla kaydedilmiş olur. 
 1. Dışa aktarmak istediğiniz raporu **Rapor Tasarlayıcısı** içinde açınız.
 2. Araç çubuğunda bulunan **Scripts** butonuna tıklayınız.
 3. Bu alanda yazacağınız **script kodu** ile, dışa aktarılacak rapor dosyasının adını ve diğer özelliklerini özelleştirebilirsiniz.
+
+:::tip[Örnek]
+![boşdurumu_2](./assets/script.png)  
+
+Örnek scriptte üç ana adım bulunmaktadır:
+1. `OrderID`, `ProjectName` ve `SalesOrderDate` verileri rapordan alınır.  
+2. Alınan değerler, boşluk ve özel karakter içermeyecek şekilde düzenlenir.  
+3. Formatlanmış veriler kullanılarak dışa aktarılacak dosyanın adı `OrderID_ProjectName_SalesOrderDate.pdf` şeklinde belirlenir.
+
+- **OrderID = 1, ProjectName = demo, SalesOrderDate = 24.10.2025 olduğu bir rapor dosyası dışarı aktarılırken oluşacak dosya adı `1_demo_24102025.pdf` şeklindedir.**
+:::
