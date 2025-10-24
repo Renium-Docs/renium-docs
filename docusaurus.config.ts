@@ -32,31 +32,44 @@ const config: Config = {
       'classic',
       {
         docs: {
-        sidebarPath: './sidebars.ts',
-        editUrl: ({locale, docPath}) => {
-          if (locale === 'en') {
-            return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/en/docusaurus-plugin-content-docs/current/${docPath}`;
-          }
-          return `https://github.com/Renium-Docs/renium-docs/tree/main/docs/${docPath}`;
+          sidebarPath: './sidebars.ts',
+          editUrl: ({locale, docPath}) => {
+            if (locale === 'en') {
+              return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/en/docusaurus-plugin-content-docs/current/${docPath}`;
+            }
+            return `https://github.com/Renium-Docs/renium-docs/tree/main/docs/${docPath}`;
+          },
+          routeBasePath: 'docs',
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: 'Next 🚧',
+              path: 'next',
+              banner: 'none',
+            },
+            '1.0.0': {
+              label: '1.0.0',
+              path: '1.0.0',
+              banner: 'none',
+            },
+          },
         },
-        routeBasePath: 'docs',
-      },
-      blog: {
-        showReadingTime: true,
-        feedOptions: {
-          type: ['rss', 'atom'],
-          xslt: true,
+        blog: {
+          showReadingTime: true,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
+          editUrl: ({locale, blogPath}) => {
+            if (locale === 'en') {
+              return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/en/docusaurus-plugin-content-blog/${blogPath}`;
+            }
+            return `https://github.com/Renium-Docs/renium-docs/tree/main/blog/${blogPath}`;
+          },
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
         },
-        editUrl: ({locale, blogPath}) => {
-          if (locale === 'en') {
-            return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/en/docusaurus-plugin-content-blog/${blogPath}`;
-          }
-          return `https://github.com/Renium-Docs/renium-docs/tree/main/blog/${blogPath}`;
-        },
-        onInlineTags: 'warn',
-        onInlineAuthors: 'warn',
-        onUntruncatedBlogPosts: 'warn',
-      },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -92,36 +105,36 @@ const config: Config = {
 
     image: 'img/docusaurus-social-card.jpg',
 
-      navbar: {
-    title: 'Renium Docs',
-    logo: {
-      alt: 'Renium Logo',
-      src: 'img/renium-logo.png',
+    navbar: {
+      title: 'Renium Docs',
+      logo: {
+        alt: 'Renium Logo',
+        src: 'img/renium-logo.png',
+      },
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'octoDesktopSidebar',
+          position: 'left',
+          label: 'Octo Desktop',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'octoWebSidebar',
+          position: 'left',
+          label: 'Octo Web',
+        },
+        {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          dropdownActiveClassDisabled: true,
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
+      ],
     },
-    items: [
-      {
-        type: 'docSidebar',
-        sidebarId: 'octoDesktopSidebar',
-        position: 'left',
-        label: 'Octo Desktop',
-      },
-      {
-        type: 'docSidebar',
-        sidebarId: 'octoWebSidebar',
-        position: 'left',
-        label: 'Octo Web',
-      },
-      {
-        type: 'docsVersionDropdown',
-        position: 'right',
-        dropdownActiveClassDisabled: true,
-      },
-      {
-        type: 'localeDropdown',
-        position: 'right',
-      },
-    ],
-  },
 
     algolia: {
       appId: 'NUDWOMOH3M',
@@ -145,7 +158,7 @@ const config: Config = {
           items: [
             {label: 'Octo Desktop', to: '/docs/octo-desktop'},
             {label: 'Octo Web', to: '/docs/octo-web'},
-          ],
+            ],
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Renium. Tüm hakları saklıdır.`,
