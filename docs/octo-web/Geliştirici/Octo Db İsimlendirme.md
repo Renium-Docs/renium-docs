@@ -108,7 +108,9 @@
 * **DF:** `Df_Tb_Rn_System_User_AddDate`
 * **Sequence:** `S_Tb_Rn_Finance_ExchangeRate_RateNo`
 
-:::tip `...\OneDrive - RENIUM\Belgeler - Proje\General\GitHub\SQL-DEV\SQL-PROMPT\Snippets` klasöründen daha hızlı ve isimlendirme standartlarına uygun SQL snippet’lara erişebilirsiniz:::
+:::tip SQL Snippets
+İsimlendirme standartlarına uygun hazır SQL kod şablonlarına erişmek için [SQL Snippets ve Şablonlar](./sql_snippets.md) sayfasını ziyaret edin.
+:::
 
 ---
 
