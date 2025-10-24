@@ -41,6 +41,7 @@ const config: Config = {
           },
           routeBasePath: 'docs',
           lastVersion: 'current',
+          onlyIncludeVersions: ['current'], // 🔹 Bu satırı ekledim - sadece 'next' versiyonu gösterir
           versions: {
             current: {
               label: 'Next 🚧',
