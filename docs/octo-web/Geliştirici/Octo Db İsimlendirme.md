@@ -121,7 +121,8 @@
 
 ### Redgate Sql Prompt
 
-:::tip Snippet’larla hızlı ve tutarlı **Sql** yazın.
+:::tip
+Snippet’larla hızlı ve tutarlı **Sql** yazın.
 İsimlendirme kurallarına **%100 uyumlu** **Sql** kodu yazmak için şu repo’daki hazır şablonları kullanın:
 **[ReniumYazilim / SQL-DEV / SQL-PROMPT / Snippets](http://github.com/ReniumYazilim/SQL-DEV/tree/main/SQL-PROMPT/Snippets)**
 :::
@@ -143,7 +144,8 @@
 3. İsimlendirme kontrol listemize göre alan adlarını gözden geçirin.
 4. Kaynağı “şablon” olarak saklayın; yeni nesnelerde doğrudan kopyalayıp doldurun.
 
-:::tip Renium kullanıcıları `...\OneDrive - RENIUM\Belgeler - Proje\General\GitHub\SQL-DEV\SQL-PROMPT\Snippets` klasöründen daha hızlı ve isimlendirme standartlarına uygun SQL snippet’lara erişebilirsiniz:::
+:::tip 
+Renium kullanıcıları. `...\OneDrive - RENIUM\Belgeler - Proje\General\GitHub\SQL-DEV\SQL-PROMPT\Snippets` klasöründen daha hızlı ve isimlendirme standartlarına uygun SQL snippet’lara erişebilirsiniz:::
 
 ---
 
