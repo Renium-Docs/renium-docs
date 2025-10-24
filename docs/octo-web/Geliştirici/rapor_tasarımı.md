@@ -88,3 +88,11 @@ Artık raporunuz, tanımladığınız veri kaynağı ve parametrelerle birlikte 
 Oluşturduğunuz raporu Octo Lab ile ilgili ekranlara ekledikten sonra, raporu çalıştırmak istediğiniz kayda sağ tıklayarak **Raporlar** alanına ulaşabilirsiniz. Bu alanda oluşturduğunuz tüm raporlar listelenecektir. Görüntülemek istediğiniz raporu seçtiğinizde, sistem raporu otomatik olarak çalıştırarak ilgili verileri ekrana getirir. Böylece, seçtiğiniz kayıt üzerinden raporunuzu kolayca görüntüleyebilirsiniz.
 
 ## Rapor Dosyalarının İsimlendirmesi
+
+Raporlarınızı dışa aktarırken, sistem **dosya isimlerini otomatik ve özel kurallara göre** oluşturur. Bu işlemi **Rapor Tasarlayıcısı** ekranından yönetebilirsiniz. Sistem, rapor dışarıya aktarılmadan önce veri kaynağındaki bazı alanları kullanarak dinamik bir dosya adı üretir.
+
+Bu sayede her rapor, içeriğine uygun ve benzersiz bir adla kaydedilmiş olur. Bunu yapmak için:
+
+1. Dışa aktarmak istediğiniz raporu **Rapor Tasarlayıcısı** içinde açınız.
+2. Araç çubuğunda bulunan **Scripts** butonuna tıklayınız.
+3. Bu alanda yazacağınız **script kodu** ile, dışa aktarılacak rapor dosyasının adını ve diğer özelliklerini özelleştirebilirsiniz.
