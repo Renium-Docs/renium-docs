@@ -38,15 +38,53 @@ Bu işlemi gerçekleştirmek için aşağıdaki adımları izleyebilirsiniz:
 1. Sağ tarafta bulunan menüden **Field List** sekmesine tıklayınız.  
 2. **SqlDataSource** başlığı yanında yer alan **Add Query** butonuna basınız.  
 3. Açılan pencerede sorgunuza bir **isim** veriniz.  
-4. İsterseniz SQL sorgunuzu doğrudan yazabilirsiniz, ancak tabloları ve alan adlarını daha net görebilmek için **Run Query Builder** butonuna tıklayarak **Query Builder** ekranını açmanız önerilir.  
-5. Açılan Query Builder ekranında sağ tarafta bulunan **View** ve **Table** listelerinden  
-   raporunuza dahil etmek istediğiniz alanları seçiniz.  
-6. Seçtiğiniz alanlar, **rapor tasarım aracında** erişilebilir hale gelecektir.  
+4. SQL sorgunuzu doğrudan yazabilirsiniz, ancak tabloları ve alan adlarını daha net görebilmek için **Run Query Builder** butonuna tıklayarak **Query Builder** ekranını açmanız önerilir.  
+5. Açılan **Query Builder** ekranında, sağ tarafta yer alan **View** ve **Table** listelerinden raporunuza dahil etmek istediğiniz alanları seçiniz.  
+6. Seçtiğiniz alanlar artık **Rapor Tasarım Aracı** içinde kullanılabilir hale gelecektir.  
+7. Raporunuzun belirli filtrelerle çalışmasını istiyorsanız da, **Parameters** alanından parametre ekleyebilirsiniz:  
+    - **+ (Ekle)** simgesine tıklayın.  
+   - Açılan alanda parametrenize bir **isim** verin isterseniz description alanına **açıklama** da ekleyebilirsiniz.  
+   - **Type (Veri Tipi)** alanından uygun veri tipini seçin (*String, Int, Date* vb.).  
+   - Gerekli ayarları tamamladıktan sonra **Kaydet** butonuna basın.  
 
-İçeri aktardığınız veriler, **Field List** alanının altında **hiyerarşik bir yapı** şeklinde görüntülenir.   
-Buradan istediğiniz tablo veya alanı **sürükle-bırak (drag & drop)** yöntemiyle doğrudan rapor tasarım alanına ekleyebilirsiniz.  
+#### Veri Kaynağı Ayarları
+SQL kaynağınızı ve parametrelerinizi oluşturduktan sonra, Rapor Tasarlayıcısında sağ tarafta **Properties** ekranında **Report Tasks** başlığı altında aşağıdaki değerleri giriniz:  
+- **Data Source**  
+- **Data Member**  
+- **Filter String:** Raporun filtreleme koşullarını belirler.  
+  Burada, filtreleme işlemini veritabanındaki `WHERE` koşulu gibi düşünebilirsiniz.  
+  **Oluşturduğunuz parametrelerin hangi durumda kullanılacağını bu alanda tanımlayabilirsiniz.**
+
+İçeri aktardığınız veriler ve oluşturduğunuz parametreler, **Field List** alanının altında **hiyerarşik bir yapı** şeklinde görüntülenir.   
+Buradan istediğiniz alanı **sürükle-bırak (drag & drop)** yöntemiyle doğrudan rapor tasarım alanına ekleyebilirsiniz.  
 
 ### Raporun Tasarımı
 
 - Sol tarafata bulunan tasarım aracından istediğiniz bileşeni raporunuza ekleyebilirsiniz. (grafik, resim, text, imza etc.)
 - **Report Explorer** kısmında, oluşturduğunuz raporun tüm bileşenlerinin **hiyerarşik yapısını** inceleyebilirsiniz. Bu yapı, raporun genel organizasyonunu kolayca yönetmenizi sağlar.
+
+### Raporun Ekranlarla İlişkilendirilmesi
+
+Oluşturduğunuz raporları belirli ekranlarda görüntüleyebilmek için bu raporları ilgili ekranlara **manuel olarak eklemeniz** gerekir. Bunun için aşağıdaki adımları izleyebilirsiniz:
+
+1. Raporu eklemek istediğiniz ekrana gidiniz.  
+2. Araç çubuğunun en başında bulunan ⚙️ simgesine tıklayarak **Octo Lab’e Git** seçeneğini seçiniz.  
+3. Octo Lab ekranı açıldığında **Belgeler** sekmesine gidiniz.  
+4. Araç çubuğundan **Yeni** butonuna tıklayınız.  
+5. Açılan formda aşağıdaki alanları doldurunuz:  
+   - **Rapor ID:** Oluşturduğunuz raporun ID’sini giriniz. (Eğer bilmiyorsanız, *Rapor Tanımları* ekranından rapor ID’sine ulaşabilirsiniz.)  
+   - **Rapor Adı:** Rapor için görünecek ismi giriniz.  
+   - **Eğer raporunuzda parametre kullanıyorsanız,**
+      - **ITFieldName:** Eğer raporunuzda parametre kullanıyorsanız, bu alanda parametrenizin ekran üzerindeki adını yazmanız gerekmektedir.
+      - **DITFİlterFieldName:** Raporunuzu oluştururken belirlediğiniz parametre değişkeninin adını giriniz. 
+   - **Sıra No**
+6. Bu alanları doldurduktan sonra **Kaydet** butonuna basınız.  
+
+Bu işlemler tamamlandığında, oluşturduğunuz rapor **seçtiğiniz ekran** üzerinden erişilebilir ve kolayca görüntülenebilir hale gelecektir.  
+Artık raporunuz, tanımladığınız veri kaynağı ve parametrelerle birlikte aktif olarak kullanılabilir durumdadır.
+
+### Raporun Görüntülenmesi
+
+Oluşturduğunuz raporu Octo Lab ile ilgili ekranlara ekledikten sonra, raporu çalıştırmak istediğiniz kayda sağ tıklayarak **Raporlar** alanına ulaşabilirsiniz. Bu alanda oluşturduğunuz tüm raporlar listelenecektir. Görüntülemek istediğiniz raporu seçtiğinizde, sistem raporu otomatik olarak çalıştırarak ilgili verileri ekrana getirir. Böylece, seçtiğiniz kayıt üzerinden raporunuzu kolayca görüntüleyebilirsiniz.
+
+## Rapor Dosyalarının İsimlendirmesi
