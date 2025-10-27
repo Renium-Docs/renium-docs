@@ -7,7 +7,7 @@ sidebar_position: 1
 
 # Ürün Kod-Ad Oluşumu
 
-Bu rehber, **PSP06_OUK_KonfeksiyonPaketUrun(@UrunTID)** çalıştığında **Ürün Kodu** ve **Ürün Adı** alanlarının nasıl OLUŞTUĞUNU ve sizin hangi alanları DOLDURMANIZ gerektiğini sade bir dille açıklar. Amaç, koddaki sembollerin kaynağını görünür kılmak ve yanlış/eksik veri girişini önlemektir.
+Bu rehber, **Ürün Kodu** ve **Ürün Adı** alanlarının nasıl OLUŞTUĞUNU ve sizin hangi alanları DOLDURMANIZ gerektiğini sade bir dille açıklar. Amaç, koddaki sembollerin kaynağını görünür kılmak ve yanlış/eksik veri girişini önlemektir.
 
 ## Paket Ürünler
 
@@ -29,7 +29,9 @@ Mevcutta, **Konfeksiyon Malzemeleri** isim oluşumuna dahil değildir. **Banyo P
 <BilesenUrunAdi> | <KanatSayisiAdet> | <AmbalajTipKodu> | <Insert BeytugUrunKodu> | <Ambalaj BeytugUrunKodu> | <Etiket BeytugUrunKodu>
 ```
 
-**İpucu:** Insert / Ambalaj / Etiket ürünlerinin **BeytugUrunKodu** tanımlı olmalı; aksi halde isimde boş kalabilir.
+:::tip 
+Insert / Ambalaj / Etiket ürünlerinin **BeytugUrunKodu** tanımlı olmalı; aksi halde isimde boş kalabilir.
+:::
 
 #### Örnek
 * Bileşen: `ÜRÜN 1 (Id=1)`
@@ -73,7 +75,7 @@ Mevcutta, **Konfeksiyon Malzemeleri** isim oluşumuna dahil değildir. **Banyo P
   <BilesenUrunId>-<UrunAgaciMiktar>; ... ; <BilesenUrunId>-<UrunAgaciMiktar>
   ```
 
-**Ürün Adı** şu şekilde oluşturulur:
+**Ürün Adı** ara listeler ile şu şekilde oluşturulur:
 
 ```
 <BilesenUrunTipKodları> | <BilesenKonfOlcuKodlarıveUrunAgaciMiktar>  | <BilesenVaryantKodları>
@@ -82,18 +84,20 @@ Mevcutta, **Konfeksiyon Malzemeleri** isim oluşumuna dahil değildir. **Banyo P
 **Oluşan ara listeler:**
 
 * **Bileşen Urun Tipleri (BilesenUrunTipKodları):**
+    * Tek tip ise: `UrunTipKodu`
+        * Örn: `BP (Banyo Perdesi)`
+    * Birden fazla ise: `UrunTipKodu & UrunTipKodu & ...`
+        * Örn: `BP & SP` (Banyo Perdesi, Suppla)
 
-  * Tek tip ise: `UrunTipKodu`
-  * Birden fazla ise: `UrunTipKodu & UrunTipKodu & ...`
-
-* **Ölçüler (Ad’a gider):**
+* **Bileşen Konf Olcu Kodları ve Ürün Ağaci Miktar:**
 
   ```
-  <OlcuKodu>/<UrunAgaciBirim_Ad> & <OlcuKodu>/<UrunAgaciMiktar> & ...
+  <KonfOlcuKodu>/<UrunAgaciBirimMiktar> & <KonfOlcuKodu>/<UrunAgaciBirimMiktar> & ...
   ```
-* **Varyantlar (Ad’a gider):**
-
+    * Örn: `150X240/1 & 40X160/1 & 40X40/10`
+* **Bileşen Varyant Kodları:**
   * Genel durumda: `BaskiDesenVaryantKodu-BaskiDesenVaryantKodu-...`
+      * Örn:  `V1 - V2 -V3`
   * **Grup=1** özel durumda: `VaryantNo;VaryantNo;...`
 
 **Grup Sayısı (özel durum):**
