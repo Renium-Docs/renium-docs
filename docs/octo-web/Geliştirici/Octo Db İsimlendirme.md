@@ -16,6 +16,10 @@
 * **Tarih/zaman alanları:** `Date`, `DateTime`, `UtcDateTime` son ekleri kullanılır (ör. `AddDate`, `UpdateDate`, `UpdateDateTime`). Datetime tercih edilir. smalldatetime tipinden kaçınılmalıdır.
 * **Mantıksal alanlar:** `Is*` ile başlar ve bit tipindedir(ör. `IsActive`, `IsFinished`). 'Tiynint' tipinden kaçınılmalıdır. 
 * **Sayısal Alanlar:** Tamsayı için 'int', virgüllü sayı için 'decimal(18,6)' tipi kullanılır. 'Tiynint' tipinden kaçınılmalıdır.
+* **Terim seçimi (tip/tür/grup):** Aynı anlama gelebilecek ifadeler arasında `tip` (İngilizce karşılığı: `Type`) tercih edilir. “Tür”, “grup”, “sınıf”, “kategori” gibi kelimeler isimlendirmede kullanılmaz.
+   * **Doğru:** `ItemTypeId, PriceTypeId, OperationTypeId`
+   * **Yanlış:** `ItemTurId, PriceGroupId, OperationClassId`
+    
 * **Sabit/standart kısaltmalar:** Kullanılmamaya çalışılır. Ancak gerekli olduğunda, herkesçe bilinen ve proje genelinde **tutarlı** bir liste ile sınırlandırılır:
   * **İzin verilenler (örnek):** `Id`, `No` (numara), `Qty` (miktar), `Avg`, `Min`, `Max`, `Net`, `Gross`, `Ref`, `Code`, `Desc` (gerekliyse).
   * **Kaçınılacaklar:** ...
