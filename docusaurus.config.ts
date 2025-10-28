@@ -25,7 +25,6 @@ const config: Config = {
     locales: ['tr', 'en'],
   },
 
-  // 🔹 Buraya plugin'i ekliyoruz
   plugins: [require.resolve('docusaurus-plugin-image-zoom')],
 
   presets: [
@@ -34,8 +33,27 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/',
+          editUrl: ({locale, docPath}) => {
+            if (locale === 'en') {
+              return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/en/docusaurus-plugin-content-docs/current/${docPath}`;
+            }
+            return `https://github.com/Renium-Docs/renium-docs/tree/main/docs/${docPath}`;
+          },
           routeBasePath: 'docs',
+          lastVersion: 'current',
+          onlyIncludeVersions: ['current'], // 🔹 Bu satırı ekledim - sadece 'next' versiyonu gösterir
+          versions: {
+            current: {
+              label: 'Next 🚧',
+              path: 'next',
+              banner: 'none',
+            },
+            '1.0.0': {
+              label: '1.0.0',
+              path: '1.0.0',
+              banner: 'none',
+            },
+          },
         },
         blog: {
           showReadingTime: true,
@@ -43,7 +61,12 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/blog/',
+          editUrl: ({locale, blogPath}) => {
+            if (locale === 'en') {
+              return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/en/docusaurus-plugin-content-blog/${blogPath}`;
+            }
+            return `https://github.com/Renium-Docs/renium-docs/tree/main/blog/${blogPath}`;
+          },
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -54,7 +77,6 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
   headTags: [
     {
       tagName: 'meta',
@@ -108,6 +130,10 @@ const config: Config = {
           position: 'right',
           dropdownActiveClassDisabled: true,
         },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
       ],
     },
 
@@ -133,7 +159,7 @@ const config: Config = {
           items: [
             {label: 'Octo Desktop', to: '/docs/octo-desktop'},
             {label: 'Octo Web', to: '/docs/octo-web'},
-          ],
+            ],
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Renium. Tüm hakları saklıdır.`,

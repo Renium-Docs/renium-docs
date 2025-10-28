@@ -16,6 +16,10 @@
 * **Tarih/zaman alanları:** `Date`, `DateTime`, `UtcDateTime` son ekleri kullanılır (ör. `AddDate`, `UpdateDate`, `UpdateDateTime`). Datetime tercih edilir. smalldatetime tipinden kaçınılmalıdır.
 * **Mantıksal alanlar:** `Is*` ile başlar ve bit tipindedir(ör. `IsActive`, `IsFinished`). 'Tiynint' tipinden kaçınılmalıdır. 
 * **Sayısal Alanlar:** Tamsayı için 'int', virgüllü sayı için 'decimal(18,6)' tipi kullanılır. 'Tiynint' tipinden kaçınılmalıdır.
+* **Terim seçimi (tip/tür/grup):** Aynı anlama gelebilecek ifadeler arasında `tip` (İngilizce karşılığı: `Type`) tercih edilir. “Tür”, “grup”, “sınıf”, “kategori” gibi kelimeler isimlendirmede kullanılmaz.
+   * **Doğru:** `ItemTypeId, PriceTypeId, OperationTypeId`
+   * **Yanlış:** `ItemTurId, PriceGroupId, OperationClassId`
+    
 * **Sabit/standart kısaltmalar:** Kullanılmamaya çalışılır. Ancak gerekli olduğunda, herkesçe bilinen ve proje genelinde **tutarlı** bir liste ile sınırlandırılır:
   * **İzin verilenler (örnek):** `Id`, `No` (numara), `Qty` (miktar), `Avg`, `Min`, `Max`, `Net`, `Gross`, `Ref`, `Code`, `Desc` (gerekliyse).
   * **Kaçınılacaklar:** ...
@@ -108,10 +112,6 @@
 * **DF:** `Df_Tb_Rn_System_User_AddDate`
 * **Sequence:** `S_Tb_Rn_Finance_ExchangeRate_RateNo`
 
-:::tip `...\OneDrive - RENIUM\Belgeler - Proje\General\GitHub\SQL-DEV\SQL-PROMPT\Snippets` klasöründen daha hızlı ve isimlendirme standartlarına uygun SQL snippet’lara erişebilirsiniz:::
-
----
-
 ## Stil Denetim Listesi (Hızlı Kontrol)
 
 * [ ] Segmentler `_` ile ayrıldı mı?
@@ -120,3 +120,37 @@
 * [ ] Entity adları tekil mi?
 * [ ] PK/FK, tarih ve bit alan isimleri kurala uygun mu?
 * [ ] Prefix ve modül kodu doğru mu?
+
+## Snippet 
+
+### Redgate Sql Prompt
+
+:::tip
+Snippet’larla hızlı ve tutarlı **Sql** yazın.
+İsimlendirme kurallarına **%100 uyumlu** **Sql** kodu yazmak için şu repo’daki hazır şablonları kullanın:
+**[ReniumYazilim / SQL-DEV / SQL-PROMPT / Snippets](http://github.com/ReniumYazilim/SQL-DEV/tree/main/SQL-PROMPT/Snippets)**
+:::
+
+#### Hızlı Seç: Senaryo → Snippet
+
+| Senaryo | Kullanılacak Snippet | 
+|---|---|
+| **Tablo oluşturma** | `snp_CreateTable-a27c8d44-5ecc-475a-90a1-caf7b22dbe24.json` |
+| **SP oluşturma** | `snp_CreateSp-0c85b39e-3122-44db-9de0-603b18f4bec6.json` |
+| **TvFn / Fn** | `xxx` / `Function_TvFn_Template.sql` |
+| **Trigger** | `xxx` | 
+| **Index / Unique Index** | `xxx` |
+
+
+#### Editörlerde (Ssms / Visual Studio) snippet’ları nasıl kullanırım?
+1. Repoyu klonlayın veya **ZIP olarak indirin**. 
+2. Editörde **snippet dosyasını açın** ve kendi tablo/nesne adınızla düzenleyin.
+3. İsimlendirme kontrol listemize göre alan adlarını gözden geçirin.
+4. Kaynağı “şablon” olarak saklayın; yeni nesnelerde doğrudan kopyalayıp doldurun.
+
+:::tip 
+Renium kullanıcıları. `...\OneDrive - RENIUM\Belgeler - Proje\General\GitHub\SQL-DEV\SQL-PROMPT\Snippets` klasöründen daha hızlı ve isimlendirme standartlarına uygun SQL snippet’lara erişebilirsiniz:::
+
+---
+
+

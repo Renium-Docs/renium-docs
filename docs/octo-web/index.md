@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+toc_min_heading_level: 3
 ---
 
-# <img src="https://github.com/user-attachments/assets/798c3f73-d99d-424d-a663-663b88d045c0" alt="Octo" style="width:1.2em;height:1.2em;vertical-align:-0.2em;margin-right:.25em;" /> Octo Hakkında
+# Octo Hakkında 
 
 Octo, farklı ölçeklerdeki işletmelerin için geliştirilmiş entegre kurumsal kaynak planlama (ERP) çözümüdür. *Tek bir sistem* aracılığıyla gerçek zamanlı kurumsal bilgilere erişmenizi sağlayarak şirketinizin her alanını yönetmenizde size destek olur. Uygulama, her biri farklı bir kurumsal işlevi kapsayan *çeşitli modüllerden* oluşur. 
 

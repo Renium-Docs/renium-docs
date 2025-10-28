@@ -20,7 +20,7 @@ Yeni bir kullanıcıyı nasıl ekleyeceğinizi veya mevcut kullanıcıların yet
 
 Size ileitlen kullanıcı bilgilerini kullanarak giriş yapmak için;
 
-1. Tarayıcınızdan [Octo Web](https://demo.renium.app) adresine giderek platformumuza erişebilirsiniz.
+1. Tarayıcınızdan sizin için oluşturulan Octo adresine giderek platformumuza erişebilirsiniz.
 
 2. Size ulaştırılan hesap bilgileri ile; ilgili yerleri doldurup login butonuna tıklayınız. 
 
