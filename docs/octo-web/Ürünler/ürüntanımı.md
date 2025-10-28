@@ -5,7 +5,7 @@ sidebar_position: 1
 # Ürün Tanımı
 
 
-# Ürün Kod-Ad Oluşumu
+## Ürün Kod-Ad Oluşumu
 
 Bu rehber, **Ürün Kodu** ve **Ürün Adı** alanlarının nasıl OLUŞTUĞUNU ve sizin hangi alanları DOLDURMANIZ gerektiğini sade bir dille açıklar. Amaç, koddaki sembollerin kaynağını görünür kılmak ve yanlış/eksik veri girişini önlemektir.
 
@@ -16,7 +16,7 @@ Bu rehber, **Ürün Kodu** ve **Ürün Adı** alanlarının nasıl OLUŞTUĞUNU 
 Mevcutta, **Konfeksiyon Malzemeleri** isim oluşumuna dahil değildir. **Banyo Perdesi, masa örtüsü, runner, supla** vb. dahildir.
 
 
-### Tek Hammadde (Hammadde sayısı = 1)
+#### Tek Hammadde (Hammadde sayısı = 1)
 
 **Ürün Kodu** şu şekilde oluşturulur:
 ```
@@ -68,7 +68,7 @@ Insert / Ambalaj / Etiket ürünlerinin **BeytugUrunKodu** tanımlı olmalı; ak
 5. **Etiket Ürünü** (EtiketUrun) → `Ürünler`
 
 ---
-### Birden Fazla Hammadde (Hammadde sayısı > 1)
+#### Birden Fazla Hammadde (Hammadde sayısı > 1)
 **Ürün Kodu** şu şekilde oluşturulur:
 
   ```
