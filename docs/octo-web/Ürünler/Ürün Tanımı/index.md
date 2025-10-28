@@ -154,3 +154,9 @@ SATEN & POPELİN | 36/AD & 38/AD | V001-V008
 POPELİN | 36 & 12 AD | DTK-05 | BD-101 / 10;12;14
 ```
 ---
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+```
