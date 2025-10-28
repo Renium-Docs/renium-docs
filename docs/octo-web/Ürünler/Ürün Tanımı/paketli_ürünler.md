@@ -16,7 +16,7 @@ Kod ve oluşumda temel olarak Ürün ağacı bileşenlerinin;
   - **Bileşen Sayısı = 1** 
   - **Bileşen Sayısı > 1**
     - **Farklı alt grup sayısı = 1**
-    - **[Farklı alt grup sayısı > 1](#birden-fazla-bilesen-urun-alt-grup)**
+    - **Farklı alt grup sayısı > 1**
       
 dikkate alınır. Aşağıda kurallar detaylıca açıklanmıştır.
 
@@ -170,6 +170,7 @@ SATEN & POPELİN | 36/AD & 38/AD | V001-V008
 ## Etiket Ürünü
 
 ---
+
 
 
 
