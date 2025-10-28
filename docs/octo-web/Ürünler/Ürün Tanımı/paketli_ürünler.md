@@ -92,7 +92,6 @@ Insert / Ambalaj / Etiket ürünlerinin **BeytugUrunKodu** tanımlı olmalı; ak
 Örn:
 <MS & RN & PC> | <150X240/1 & 40X160/1 & 40X40/10> | V1 - V2 -V3
 ```
-    ```
 :::info
 
 * 2 satır hammadde, SıraNo: 1,2,3
