@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Ürünler
+# Ürün Tanımı
 
 
 # Ürün Kod-Ad Oluşumu
