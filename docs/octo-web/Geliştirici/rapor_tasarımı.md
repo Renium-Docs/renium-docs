@@ -16,6 +16,8 @@ Rapor tasarımı, sistemdeki verileri ve tasarım aracını kullanarak dilediği
 
 Yeni bir rapor oluşturmak için aşağıdaki adımları izleyebilirsiniz:
 
+![Yeni Rapor](./assets/yeni_rapor.gif)
+
 1. **Rapor Tasarlayıcısı** butonuna tıklayınız.  
    Bu işlem sizi **Rapor Tasarımı** ekranına yönlendirecektir.  
 2. Sol üst köşede bulunan ☰ (**Hamburger menü**) ikonuna tıklayınız.  
@@ -35,19 +37,28 @@ Raporunuzda göstermek istediğiniz verileri, ilgili tablolardan **SQL sorgular�
 
 Bu işlemi gerçekleştirmek için aşağıdaki adımları izleyebilirsiniz:
 
+![Veri Kaynağı](./assets/verikaynağı_1.webp)
+
 1. Sağ tarafta bulunan menüden **Field List** sekmesine tıklayınız.  
+
+![Veri Kaynağı 2](./assets/verikaynağı_2.gif)
+
 2. **SqlDataSource** başlığı yanında yer alan **Add Query** butonuna basınız.  
 3. Açılan pencerede sorgunuza bir **isim** veriniz.  
 4. SQL sorgunuzu doğrudan yazabilirsiniz, ancak tabloları ve alan adlarını daha net görebilmek için **Run Query Builder** butonuna tıklayarak **Query Builder** ekranını açmanız önerilir.  
 5. Açılan **Query Builder** ekranında, sağ tarafta yer alan **View** ve **Table** listelerinden raporunuza dahil etmek istediğiniz alanları seçiniz.  
 6. Seçtiğiniz alanlar artık **Rapor Tasarım Aracı** içinde kullanılabilir hale gelecektir.  
 7. Raporunuzun belirli filtrelerle çalışmasını istiyorsanız da, **Parameters** alanından parametre ekleyebilirsiniz:  
-    - **+ (Ekle)** simgesine tıklayın.  
+      ![Veri Kaynağı 3](./assets/verikaynağı_3.gif)
+   - **+ (Ekle)** simgesine tıklayın.  
    - Açılan alanda parametrenize bir **isim** verin isterseniz description alanına **açıklama** da ekleyebilirsiniz.  
    - **Type (Veri Tipi)** alanından uygun veri tipini seçin (*String, Int, Date* vb.).  
    - Gerekli ayarları tamamladıktan sonra **Kaydet** butonuna basın.  
 
 #### Veri Kaynağı Ayarları
+
+![Veri Kaynağı](./assets/verikaynağı_4.gif)
+
 SQL kaynağınızı ve parametrelerinizi oluşturduktan sonra, Rapor Tasarlayıcısında sağ tarafta **Properties** ekranında **Report Tasks** başlığı altında aşağıdaki değerleri giriniz:  
 - **Data Source**  
 - **Data Member**  
@@ -60,12 +71,16 @@ Buradan istediğiniz alanı **sürükle-bırak (drag & drop)** yöntemiyle doğr
 
 ### Raporun Tasarımı
 
+![Rapor Tasarımı](./assets/raportasarımı.webp)
+
 - Sol tarafata bulunan tasarım aracından istediğiniz bileşeni raporunuza ekleyebilirsiniz. (grafik, resim, text, imza etc.)
 - **Report Explorer** kısmında, oluşturduğunuz raporun tüm bileşenlerinin **hiyerarşik yapısını** inceleyebilirsiniz. Bu yapı, raporun genel organizasyonunu kolayca yönetmenizi sağlar.
 
 ### Raporun Ekranlarla İlişkilendirilmesi
 
 Oluşturduğunuz raporları belirli ekranlarda görüntüleyebilmek için bu raporları ilgili ekranlara **manuel olarak eklemeniz** gerekir. Bunun için aşağıdaki adımları izleyebilirsiniz:
+
+![Rapor Ekran İlişkilendirilmesi](./assets/raporekranbağlantısı.gif)
 
 1. Raporu eklemek istediğiniz ekrana gidiniz.  
 2. Araç çubuğunun en başında bulunan ⚙️ simgesine tıklayarak **Octo Lab’e Git** seçeneğini seçiniz.  
@@ -84,6 +99,8 @@ Bu işlemler tamamlandığında, oluşturduğunuz rapor **seçtiğiniz ekran** �
 Artık raporunuz, tanımladığınız veri kaynağı ve parametrelerle birlikte aktif olarak kullanılabilir durumdadır.
 
 ### Raporun Görüntülenmesi
+
+![RaporGörüntülenmesi](./assets/raporgörüntüleme.webp)
 
 Oluşturduğunuz raporu Octo Lab ile ilgili ekranlara ekledikten sonra, raporu çalıştırmak istediğiniz kayda sağ tıklayarak **Raporlar** alanına ulaşabilirsiniz. Bu alanda oluşturduğunuz tüm raporlar listelenecektir. Görüntülemek istediğiniz raporu seçtiğinizde, sistem raporu otomatik olarak çalıştırarak ilgili verileri ekrana getirir. Böylece, seçtiğiniz kayıt üzerinden raporunuzu kolayca görüntüleyebilirsiniz.
 
