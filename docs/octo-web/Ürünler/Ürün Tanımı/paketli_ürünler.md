@@ -4,12 +4,34 @@ sidebar_position: 9
 # Paketli Ürünler
 
 ## Ürün Kodu - Adı
-Ürün ağacı bileşenlerinin **alt grup tanımında**, **isim oluşumunda kullanılacak** olanları sayar. İsim oluşumunda kullanılacak ham madde sayısı sayısına göre aşağıdaki kurallar işletilir.
 
-Mevcutta, **Konfeksiyon Malzemeleri** isim oluşumuna dahil değildir. **Banyo Perdesi, masa örtüsü, runner, supla** vb. dahildir.
+---
+
+Paket stok tipinde Kod ve Ad otomatik oluşur.
 
 
-### Tek Hammadde (Hammadde sayısı = 1)
+Kod ve oluşumda temel olarak Ürün ağacı bileşenlerinin;
+
+- **Bileşen sayısı** *(alt grupta “isim oluşumunda kullanılacak” işaretli satırlar sayılır)*:
+  - **Bileşen Sayısı = 1** 
+  - **Bileşen Sayısı > 1**
+    - **Farklı alt grup sayısı = 1**
+    - **[Farklı alt grup sayısı > 1](#birden-fazla-bilesen-urun-alt-grup)**
+      
+dikkate alınır. Aşağıda kurallar detaylıca açıklanmıştır.
+
+:::danger
+
+Kod ve Ad oluşması için **Hammadde seçimi zorunludur.**
+Hiç hammadde yoksa işlem **hata verir**: "**Hammadde Seçilmeden Paket Tanımlanamaz**".
+
+Örneğin, **Konfeksiyon Malzemeleri** isim oluşumuna dahil değildir. **Banyo Perdesi, masa örtüsü, runner, supla** vb. dahildir.
+
+:::
+
+### Tek Bileşen
+
+---
 
 **Ürün Kodu** şu şekilde oluşturulur:
 ```
@@ -26,7 +48,8 @@ Mevcutta, **Konfeksiyon Malzemeleri** isim oluşumuna dahil değildir. **Banyo P
 Insert / Ambalaj / Etiket ürünlerinin **BeytugUrunKodu** tanımlı olmalı; aksi halde isimde boş kalabilir.
 :::
 
-#### Örnek
+:::info Örnek
+
 * Bileşen: `ÜRÜN 1 (Id=1)`
 * Kanat: `2`
 * Amb. Tipi: `KUTU (ID=5)`
@@ -46,22 +69,13 @@ Insert / Ambalaj / Etiket ürünlerinin **BeytugUrunKodu** tanımlı olmalı; ak
 ÜRÜN 1 | 2 | KUTU | INS-7001 | AMB-7100 | ETK-7200
 ```
 
----
+:::
 
-**Alan Açıklamları:**
 
-* **Hammadde seçimi zorunludur.**
-
-1. `RN06_StokHammadde` tablosunda **en az 1 satır** olmalı. **(Zorunlu)**
-    - Hiç hammadde yoksa işlem **hata verir**: "**Hammadde Seçilmeden Paket Tanımlanamaz**".
-2. **Kanat Sayısı** → `KanatSayilari.Adet`
-2. **Konfeksiyon Ambalaj Tipi** → `KonfeksiyonAmbalajTipleri.KonfeksiyonAmbalajTipId` ve `...Kodu`
-3. **Ambalaj Ürünü** (AmbUrun) → `Ürünler (BeytugUrunKodu gösterimi)`
-4. **Insert Ürünü** (InsertUrun) → `Ürünler`
-5. **Etiket Ürünü** (EtiketUrun) → `Ürünler`
+### Birden Fazla Bileşen
 
 ---
-### Birden Fazla Hammadde (Hammadde sayısı > 1)
+
 **Ürün Kodu** şu şekilde oluşturulur:
 
   ```
@@ -70,46 +84,47 @@ Insert / Ambalaj / Etiket ürünlerinin **BeytugUrunKodu** tanımlı olmalı; ak
 
 **Ürün Adı** ara listeler ile şu şekilde oluşturulur:
 
+#### Birden Fazla Bileşen Ürün Alt Grup
+
 ```
-<BilesenUrunTipKodları> | <BilesenKonfOlcuKodlarıveUrunAgaciMiktar>  | <BilesenVaryantKodları>
+<<BilesenUrunTipKodu> & ...> | <<KonfOlcuKodu>/<UrunAgaciBirimMiktar> &...>  | <<BilesenVaryantKodu> - ...>
+
+Örn:
+<MS & RN & PC> | <150X240/1 & 40X160/1 & 40X40/10> | V1 - V2 -V3
+```
+    ```
+:::info
+
+* 2 satır hammadde, SıraNo: 1,2,3
+* Ürün Tipleri: `SATEN`, `POPELİN`
+* Ölçüler/Birim: `36/AD`, `38/AD`
+* Varyant Kodları: `V001`, `V008`
+
+**Ürün Kodu:**
+
+```
+123-AD;456-MT;789-AD
 ```
 
-**Oluşan ara listeler:**
+**Ürün Adı:**
 
-* **Bileşen Urun Tipleri (BilesenUrunTipKodları):**
-    * Tek tip ise: `UrunTipKodu`
-        * Örn: `BP (Banyo Perdesi)`
-    * Birden fazla ise: `UrunTipKodu & UrunTipKodu & ...`
-        * Örn: `BP & SP` (Banyo Perdesi, Suppla)
+```
+SATEN & POPELİN | 36/AD & 38/AD | V001-V008
+```
+:::
 
-* **Bileşen Konf Olcu Kodları ve Ürün Ağaci Miktar:**
-
-  ```
-  <KonfOlcuKodu>/<UrunAgaciBirimMiktar> & <KonfOlcuKodu>/<UrunAgaciBirimMiktar> & ...
-  ```
-    * Örn: `150X240/1 & 40X160/1 & 40X40/10`
-* **Bileşen Varyant Kodları:**
-  * Genel durumda: `BaskiDesenVaryantKodu-BaskiDesenVaryantKodu-...`
-      * Örn:  `V1 - V2 -V3`
-  * **Grup=1** özel durumda: `VaryantNo;VaryantNo;...`
-
-**Grup Sayısı (özel durum):**
-
-* Sistem, tip/desen/ölçü kombinasyonlarına bakarak **Grup Sayısı** hesaplar.
-* **Grup = 1** ise **Ürün Adı** şu özel formatta oluşur:
-
-  ```
-  <UrunTipKodu> | <OlcuKodu> & <Toplam Adet> AD | <DikisTipKodu> | <BaskiDesenNo> / <VaryantNo;VaryantNo;...>
-  ```
-* **Grup ≠ 1** ise **Ürün Adı** genel formatta oluşur:
-
-  ```
-  <UrunTipKodu [& ...]> | <OlcuKodu/Birim [& ...]> | <VaryantKodu-...>
-  ```
+#### Tek Bileşen Ürün Alt Grup
 
 ---
 
-#### Örnek (Genel)
+```
+<BilesenUrunAltTipKodu> | <BilesenKonfOlcuKodları> & <Toplam(UrunAgaciMiktar)> AD | <DikişTipi> | <BaskıDesenKodu> / <VaryantNo;VaryantNo;...>
+
+Örn:
+KR | 43X43 & 4 AD | STD | AFROWOMAN/1;2;3;4
+```
+
+:::info Örnek
 
 * 2 satır hammadde, SıraNo: 1,2,3
 * Ürün Tipleri: `SATEN`, `POPELİN`
@@ -128,27 +143,33 @@ Insert / Ambalaj / Etiket ürünlerinin **BeytugUrunKodu** tanımlı olmalı; ak
 SATEN & POPELİN | 36/AD & 38/AD | V001-V008
 ```
 
----
+:::
 
-#### Örnek (Grup = 1 – Özel)
 
-* Tek kombinasyon: `POPELİN`, `OlcuKodu=36`, `Toplam Adet=12`, `DTK-05`, `BaskiDesenNo=BD-101`
-* Varyant No’ları: `10;12;14`
-
-**Ürün Kodu:**
-
-```
-123-AD;456-MT
-```
-
-**Ürün Adı:**
-
-```
-POPELİN | 36 & 12 AD | DTK-05 | BD-101 / 10;12;14
-```
----
 
 ## Insert Ürün
 
+---
+
 ## Kanat Sayısı
+
+---
+
+## Konfeksiyon Ambalaj Tipi
+
+---
+
+## Ambalaj Ürünü
+
+---
+
+## Insert Ürünü
+
+---
+
+## Etiket Ürünü
+
+---
+
+
 
