@@ -1,5 +1,7 @@
-
-## Paketli Ürünler
+---
+sidebar_position: 9
+---
+# Paketli Ürünler
 
 ## Ürün Kodu - Adı
 Ürün ağacı bileşenlerinin **alt grup tanımında**, **isim oluşumunda kullanılacak** olanları sayar. İsim oluşumunda kullanılacak ham madde sayısı sayısına göre aşağıdaki kurallar işletilir.
@@ -149,3 +151,4 @@ POPELİN | 36 & 12 AD | DTK-05 | BD-101 / 10;12;14
 ## Insert Ürün
 
 ## Kanat Sayısı
+
