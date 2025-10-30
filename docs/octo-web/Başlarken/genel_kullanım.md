@@ -226,6 +226,7 @@ Yeni kayıt eklemesi yapılırken;
 
 ![Yeni Kayıt](./assets/yeni_kayıt_2.gif)
 
+#### Satır Kopyala
 - Benzer özellikli kayıtlar eklemek için satır kopyalama özelliği kullanılabilir. 
     - Bir satırı kopyalamak için, öncelikle kopyalamak istediğiniz satırın yanındaki **checkbox**’ı işaretleyin.
     - Ardından satırın üzerine **sağ tıklayın**. Açılan menüden **“Satırı Kopyala”** seçeneğini seçtiğinizde, ilgili satır otomatik olarak **yeni kayıt ekleme ekranı**nda açılacaktır. Burada gerekli değişiklikleri yaptıktan sonra **Kaydet** butonuna tıklayarak yeni kaydınızı oluşturabilirsiniz.
