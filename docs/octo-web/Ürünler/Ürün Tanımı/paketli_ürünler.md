@@ -13,10 +13,10 @@ Paket stok tipinde Kod ve Ad otomatik oluşur.
 Kod ve oluşumda temel olarak Ürün ağacı bileşenlerinin;
 
 - **Bileşen sayısı** *(alt grupta “isim oluşumunda kullanılacak” işaretli satırlar sayılır)*:
-  - **Bileşen Sayısı = 1** 
-  - **Bileşen Sayısı > 1**
-    - **Farklı alt grup sayısı = 1**
-    - **Farklı alt grup sayısı > 1**
+  - **[Bileşen Sayısı = 1](#tek-bileşen)** 
+  - **[Bileşen Sayısı > 1](#birden-fazla-bileşen)**
+    - **[Farklı alt grup sayısı = 1](#tek-bileşen-ürün-alt-grup)**
+    - **[Farklı alt grup sayısı > 1](#birden-fazla-ürün-alt-grup)**
       
 dikkate alınır. Aşağıda kurallar detaylıca açıklanmıştır.
 
@@ -84,7 +84,7 @@ Insert / Ambalaj / Etiket ürünlerinin **BeytugUrunKodu** tanımlı olmalı; ak
 
 **Ürün Adı** ara listeler ile şu şekilde oluşturulur:
 
-#### Birden Fazla Bileşen Ürün Alt Grup
+#### Birden Fazla Ürün Alt Grup
 
 ```
 <<BilesenUrunTipKodu> & ...> | <<KonfOlcuKodu>/<UrunAgaciBirimMiktar> &...>  | <<BilesenVaryantKodu> - ...>
@@ -112,7 +112,7 @@ SATEN & POPELİN | 36/AD & 38/AD | V001-V008
 ```
 :::
 
-#### Tek Bileşen Ürün Alt Grup
+#### Tek Ürün Alt Grup
 
 ---
 
