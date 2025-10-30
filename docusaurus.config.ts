@@ -40,20 +40,6 @@ const config: Config = {
             return `https://github.com/Renium-Docs/renium-docs/tree/main/docs/${docPath}`;
           },
           routeBasePath: 'docs',
-          lastVersion: 'current',
-          onlyIncludeVersions: ['current'], // 🔹 Bu satırı ekledim - sadece 'next' versiyonu gösterir
-          versions: {
-            current: {
-              label: 'Next 🚧',
-              path: 'next',
-              banner: 'none',
-            },
-            '1.0.0': {
-              label: '1.0.0',
-              path: '1.0.0',
-              banner: 'none',
-            },
-          },
         },
         blog: {
           showReadingTime: true,
@@ -124,11 +110,6 @@ const config: Config = {
           sidebarId: 'octoWebSidebar',
           position: 'left',
           label: 'Octo Web',
-        },
-        {
-          type: 'docsVersionDropdown',
-          position: 'right',
-          dropdownActiveClassDisabled: true,
         },
         {
           type: 'localeDropdown',
