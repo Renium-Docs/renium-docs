@@ -115,7 +115,33 @@ Bu sayede her rapor, içeriğine uygun ve benzersiz bir adla kaydedilmiş olur. 
 3. Bu alanda yazacağınız **script kodu** ile, dışa aktarılacak rapor dosyasının adını ve diğer özelliklerini özelleştirebilirsiniz.
 
 :::tip[Örnek]
-![boşdurumu_2](./assets/script.png)  
+```
+using System.Text.RegularExpressions;
+using System.Collections.Generic;
+private void XtraReport_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e) {
+    
+    var report = sender as XtraReport;
+
+    var activityNoValue = report.GetCurrentColumnValue("OrderId");
+    var firmNameValue = report.GetCurrentColumnValue("ProjectName");
+    var orderDateValue = report.GetCurrentColumnValue("SalesOrderDate");
+    
+    string activityNo = activityNoValue != null ? activityNoValue.ToString() : "DefaultActivity";
+    string firmName = firmNameValue != null ? firmNameValue.ToString() : "DefaultFirm";
+    string orderDate = orderDateValue != null ? orderDateValue .ToString() : "DefaultDate";
+    
+     firmName = Regex.Replace(firmName , @"[^a-zA-Z0-9çğıöşüÇĞİÖŞÜ\.\- ]", "");
+     orderDate = Regex.Replace(orderDate , @"[^a-zA-Z0-9çğıöşüÇĞİÖŞÜ\.\- ]", "");
+
+         var fileName = string.Format("{0}_{1}_{2}", activityNo, firmName, orderDate);
+    
+    var pdfExportOptions = report.ExportOptions.Pdf;
+    pdfExportOptions.DocumentOptions.Title = fileName;
+
+    report.Name = fileName;
+
+}
+```
 
 Örnek scriptte üç ana adım bulunmaktadır:
 1. `OrderID`, `ProjectName` ve `SalesOrderDate` verileri rapordan alınır.  
@@ -124,3 +150,15 @@ Bu sayede her rapor, içeriğine uygun ve benzersiz bir adla kaydedilmiş olur. 
 
 - **OrderID = 1, ProjectName = demo, SalesOrderDate = 24.10.2025 olduğu bir rapor dosyası dışarı aktarılırken oluşacak dosya adı `1_demo_24102025.pdf` şeklindedir.**
 :::
+
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+
+<div className="video-container">
+  <LiteYouTubeEmbed
+    id="wDqEqHtjM8s"
+    params="autoplay=1&autohide=1&showinfo=0&rel=0"
+    title="Docusaurus: Documentation Made Easy"
+    poster="maxresdefault"
+    webp
+  />
+</div>
