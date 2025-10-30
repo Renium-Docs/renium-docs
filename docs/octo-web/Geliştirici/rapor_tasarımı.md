@@ -151,14 +151,3 @@ private void XtraReport_BeforePrint(object sender, System.ComponentModel.CancelE
 - **OrderID = 1, ProjectName = demo, SalesOrderDate = 24.10.2025 olduğu bir rapor dosyası dışarı aktarılırken oluşacak dosya adı `1_demo_24102025.pdf` şeklindedir.**
 :::
 
-import LiteYouTubeEmbed from 'react-lite-youtube-embed';
-
-<div className="video-container">
-  <LiteYouTubeEmbed
-    id="wDqEqHtjM8s"
-    params="autoplay=1&autohide=1&showinfo=0&rel=0"
-    title="Docusaurus: Documentation Made Easy"
-    poster="maxresdefault"
-    webp
-  />
-</div>
