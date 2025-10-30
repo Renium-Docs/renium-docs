@@ -42,3 +42,8 @@ Lot takip edilecek mi?" seçeneği işaretlenmelidir.
 - Aynı özelliklerde ürün bulunursa, mevcut ürün bilgileri gösterilir
 
 
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+```
