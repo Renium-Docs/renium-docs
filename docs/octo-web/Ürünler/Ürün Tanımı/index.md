@@ -5,8 +5,11 @@ sidebar_position: 1
 # Ürün Tanımı
 
 
-## Ürün Kodu
+
+## Ürün Kodu *
 ---
+```[A-Z]``` 
+
 Boş bırakılamaz. Benzersiz olmalıdır.
 
 :::info
@@ -15,9 +18,11 @@ Tanımlanacak kurallar ile sistem tarafından otomatik oluşturulması sağlanab
 
 :::
 
-## Ürün Adı
+## Ürün Adı *
 ---
-Boş bırakılabilir. Benzersiz oolma kuralı yoktur.
+```[A-Z]``` 
+
+Boş bırakılabilir. Benzersiz olma kuralı yoktur.
 
 :::info
 
@@ -27,8 +32,10 @@ Tanımlanacak kurallar ile sistem tarafından otomatik oluşturulması sağlanab
 
 ## Ürün Tipi
 ---
+```[▼]```
 
-Ürünleri kategorilendiren temel tanımdır. Kullanıcı tarafından özelleştirilebilir ve çoğaltılabilir.
+
+Ürünleri kategorilendiren temel tanımdır. Listeden seçilir. Kullanıcı tarafından özelleştirilebilir ve çoğaltılabilir.
 
 Ürün tanımında pek çok ana tanım, ürün tipine bağlı olarak varsayılan değerlerle gelebilir. Bu sayede tekrarlayan veri girişleri azaltılır ve standardizasyon sağlanır.
 
@@ -40,7 +47,7 @@ Tanımlanacak kurallar ile sistem tarafından otomatik oluşturulması sağlanab
 
 **"Kumaş"** ürün tipi seçildiğinde:
 - Karşılama Yöntemi otomatik olarak **"Üretim"** gelir
-- Takip Tipi otomatik olarak **"Parti Takipli"** olarak işaretlenir
+- Takip Tipi otomatik olarak **"Lot Takipli"** olarak işaretlenir
 - Ölçü Birimi varsayılan olarak **"metre"** seçilir
 
 **"Çözgü"** ürün tipi seçildiğinde:

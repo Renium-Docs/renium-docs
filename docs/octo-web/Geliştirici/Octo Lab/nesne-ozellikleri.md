@@ -19,7 +19,7 @@ sidebar_position: 2
 - Nesnenin takma adı
 
 ### ObjectTypeId
-- Nesne tipini belirler (Table/View, Stored Procedure vb.)
+- Nesne tipini belirler (1:Table, 2:View, 3:Stored Procedure)
 
 
 ### RequeryAfterChange
