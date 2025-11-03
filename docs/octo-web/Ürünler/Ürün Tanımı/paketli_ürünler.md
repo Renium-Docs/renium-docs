@@ -3,7 +3,14 @@ sidebar_position: 9
 ---
 # Paketli Ürünler
 
-## Ürün Kodu - Adı
+Ürün tipi  Konf. Malzemeler ve Alt tipi Pakek seçili ürünleri ifade ederler.
+
+
+## İşlemler
+
+## Alanlar
+
+### Ürün Kodu - Adı
 
 ---
 
@@ -29,7 +36,7 @@ Hiç hammadde yoksa işlem **hata verir**: "**Hammadde Seçilmeden Paket Tanıml
 
 :::
 
-### Tek Bileşen
+#### Tek Bileşen
 
 ---
 
@@ -72,7 +79,7 @@ Insert / Ambalaj / Etiket ürünlerinin **BeytugUrunKodu** tanımlı olmalı; ak
 :::
 
 
-### Birden Fazla Bileşen
+#### Birden Fazla Bileşen
 
 ---
 
@@ -84,7 +91,7 @@ Insert / Ambalaj / Etiket ürünlerinin **BeytugUrunKodu** tanımlı olmalı; ak
 
 **Ürün Adı** ara listeler ile şu şekilde oluşturulur:
 
-#### Birden Fazla Ürün Alt Grup
+##### Birden Fazla Ürün Alt Grup
 
 ```
 <<BilesenUrunTipKodu> & ...> | <<KonfOlcuKodu>/<UrunAgaciBirimMiktar> &...>  | <<BilesenVaryantKodu> - ...>
@@ -112,7 +119,7 @@ SATEN & POPELİN | 36/AD & 38/AD | V001-V008
 ```
 :::
 
-#### Tek Ürün Alt Grup
+##### Tek Ürün Alt Grup
 
 ---
 
@@ -145,30 +152,31 @@ SATEN & POPELİN | 36/AD & 38/AD | V001-V008
 :::
 
 
+### Özellikler
 
-## Insert Ürün
-
----
-
-## Kanat Sayısı
+#### Insert Ürün
 
 ---
 
-## Konfeksiyon Ambalaj Tipi
+#### Kanat Sayısı
 
 ---
 
-## Ambalaj Ürünü
+#### Konfeksiyon Ambalaj Tipi
 
 ---
 
-## Insert Ürünü
+#### Ambalaj Ürünü
 
 ---
 
-## Etiket Ürünü
+#### Insert Ürünü
 
 ---
+
+#### Etiket Ürünü
+---
+
 
 
 

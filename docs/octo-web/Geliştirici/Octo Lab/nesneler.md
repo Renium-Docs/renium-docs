@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Nesne Özellikleri
+# Nesneler
 ```Tb_Rn_SystemObjects```
 
 

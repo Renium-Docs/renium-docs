@@ -1,35 +1,62 @@
 ---
 sidebar_position: 1010
 ---
-# Baskı Desen Varyantlar
+# Baskı Desen Varyantları
 
 Baskı desen tanımı; ürünün baskı (print) özelliklerini, varyantlarını ve doğrulama kurallarını içerir. Bu doküman son iyileştirmeler doğrultusunda güncellenmiştir.
 
-## Baskı Desen Tanımları
+## İşlemler
 
-### Baskı Desen Kodu
+### Yeni
+1) Yeni kaydı başlatın.
+2) Baskı Desen alanlarını doldurun:
+   - Baskı Desen Kodu (zorunlu, benzersiz)
+   - Baskı Desen Adı (zorunlu)
+   - Ürün Tipi ve Ürün Alt Tipi
+   - Tek Varyant mı? (Evet/Hayır)
+3) Tek Varyant = Evet ise:
+   - Sistem otomatik olarak bir varyant oluşturur:
+     - Varyant Kodu: DEFAULT
+     - Varyant Adı: Varsayılan
+     - Baskı Desen Varyant Kodu/Adı otomatik üretilir.
+4) Tek Varyant = Hayır ise:
+   - En az bir varyant ekleyin (Varyant Kodu ve Varyant Adı zorunlu).
+5) Kaydedin.
+
+### Düzenle
+- Desen ve varyant bilgilerinde yapılan değişiklikler kaydedildiğinde, otomatik alanlar (Baskı Desen Varyant Kodu/Adı) kaynak alanlara göre yeniden oluşturulur.
+
+### Sil
+- Kullanımda olmayan desenler silinebilir.
+- İlişkili kayıtlar varsa silme engellenir. Gerekirse önce ilişkileri güncelleyin veya deseni pasife alın.
+
+---
+
+## Alanlar
+
+### Baskı Desen Tanımları
+
+#### Baskı Desen Kodu
 - Açıklama: Desenin benzersiz tanımlayıcısı.
 - Kurallar:
   - Zorunlu
-  - Benzersiz (unique)
+  - Ürün Alt Tipi bazında benzersiz
 - Örnekler: BD001, TSHIRT_BASIC, HOODIE_PREM
 
-### Baskı Desen Adı
+#### Baskı Desen Adı
 - Açıklama: Kullanıcıya gösterilen ad.
 - Kurallar:
   - Zorunlu
   - En fazla 200 karakter
 - Örnekler: Standart Logo Baskısı, Premium Hoodie Tasarımı
 
-### Ürün Tipi
-```[▼]```
-
-- Açıklama: Desenin ait olduğu ana ürün tipi seçilir.
+#### Ürün Tipi
+- Açıklama: Desenin ait olduğu ana ürün tipi.
 - Kurallar:
   - Filtreleme ve raporlarda kullanılır
 - Örnekler: Tekstil, Promosyon, Aksesuar, Ev Dekorasyon
 
-### Ürün Alt Tipi
+#### Ürün Alt Tipi
 - Açıklama: Ürün tipinin alt kategorisi.
 - Kurallar:
   - Seçilen Ürün Tipi ile tutarlı olmalı
@@ -37,60 +64,58 @@ Baskı desen tanımı; ürünün baskı (print) özelliklerini, varyantlarını 
   - Tekstil: T‑Shirt, Hoodie, Sweatshirt, Polo
   - Promosyon: Kalem, Ajanda, USB
 
-### Tek Varyant mı?
+#### Tek Varyant mı?
 - Açıklama: Desenin tek mi çok varyantlı mı olduğunu belirtir.
 - Değerler:
-  - Evet: Sistem otomatik olarak tek bir varyant kaydı oluşturur. Manuel olarak ikinci bir varyant eklenemez.
+  - Evet: Sistem otomatik olarak tek bir varyant kaydı oluşturur. Manuel ikinci varyant eklenemez.
   - Hayır: Çok varyant. En az bir varyant tanımı gerekir.
 
 ---
 
-## Baskı Desen Varyant Tanımları
+### Baskı Desen Varyant Tanımları
 Çok varyantlı desenlerde kullanılır. Her varyant ana desenin bir seçeneğini temsil eder.
 
-### Baskı Deseni
-- Açıklama: Varyant kaydında yukarıda ouşturulan desen bilgisi seçilir. Desen kodu bulunumaz ise kütüphaeden oluşturulur.
+#### Baskı Deseni
+- Açıklama: Varyant kaydında yukarıda oluşturulan desen seçilir. Desen kodu bulunamazsa kütüphaneden oluşturulur.
 
-### Varyant Kodu
+#### Varyant Kodu
 - Açıklama: Varyantın kullanıcı tanımlı kısa kodu.
 - Kurallar:
   - Çok varyantlı desenlerde zorunlu
-  - Ürün alt tipi bazında benzersiz olmalı
+  - Ürün Alt Tipi bazında benzersiz olmalı
 
-### Varyant Adı
+#### Varyant Adı
 - Açıklama: Varyantın kullanıcıya gösterilen adı.
 - Kurallar:
   - Çok varyantlı desenlerde zorunlu
 
-### Baskı Desen Varyant Kodu
+#### Baskı Desen Varyant Kodu
 - Açıklama: Sistem tarafından otomatik oluşturulan birleşik kod.
-- Kural ve Format:
+- Kurallar ve Format:
   - Otomatik oluşur
-  - Format: DESENKODU-VARYANTKODU
+  - Format: DESEN_KODU-VARYANT_KODU
 - Örnek: TSHIRT_BASIC-RED
 
-:::info
- Otomatik oluşan alanlar (Baskı Desen Varyant Kodu/Adı), kaynak alanlar güncellendiğinde yeniden oluşturulur.
- :::
-
-### Baskı Desen Varyant Adı
+#### Baskı Desen Varyant Adı
 - Açıklama: Sistem tarafından otomatik oluşturulan birleşik ad.
-- Kural ve Format:
+- Kurallar ve Format:
   - Otomatik oluşur
-  - Format: DESEN ADI - VARYANT ADI
+  - Format: DESEN_ADI - VARYANT_ADI
 - Örnek: Standart Logo Baskısı - Kırmızı
 
-Not: Otomatik oluşan alanlar (Baskı Desen Varyant Kodu/Adı), kaynak alanlar güncellendiğinde yeniden oluşturulur.
+:::info
+Otomatik oluşan alanlar (Baskı Desen Varyant Kodu/Adı), kaynak alanlar güncellendiğinde yeniden oluşturulur.
+:::
 
 ---
 
 ## Doğrulama ve Kurallar
 - Benzersizlik:
-  - Baskı Desen Kodu ve Varyant Kodları, ürün alt tipi bazında tekil olmalı.
+  - Baskı Desen Kodu ve Varyant Kodları, Ürün Alt Tipi bazında tekil olmalı.
 - Tutarlılık:
   - Tek Varyant = Evet ise varyant listesi manuel eklenmez; sistem tek kayıt oluşturur.
   - Tek Varyant = Hayır ise en az bir geçerli varyant bulunmalı.
-- Referans Kontrolleri:
+- Referans kontrolleri:
   - Kullanımda olan desenler silinemez; önce ilişkili kayıtlar güncellenmelidir.
 
 ---
@@ -123,7 +148,7 @@ Not: Otomatik oluşan alanlar (Baskı Desen Varyant Kodu/Adı), kaynak alanlar g
 - Kodlar kısa, anlamlı ve tutarlı olmalı.
 - Varyant adlarında farkı net ifade edin (renk/beden/efekt).
 - Gereksiz varyant çoğaltmaktan kaçının.
-- Silme yerine mümkünse pasife alma tercih edin.
+- Silme yerine mümkünse pasife almayı tercih edin.
 
 ## Sık Karşılaşılan Hatalar ve Çözümler
 - Duplicate key: Kod benzersiz değil → Kodu değiştirin.

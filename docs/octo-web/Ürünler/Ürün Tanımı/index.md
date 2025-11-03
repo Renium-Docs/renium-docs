@@ -5,8 +5,21 @@ sidebar_position: 1
 # Ürün Tanımı
 
 
+## İşlemler
 
-## Ürün Kodu *
+### Yeni
+
+### Düzenle
+
+### Sil
+
+### Stok Oluştur
+
+### Ürün Ağacı - Operasyonlu
+
+## Alanlar
+
+### Ürün Kodu*
 ---
 ```[A-Z]``` 
 
@@ -18,7 +31,7 @@ Tanımlanacak kurallar ile sistem tarafından otomatik oluşturulması sağlanab
 
 :::
 
-## Ürün Adı *
+### Ürün Adı *
 ---
 ```[A-Z]``` 
 
@@ -30,7 +43,7 @@ Tanımlanacak kurallar ile sistem tarafından otomatik oluşturulması sağlanab
 
 :::
 
-## Ürün Tipi
+### Ürün Tipi
 ---
 ```[▼]```
 
@@ -57,11 +70,11 @@ Tanımlanacak kurallar ile sistem tarafından otomatik oluşturulması sağlanab
 :::
 
 
-## Ölçü Birimi*
+### Ölçü Birimi*
 ---
 Ürünün temel ölçü birimi (adet, kg, m, vb.). Kullanıcı tarafından özelleştirilebilir  ve çoğaltılabilir.
 
-## Takip Tipi*
+### Takip Tipi*
 ---
 Ürünün stok takip şeklini belirler:
 
@@ -75,17 +88,17 @@ Tanımlanacak kurallar ile sistem tarafından otomatik oluşturulması sağlanab
 - **Seri takibi**: Elektronik cihazlar, makineler, araçlar (her birim tekil ve değerli)
 :::
 
-## Karşılama Yöntemi
+### Karşılama Yöntemi
 ---
 Satın alma, üretim değelerini alabilir.
  
 
-## Muhasebe Kodu
+### Muhasebe Kodu
 ---
 - Her muhasebe kodu sistemde **tekil** olmalıdır
 - Daha önce kullanılmış bir muhasebe kodu girdiğinizde sistem uyarı verecektir.
 
-## Benzersiz Kod
+### Benzersiz Kod
 ---
 
 - Sistem aynı özelliklere sahip ürünlerin tekrar oluşturulmasını kontrol edebilir.
