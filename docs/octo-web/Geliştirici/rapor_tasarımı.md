@@ -115,7 +115,7 @@ Bu sayede her rapor, içeriğine uygun ve benzersiz bir adla kaydedilmiş olur. 
 3. Bu alanda yazacağınız **script kodu** ile, dışa aktarılacak rapor dosyasının adını ve diğer özelliklerini özelleştirebilirsiniz.
 
 :::tip[Örnek]
-```
+```csharp
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
 private void XtraReport_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e) {
