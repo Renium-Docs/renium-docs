@@ -112,6 +112,12 @@ const config: Config = {
           label: 'Octo Web',
         },
         {
+        type: 'docSidebar',
+        sidebarId: 'backupsidebar',
+        position: 'left',
+        label: 'Backup',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },
@@ -140,6 +146,8 @@ const config: Config = {
           items: [
             {label: 'Octo Desktop', to: '/docs/octo-desktop'},
             {label: 'Octo Web', to: '/docs/octo-web'},
+            {label: 'Backup', to: '/docs/backup'},
+
             ],
         },
       ],
