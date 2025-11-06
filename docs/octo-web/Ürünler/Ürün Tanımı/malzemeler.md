@@ -30,25 +30,29 @@ sidebar_position: 50
 ```Malzemeler``` ürün tipindeki alt tipler seçilebilir.
 
 
-### Ürün Kodu  
+### Ürün Kodu  - Adı
 
 Otomatik oluşturulur.
 
-```<Konf. Ürün Tipi 2 No> . <Konf. Ürün Tipi 3 No> . <Konf. Ürün Tipi 4 No> . <Konf. Ürün Tipi 2 No> . <Renk> . <Konf. Ürün Tipi 5 No> . <Konf. Ürün Tipi 6 No> ```
+**Ürün Kodu**
 
-### Beytuğ Ürün Kodu  
+```
+<Konf. Ürün Tipi 3 Kodu> | <Konf. Ürün Tipi 4> | <Konf. Ürün Tipi 5> | <Konf. Ürün Tipi 6> | <Ebat> | <Renk> 
 
-Otomatik oluşturulur.
+```
 
-```<Konf. Ürün Tipi 3 Kodu> | <Konf. Ürün Tipi 4> | <Konf. Ürün Tipi 5> | <Konf. Ürün Tipi 6> | <Ebat> | <Renk> ```
+**Ürün Adı**
 
-### Ürün Adı
+```
+<Konf. Ürün Tipi 3 Adı> | <Konf. Ürün Tipi 4> | <Konf. Ürün Tipi 5> | <Konf. Ürün Tipi 6> | <Ebat*> | <Renk**> 
+```
 
-```<Konf. Ürün Tipi 3 Adı> | <Konf. Ürün Tipi 4> | <Konf. Ürün Tipi 5> | <Konf. Ürün Tipi 6> | <Ebat*> | <Renk**> ```
+:::warning
 
-*Ebat tanımı işaretli ise yazılır.
+- *Ebat tanımı işaretli ise yazılır.
+- **Renk tanımı işaretli ise yazılır.
 
-** Renk tanımı işaretli ise yazılır.
+:::
 
 ### Özellikler
 
