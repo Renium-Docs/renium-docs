@@ -9,13 +9,33 @@ sidebar_position: 1
 
 ### Yeni
 
+Ürün tipi değiştirilirse ve ilgili alanlar boş bırakılırsa ürün tipindeki değerler atanır.
+
+Ürün kodu oluşma kuralındaki alanlara göre otomatik güncellenir.
+
+Kaydın kısıtlara uygunluğu kontrol edilir. Aykırı bir durum oluşması durumunda hata verir.
+
 ### Düzenle
+
+Ürün tipi değiştirilirse ve ilgili alanlar boş bırakılırsa ürün tipindeki değerler atanır.
+
+Ürün kodu oluşma kuralındaki alanlara göre otomatik güncellenir.
+
+Güncelmenin kısıtlara uygunluğu kontrol edilir. Aykırı bir durum oluşması durumunda hata verir.
 
 ### Sil
 
+Fiş, Lot, Sipariş vb gibi tablolarla bağlantısının olmaması gereklidir. Olması durumnda hata alınır.
+
+Silinmesi ile Ürün ağaçlarını otomatik siler. 
+
 ### Stok Oluştur
 
+Bu işlem ile depoya hızlı stok girişi yapılabilir.
+
 ### Ürün Ağacı - Operasyonlu
+
+Ürün ağacı tüm seviyeleri ile tree şekilde görüntülenir.
 
 ## Alanlar
 

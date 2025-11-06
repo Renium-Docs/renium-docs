@@ -4,7 +4,7 @@ sidebar_position: 10
 
 # Konf. Ürünler
 
-Ürün tipi  Konf. Malzemeler ve Alt tipi Paket olmayan ürünler görüntülenir ve tanımlanır.
+Ürün tipi  Konf. Malzemeler ve Alt tipi Paket ve Banyo Perdesi olmayan ürünler görüntülenir ve tanımlanır.
 
 
 ## Alanlar

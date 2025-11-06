@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-toc_min_heading_level: 3
 ---
 
 # Octo Hakkında 

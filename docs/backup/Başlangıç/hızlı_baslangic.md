@@ -1,1 +1,0 @@
-# Hızlı Başlangıç
