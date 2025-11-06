@@ -5,19 +5,13 @@ sidebar_position: 50
 
 Ürün tipi  ```Malzemeler``` seçili ürünleri görütünlenir ve tanımlanır.
 
-
-
 ## İşlemler
-
-### Yeni
-
-### Düzenle
-
-### Sil
 
 ### Insert Ürün Eşleştir
 
+[Marka](../Ana%20Tanımlar/markalar.md) ile Insert ürünle eşleştirilir. Paketli ürün tanımlarında marka seçildiğinde tanımlı insert' i otomatik getirir.
 
+Hızlı sipariş oluşturmada Marka seçildiğinde insert ürün paketli ürün ağacına oto dahil edilir.
 
 ## Alanlar
 
@@ -44,13 +38,13 @@ Otomatik oluşturulur.
 **Ürün Adı**
 
 ```
-<Konf. Ürün Tipi 3 Adı> | <Konf. Ürün Tipi 4> | <Konf. Ürün Tipi 5> | <Konf. Ürün Tipi 6> | <Ebat*> | <Renk**> 
+<Konf. Ürün Tipi 3 Adı> | <Konf. Ürün Tipi 4> | <Konf. Ürün Tipi 5> | <Konf. Ürün Tipi 6> | <Ebat(1)> | <Renk(2)> 
 ```
 
 :::warning
 
-- *Ebat tanımı işaretli ise yazılır.
-- **Renk tanımı işaretli ise yazılır.
+- (1) Ebat tanımı işaretli ise yazılır.
+- (2) Renk tanımı işaretli ise yazılır.
 
 :::
 
