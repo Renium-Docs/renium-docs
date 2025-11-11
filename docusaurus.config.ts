@@ -25,13 +25,53 @@ const config: Config = {
     locales: ['tr', 'en'],
   },
 
-  plugins: [require.resolve('docusaurus-plugin-image-zoom')],
+  plugins: [
+    require.resolve('docusaurus-plugin-image-zoom'),
+    
+    // 🏢 Renium şirketi için özel dokümanlar
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'renium',
+        path: 'docs/merged/renium',
+        routeBasePath: 'renium/docs',
+        sidebarPath: './sidebars.renium.ts',
+        editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/',
+      },
+    ],
+    
+    // 🏢 AWS şirketi için özel dokümanlar
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'aws',
+        path: 'docs/merged/aws',
+        routeBasePath: 'aws/docs',
+        sidebarPath: './sidebars.aws.ts',
+        editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/',
+      },
+    ],
+    
+    // 🏢 Azure şirketi için özel dokümanlar
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'azure',
+        path: 'docs/merged/azure',
+        routeBasePath: 'azure/docs',
+        sidebarPath: './sidebars.azure.ts',
+        editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/',
+      },
+    ],
+  ],
 
   presets: [
     [
       'classic',
       {
         docs: {
+          // 📚 Public docs (ortak dokümanlar)
+          path: 'docs/merged/public',
           sidebarPath: './sidebars.ts',
           editUrl: ({locale, docPath}) => {
             if (locale === 'en') {
@@ -63,6 +103,7 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+  
   headTags: [
     {
       tagName: 'meta',
@@ -74,16 +115,13 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // 🔹 Zoom plugin konfigürasyonu
     zoom: {
       selector: '.markdown :not(em) > img',
       background: {
         light: 'rgb(255, 255, 255)',
         dark: 'rgb(50, 50, 50)',
       },
-      config: {
-        // https://github.com/francoischalifour/medium-zoom#usage
-      },
+      config: {},
     },
 
     docs: {
@@ -96,29 +134,12 @@ const config: Config = {
       title: 'Renium Docs',
       logo: {
         alt: 'Renium Logo',
-        src: 'img/renium-logo.png',
+        src: 'img/logo.svg',
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'octoDesktopSidebar',
-          position: 'left',
-          label: 'Octo Desktop',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'octoWebSidebar',
-          position: 'left',
-          label: 'Octo Web',
-        },
-        {
-        type: 'docSidebar',
-        sidebarId: 'backupsidebar',
-        position: 'left',
-        label: 'Backup',
-        },
-        {
-          type: 'localeDropdown',
+          href: 'https://github.com/Renium-Docs/renium-docs',
+          label: 'GitHub',
           position: 'right',
         },
       ],
@@ -147,9 +168,8 @@ const config: Config = {
             {label: 'Octo Desktop', to: '/docs/octo-desktop'},
             {label: 'Octo Web', to: '/docs/octo-web'},
             {label: 'Backup', to: '/docs/backup'},
-
-            ],
-        },
+          ],
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Renium. Tüm hakları saklıdır.`,
     },

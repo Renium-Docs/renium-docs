@@ -8,13 +8,9 @@ Octo Desktop, Octo Web ve Octo Lab için kapsamlı dokümantasyon sistemi.
 Masaüstü uygulaması kullanım kılavuzu ve özellikleri.
 - **URL:** `/docs/octo-desktop/`
 
-### 🌐 Octo Web  
+### 🌐 Octo Web
 Web platformu kullanım kılavuzu ve özellikleri.
 - **URL:** `/docs/octo-web/`
-
-### 🔬 Octo Lab (Gizli)
-Geliştirici dökümanları ve iç süreçler.
-- **URL:** `/client/octo-lab-guid-12345/` (Sadece yetkili geliştiriciler)
 
 ## 🚀 Lokal Geliştirme
 
@@ -36,14 +32,8 @@ npm run serve      # Build'i test et
 ```
 docs/
 ├── octo-desktop/     # Desktop app docs
-├── octo-web/         # Web platform docs
-└── clients/          # Private client docs
-    └── octo-lab-guid-12345/
+└── octo-web/         # Web platform docs
 ```
-
-## 🔐 Gizli Dokümantasyon
-
-Octo Lab dökümanları sadece GUID ile erişilebilir ve şirket içi kullanım içindir.
 
 ---
 
