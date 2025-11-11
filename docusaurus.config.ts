@@ -109,7 +109,7 @@ const config: Config = {
       title: 'Renium Docs',
       logo: {
         alt: 'Renium Logo',
-        src: 'img/logo.svg',
+        src: 'img/favicon.ico',
       },
       items: [
         {
