@@ -2,6 +2,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
   docs: [
+    'intro',
     {
       type: 'category',
       label: 'Octo Desktop',
@@ -32,7 +33,6 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    // AWS özel kategoriler varsa
   ],
 };
 
