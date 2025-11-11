@@ -28,19 +28,7 @@ const config: Config = {
   plugins: [
     require.resolve('docusaurus-plugin-image-zoom'),
     
-    // 🏢 Renium şirketi için özel dokümanlar
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'renium',
-        path: 'docs/merged/renium',
-        routeBasePath: 'renium/docs',
-        sidebarPath: './sidebars.renium.ts',
-        editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/',
-      },
-    ],
-    
-    // 🏢 AWS şirketi için özel dokümanlar
+    // AWS şirketi için özel dokümanlar
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -51,18 +39,6 @@ const config: Config = {
         editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/',
       },
     ],
-    
-    // 🏢 Azure şirketi için özel dokümanlar
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'azure',
-        path: 'docs/merged/azure',
-        routeBasePath: 'azure/docs',
-        sidebarPath: './sidebars.azure.ts',
-        editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/',
-      },
-    ],
   ],
 
   presets: [
@@ -70,7 +46,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          // 📚 Public docs (ortak dokümanlar)
+          // Public docs (ortak dokümanlar)
           path: 'docs/merged/public',
           sidebarPath: './sidebars.ts',
           editUrl: ({locale, docPath}) => {

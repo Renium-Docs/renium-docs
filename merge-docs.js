@@ -2,11 +2,11 @@ const fs = require('fs-extra');
 const path = require('path');
 
 // Şirket listesi - buraya yeni şirketler ekleyebilirsiniz
-const companies = ['renium', 'aws', 'azure'];
+const companies = ['aws'];
 
 console.log('📦 Dokümantasyon birleştirme işlemi başlatılıyor...\n');
 
-// Önce eski merged klasörlerini temizle
+// eski merged klasörlerini temizler
 const mergedBaseDir = path.join(__dirname, 'docs', 'merged');
 if (fs.existsSync(mergedBaseDir)) {
   fs.removeSync(mergedBaseDir);
@@ -27,21 +27,21 @@ companies.forEach(company => {
   // 1. Ortak dokümanları kopyala
   if (fs.existsSync(commonDir)) {
     fs.copySync(commonDir, targetDir);
-    console.log(`  ✅ Ortak dokümanlar kopyalandı`);
+    console.log(`  Ortak dokümanlar kopyalandı`);
   } else {
-    console.log(`  ⚠️  Ortak doküman klasörü bulunamadı: ${commonDir}`);
+    console.log(` Ortak doküman klasörü bulunamadı: ${commonDir}`);
   }
   
   // 2. Şirkete özel dokümanları ekle (üzerine yazmadan)
   if (fs.existsSync(companySpecificDir)) {
     // Şirkete özel tüm dosyaları recursive olarak kopyala
     copyRecursive(companySpecificDir, targetDir);
-    console.log(`  ✅ ${company} özel dokümanları eklendi`);
+    console.log(` ${company} özel dokümanları eklendi`);
   } else {
-    console.log(`  ℹ️  ${company} için özel doküman bulunamadı`);
+    console.log(` ${company} için özel doküman bulunamadı`);
   }
   
-  console.log(`  ✨ ${company} dokümanları hazır: /docs/merged/${company}/`);
+  console.log(`  ${company} dokümanları hazır: /docs/merged/${company}/`);
 });
 
 // Public (ortak) dokümanlar için ayrı bir kopya
@@ -52,10 +52,10 @@ const commonDir = path.join(__dirname, 'docs', 'common');
 if (fs.existsSync(commonDir)) {
   fs.ensureDirSync(publicDir);
   fs.copySync(commonDir, publicDir);
-  console.log('  ✅ Public dokümanlar hazır: /docs/merged/public/');
+  console.log('  Public dokümanlar hazır: /docs/merged/public/');
 }
 
-console.log('\n✅ Tüm dokümanlar başarıyla birleştirildi!\n');
+console.log('\nTüm dokümanlar başarıyla birleştirildi!\n');
 
 // Yardımcı fonksiyon: Recursive copy with merge
 function copyRecursive(src, dest) {
