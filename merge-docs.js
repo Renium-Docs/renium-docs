@@ -2,7 +2,7 @@ const fs = require('fs-extra');
 const path = require('path');
 
 // Şirket listesi - buraya yeni şirketler ekleyebilirsiniz
-const companies = ['aws','cfdbfc79-7598-4828-6b2a-08dc27e3fe33'];
+const companies = ['cfdbfc79-7598-4828-6b2a-08dc27e3fe33'];
 
 console.log('📦 Dokümantasyon birleştirme işlemi başlatılıyor...\n');
 

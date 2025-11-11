@@ -27,18 +27,7 @@ const config: Config = {
 
   plugins: [
     require.resolve('docusaurus-plugin-image-zoom'),
-    
-    // AWS şirketi için özel dokümanlar
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'aws',
-        path: 'docs/merged/aws',
-        routeBasePath: 'aws/docs',
-        sidebarPath: './sidebars.aws.ts',
-        editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/',
-      },
-    ],
+
     [
     '@docusaurus/plugin-content-docs',
       {
