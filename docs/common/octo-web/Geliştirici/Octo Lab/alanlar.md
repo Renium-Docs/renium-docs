@@ -34,10 +34,27 @@ FieldName: customername ❌
 - Alanların ekranda görüntülenme sırası
 
 ### FieldDbTypeId
-- Alanın veritabanı veri tipi
+- Alanın veritabanı veri tipi (int, nvarchar, decimal, datetime vb. )
 
 ### EditorTypeId
-- Alanın düzenleme tipi (TextBox, ComboBox, DatePicker vb.)
+- Alanın düzenleme tipi (TextEdit, SpinEdit, CheckEdit, DateTimeEdit, DateEdit vb.)
+
+:::tip
+
+Varsayılan olarak aşağıdaki eşleşme kullanılır.
+
+| SQL Veri Tipi Grubu                                                                                     | Editör Adı     | Açıklama                                    |
+| ------------------------------------------------------------------------------------------------------- | -------------- | ------------------------------------------- |
+| `bit`                                                                                                   | `CheckEdit`    | Boolean alanlar için onay kutusu.           |
+| `date`                                                                                                  | `DateEdit`     | Sadece tarih seçimi.                        |
+| `datetime`, `datetime2`, `smalldatetime`, `datetimeoffset`                                              | `DateTimeEdit` | Tarih + saat seçimi.                        |
+| `int`, `bigint`, `smallint`, `tinyint`, `decimal`, `float`, `real`, `money`, `smallmoney`               | `SpinEdit`     | Sayısal giriş için spinner / numeric input. |
+| `image`, `binary`, `varbinary`                                                                          | `ImageEdit`    | Görsel/dosya içeren binary alanlar.         |
+| `text`, `ntext`                                                                                         | `Memo`         | Uzun metin girişleri (eski tipler).         |
+| **Diğer tüm tipler** (örn. `char`, `nchar`, `varchar`, `nvarchar`, `uniqueidentifier`, `time`, `xml` …) | `TextEdit`     | Varsayılan serbest metin giriş alanı.       |
+
+:::
+
 
 ### FieldCaption
 - Son kullanıcının arayüzde göreceği alan başlığıdır
