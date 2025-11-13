@@ -41,7 +41,6 @@ const config: Config = {
   ],
 
   plugins: [
-    // TechCorp şirketi için özel dokümanlar
     [
       '@docusaurus/plugin-content-docs',
       {
