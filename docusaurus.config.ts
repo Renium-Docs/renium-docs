@@ -30,7 +30,13 @@ const config: Config = {
           path: 'docs/merged/public',
           routeBasePath: 'docs',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/',
+          editUrl: ({locale, docPath}) => {
+          
+            if (locale === 'en') {
+              return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/${locale}/docusaurus-plugin-content-docs-public/current/${docPath}`;
+            }
+            return `https://github.com/Renium-Docs/renium-docs/tree/main/docs/common/${docPath}`;
+          },
         },
         blog: false,
         theme: {
@@ -48,7 +54,12 @@ const config: Config = {
         path: 'docs/merged/cfdbfc79-7598-4828-6b2a-08dc27e3fe33',
         routeBasePath: 'cfdbfc79-7598-4828-6b2a-08dc27e3fe33/docs',
         sidebarPath: './sidebars.cfdbfc79-7598-4828-6b2a-08dc27e3fe33.ts',
-        editUrl: 'https://github.com/Renium-Docs/renium-docs/tree/main/',
+        editUrl: ({locale, docPath}) => {
+          if (locale === 'en') {
+            return `https://github.com/Renium-Docs/renium-docs/tree/main/i18n/${locale}/docusaurus-plugin-content-docs-cfdbfc79-7598-4828-6b2a-08dc27e3fe33/current/${docPath}`;
+          }
+         return `https://github.com/Renium-Docs/renium-docs/tree/main/docs/companies/cfdbfc79-7598-4828-6b2a-08dc27e3fe33/${docPath}`;
+        },
       },
     ],
   ],
