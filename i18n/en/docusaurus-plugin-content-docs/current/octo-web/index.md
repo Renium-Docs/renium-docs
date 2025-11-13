@@ -1,14 +1,15 @@
 ---
 sidebar_position: 1
+toc_min_heading_level: 3
 ---
 
-# Octo Hakkında 
+# About Octo 
 
-Octo, farklı ölçeklerdeki işletmelerin için geliştirilmiş entegre kurumsal kaynak planlama (ERP) çözümüdür. *Tek bir sistem* aracılığıyla gerçek zamanlı kurumsal bilgilere erişmenizi sağlayarak şirketinizin her alanını yönetmenizde size destek olur. Uygulama, her biri farklı bir kurumsal işlevi kapsayan *çeşitli modüllerden* oluşur. 
+Octo is an integrated **Enterprise Resource Planning (ERP)** solution designed for businesses of all sizes. It helps you manage every aspect of your company by providing access to real-time enterprise data through a *single system*. The application consists of *various modules*, each covering a different business function.
 
-*Esnek ve genişletilebilir* bir çözüm olarak tasarlanmıştır. Uygulama, dahili ve harici veri kaynaklarına, mobil aygıtlara ve diğer analiz araçlarına sağladığı standart arayüzlerle, kolaylıkla geliştirilebilir.
+It is designed to be a *flexible and extensible* solution. With its standard interfaces for internal and external data sources, mobile devices, and analytics tools, the platform can be easily customized and expanded.
 
-Bu dokümantasyon, Octo Web platformunu etkili ve verimli bir şekilde kullanmanız için hazırlanmıştır. Platformun ile ilgili kapsamlı bilgiler, örnekler ve en iyi uygulama önerileri sunmaktadır. **Daha fazla ayrıntıya** ulaşmak veya aradığınız bilgiyi bulmak için **ilgili sayfaları** ziyaret edebilirsiniz.
+This documentation is prepared to help you use the Octo Web platform effectively and efficiently. It provides comprehensive information, examples, and best practices related to the platform. To **learn more details** or **find specific topics**, you can visit the **related pages** below.
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
@@ -16,6 +17,6 @@ import DocCardList from '@theme/DocCardList';
 <DocCardList />
 ```
 
-## Tarayıcı Desteği
+## Browser Support
 
-Octo Web platformunu en iyi deneyimle kullanabilmeniz için **Chrome** tarayıcısı önerilmektedir. Diğer tarayıcılar (Firefox, Safari, Edge) üzerinde de platform çalışmakla birlikte, bazı işlevler veya görünüm farklılıkları gözlemlenebilir. Bu nedenle, en stabil ve sorunsuz deneyim için Chrome kullanmanız tavsiye edilir.  
+For the best experience using the Octo Web platform, we recommend using the Chrome browser. While the platform also works on other browsers (Firefox, Safari, Edge), certain functionalities or visual differences may occur. Therefore, for the most stable and seamless experience, it is advised to use Chrome.  

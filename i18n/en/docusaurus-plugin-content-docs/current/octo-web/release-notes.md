@@ -1,20 +1,19 @@
-# Sürüm Notları
+# Release Notes
 ---
 ## v1.5.61
-```14 Ekim 2025```
+```October 14, 2025```
 
-**Yeni Özellikler**
+**New Features**
 
-- Rapor tasarım aracı getirildi.
+- Report design tool introduced.
 
-**Hata Düzeltmeleri**
+**Bug Fixes**
 
-- Hatalar düzeltildi, performans iyileştirildi, bolca kahve içildi.
+- Bugs fixed, performance improved, plenty of coffee consumed.
 ---
 ## v1.5.59
-```12 Ekim 2025```
+```October 12, 2025```
 
-**Hata Düzeltmeleri**
+**Bug Fixes**
 
-- Hatalar düzeltildi, kararlılıkla ilgili iyileştirmeler yapıldı, uzay-zaman sürekliliği masaya yatırıldı.
-
+- Bugs fixed, stability improvements made, space-time continuum put on the table.
