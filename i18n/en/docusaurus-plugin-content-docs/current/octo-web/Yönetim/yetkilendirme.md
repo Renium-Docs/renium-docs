@@ -2,83 +2,84 @@
 sidebar_position: 9
 ---
 
-# Yetkilendirme
+# Authorization
 
-**Yetkilendirme** bölümü, sistemdeki kullanıcıların erişim düzeylerini ve izinlerini yönetmenizi sağlar. Bu alan üzerinden yeni roller tanımlayabilir, kullanıcı hesaplarını oluşturup düzenleyebilir ve her kullanıcıya özel ekran veya modül bazlı yetkiler atayabilirsiniz. Böylece platform üzerinde kimlerin hangi işlemleri gerçekleştirebileceğini kolayca kontrol edebilirsiniz. 
+**The Authorization** section allows you to manage users’ access levels and permissions within the system. Here, you can define new roles, create and edit user accounts, and assign module- or screen-specific permissions to individual users. This makes it easy to control who can perform which actions on the platform.
 
 :::info
-Yetkilendirme işlemleri yalnızca **admin yetkilerine sahip** roller tarafından gerçekleştirilebilir. Bir kullanıcının bu yetkiye sahip olup olmadığını kontrol etmek için **Yönetim** altındaki **Roller** ekranına gidiniz.  
+Authorization tasks can only be performed by roles with admin privileges. To check whether a user has this privilege, go to the Roles screen under Management.
 
-İlgili rolün satırında bulunan **Admin?** sütunu işaretli ise, bu o rolün ve o role atanmış kullanıcıların **yönetici (admin)** yetkilerine sahip olduğunu gösterir.
+If the Admin? column is checked for a role, it indicates that the role—and all users assigned to it—have administrator (admin) privileges.
 
 ![Yetkilendirme](./assets/yetkilendirme_1.webp)
 :::
 
-## Roller
+## Roles
 
-Kullanıcıların erişebilecekleri ekranlar ve yapabilecekleri işlemler, hangi role sahip olduklarına göre belirlenir. Bu sayede, farklı kullanıcılar farklı işlevleri yerine getirebilir ve sistem güvenliği sağlanmış olur.
+The screens users can access and the actions they can perform are determined by the roles they are assigned. This ensures that different users can carry out different functions while maintaining system security.
 
-Genellikle rol adı olarak organizasyon şemasında yer alan pozisyon veya görev adları kullanılır. Bu, rollerin tanımlanmasını ve kimin hangi yetkilere sahip olduğunu anlamayı kolaylaştırır.
+Role names usually correspond to positions or job titles in the organizational chart. This makes it easier to define roles and understand which permissions each user has.
 
-### Rol Tanımı Yapma
+### Creating a Role
 
-Yeni bir rol tanımlarken, sistemde hazır olarak bulunan standart rollerden birini temel almanız önerilir. Oluşturmak istediğiniz role en yakın yetkilere sahip mevcut rolün yetkilerini **kopyalayarak** yeni rolünüzü hızlıca oluşturabilir ve ardından gerekli düzenlemeleri yapabilirsiniz.
+When defining a new role, it is recommended to base it on one of the standard roles already available in the system. You can **copy** the permissions of an existing role that closely matches the new role you want to create, then make any necessary adjustments.
 
-![Rol Yetki Kopyalama](./assets/rol_yetki_kopyalama.gif)
+![Copy Role Permissions](./assets/rol_yetki_kopyalama.gif)
 
-Roller ekranında araç çubuğunun yanında bulunan **Rol Yetki Kopyala** butonuna tıklayarak seçeceğiniz rolün yetkilerini kopyalabilirsiniz.
+In the Roles screen, click the **Copy Role Permissions** button next to the toolbar to copy the permissions of the selected role.
 
-## Kullanıcılar
+## Users
 
-Kullanıcı, sisteme erişim izni verilen ve belirli rollerle ilişkilendirilmiş kişileri ifade eder. Kullanıcının yetkileri, atanmış oldukları role göre farklılık gösterir.
+A user refers to a person who is granted access to the system and is associated with specific roles. A user's permissions vary depending on the role(s) they are assigned.
 
-### Yeni Kullanıcı Tanımlama
+### Creating a New User
 
-![Yeni Kullanıcı](./assets/yeni_kullanıcı.gif)
+![New User](./assets/yeni_kullanıcı.gif)
 
-Yeni bir kullanıcı tanımlamak için;
-- Yönetici modülü altında *Kullanıcı* ekranı tıklanır.
-- Araç çubuğunda bulunan *Yeni* butonuna tıklanır.
-- Açılan ekranda; 
-    - **Kullanıcı Adı:** Kullanıcı adı girilir., 
-    - **Şifre:** : Kullanıcının giriş ekranında kullanacağı şifre belirlenir.
-    - **Rol:** Listeden istenen Rol seçilir.
-    - **Kullanıcı Kodu:** Kullanıcının giriş ekranında kullanacağı kod girilir. Veri yönetimini kolaylaştırmak amacıyla, kullanıcı kodlarının standart bir formatta verilmesi önerilir.
-bilgileri doldurulduktan sonra *kaydet* butonuna tıklanarak yeni kullanıcı oluşturulur.
+To create a new user:
+- Go to the *Users* screen under the Management module.
+- Click the *New* button in the toolbar.
+- In the opened form, fill in the following information:
+    - **Username:** Enter the username.
+    - **Password:** Set the password that the user will use to log in.
+    - **Role:** Select the desired role from the list.
+    - **User Code:** Enter the code the user will use at login. It is recommended to follow a standard format for user codes to facilitate data management.
+- After filling in the details, click the *Save* button to create the new user.
 
-Bu sayede seçtiğiniz rolde yeni bir kullanıcıyı oluşturmuş olursunuz.
+This way, you will have created a new user with the selected role.
 
-:::danger[Dikkat]
-Kullanıcının ekranlara erişimini sağlamak için [ekran yetkilendirmesi](./index.md#kullanıcı-yetki) yapılması gerektiği unutulmamalıdır. 
+:::danger[Note]
+Do not forget that to grant the user access to screens, [screen permissions](./index.md#kullanıcı-yetki) must be assigned.
 :::
 
-### Kullanıcı Bilgileri Güncelleme
+### Updating User Information
 
-![Kullanıcı Düzenle](./assets/kullanıcı_düzenle.webp)
+![Edit User](./assets/kullanıcı_düzenle.webp)
 
-Sistemdeki herhangi bir kullanıcı ile ilgili rol, kullanıcı adı, şifre gibi bilgileri güncellemek için;
-- Yönetici modülü altında *Kullanıcı* ekranı tıklanır.
-- Ekrandan istediğiniz kullanıcı seçtikten sonra; araç çubuğunda bulunan *Düzenle* butonuna tıklanır
-- Açılan ekranda düzenleme yapmak istediğiniz alanı güncelledikten sorna kaydet butonuna tıklayınız. 
+To update information such as role, username, or password for any user in the system:
 
-### Kullanıcı Kaldırma
+- Go to the *Users* screen under the Management module.
+- Select the desired user from the list and click the *Edit* button in the toolbar.
+- Update the necessary fields in the opened form and click the **Save** button to apply changes.
 
-Sisteminizdeki kullanıcıları, artık ihtiyaç duymadığınızda doğrudan kaldırabilirsiniz. 
+### Removing a User
 
-Kullanıcı/Kullanıcıları silmek için *Kullanıcılar* ekranında dilediğiniz kullanıcıları seçiniz. Daha sonrasında araç çubuğunda bulunan **Sil** butonuna tıklayarak kullancıyı/kullanıcıları sistemden kaldırabilirsiniz.
+You can remove users from the system when they are no longer needed.
 
-## Kullanıcı Yetki
+To delete one or more users, select the users on the *Users* screen. Then, click the **Delete** button in the toolbar to remove the selected user(s) from the system.
 
-Kullanıcılara bir veya birden fazla ekranı, aynı anda hızlı ve kolay bir şekilde yetkilendirmek mümkündür. Bu işlem sayesinde kullanıcıların ilgili ekranlara erişimi sağlanır. Eğer gerekli yetkilendirmeler yapılmazsa, kullanıcılar sistemde bazı ekranları **göremeyebilir veya erişim hatası alabilir**.
+## User Permissions
 
-### Ekran Yetkilerinin Düzenlenmesi
+It is possible to grant one or multiple screens to users quickly and easily. This ensures that users have access to the relevant screens. Without proper permissions users may **not see certain screens or encounter access errors**.
 
-Kullanıcılara ekran yetkileri tanımlamak için aşağıdaki adımları izleyebilirsiniz:
+### Managing Screen Permissions
 
-![Ekran Yetki](./assets/yetki_düzenleme.gif)
+To assign screen permissions to users, follow these steps:
 
-1. Yönetim modülü altındaki Kullanıcı Yetki ekranına gidiniz.
-2. Ekranın üst kısmında yer alan Kullanıcı Seç alanından, yetkilerini düzenlemek istediğiniz kullanıcıyı seçiniz ve Ekran Yetkilerini Getir butonuna tıklayınız.
-3. Alt kısımda, seçilen kullanıcının erişebildiği ekranlar ve sahip olduğu roller listelenecektir.
-4. Yetki vermek istediğiniz ekranların yanındaki kutucukları işaretleyerek kullanıcının bu ekranlara erişimini sağlayabilir; işareti kaldırarak erişimini kaldırabilirsiniz.
-5. Gerekli düzenlemeleri tamamladıktan sonra Kaydet butonuna tıklayarak yapılan değişiklikleri kaydediniz.
+![Screen Permissions](./assets/yetki_düzenleme.gif)
+
+1. Navigate to the **User Permissions** screen under the Management module.
+2. In the top section, select the user whose permissions you want to modify and click the **Get Screen Permissions** button.
+3. In the lower section, the screens the selected user can access and their assigned roles will be listed.
+4. Check the boxes next to the screens to grant access, or uncheck them to remove access.
+5. After making the necessary adjustments, click the **Save** button to apply the changes.
