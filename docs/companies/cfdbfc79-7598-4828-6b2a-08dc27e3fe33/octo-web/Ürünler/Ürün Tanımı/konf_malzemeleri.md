@@ -89,12 +89,6 @@ Kod ve ad içeriğinde geçen alanlar zorunludur. Bir ürün için o özellik bu
 Bir ürün tanımı üzerinden çalıştırmalıdır.
 Paketleme rotası tanımlanmalıdır.
 
-#### İşlemler
-
-- Rota varsayılan paketleme rotası getirilir. Yoksa Paketleme rotası tanımlanır.
-- Pa
-
-
 #### Alanlar
 
 
