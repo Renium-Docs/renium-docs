@@ -2,442 +2,465 @@
 sidebar_position: 3
 ---
 
-# Genel Kullanım
+# General Usage
 
-Bu bölümde, programın temel özelliklerini, arayüzün nasıl kullanılacağını ve programdan en iyi şekilde nasıl yararlanabileceğinizi adım adım öğreneceksiniz.
+In this section, you will learn step by step how to use the core features of the program, navigate the interface, and make the most of the platform.
 
-## Anasayfa
+## Homepage
 
-Ana Sayfa, Octo Web Platformu’na giriş yaptıktan sonra karşılaşacağınız ilk ekrandır. Buradan platformun tüm özelliklerine kolayca ulaşabilir ve hızlıca yönetebilirsiniz.
+The **Homepage** is the first screen you encounter after logging into the Octo Web Platform. From here, you can easily access and manage all the platform’s features.
 
-Ana sayfada görebileceğiniz başlıca bölümler:
+Main sections you can find on the homepage:
 
-- **Dashboard:** Projelerinizin genel durumunu ve özet bilgileri tek ekranda takip edin.
-- **Takviminiz:** Toplantılarınızı, etkinliklerinizi ve önemli tarihleri düzenli şekilde görüntüleyin.
-- **Favori Ekranlarınız:** Sık kullandığınız sayfaları favorilere ekleyerek kolay erişim sağlayın.
-- **Arama Çubuğu** 
-- **Kullanıcı Profili**
+- **Dashboard:** Track the overall status and summary of your projects on a single screen.  
+- **Your Calendar:** View and organize your meetings, events, and important dates in an orderly way.  
+- **Favorite Screens:** Add frequently used pages to your favorites for quick access.  
+- **Search Bar**  
+- **User Profile**
 
-![Ana Sayfa](./assets/anasayfa.png)
+![Homepage](./assets/anasayfa.png)
 
 ---
 
 ### Dashboard
 
-Dashboardlar, Octo Web platformunun ana sayfasında yer alan ve kullanıcıya hızlı bir genel bakış sağlayan bölümüdür. Burada belirlediğiniz ekranlar ile ilgili kritik bilgileri özet halinde görüntüleyebilirsiniz.
+The **Dashboard** is a section on the Octo Web homepage that provides users with a quick overview.  
+Here, you can view critical information related to the screens you’ve selected in a summarized form.
 
 :::warning
-Dashboardlar her müşteriye özel olarak hazırlanır bu yüzde hesabınızda dashboard oluşması için ekibimizle iletişime geçmeniz gerekmektedir. İletişime geçilmediği sürece hesabınızda herhangi bir dashboard belirmeyecektir.
+Dashboards are customized for each customer. Therefore, to have a dashboard created in your account, you must contact our team. If you do not reach out, no dashboard will appear in your account.
 :::
 
 ---
 
-### Takviminiz
+### Calendar
 
-Takviminiz, günlük toplantılarınızı düzenlemenizi ve yönetmenizi sağlar. Daha önce oluşturduğunuz toplantıları burada görebilir veya yeni toplantılar ekleyebilirsiniz.
+Your calendar helps you organize and manage your daily meetings. You can view previously created meetings here or add new ones.
 
-#### *Yeni Toplantı Oluşturma*
+#### *Creating a New Meeting*
 
-1. Takvimde istediğiniz tarihe gidin ve toplantıyı eklemek istediğiniz saat aralığına tıklayın.
+1. Navigate to your desired date in the calendar and click on the time slot where you want to add the meeting.  
 
-2. Açılan pop-up ekranında toplantı ile ilgili bilgileri doldurun:
-    - ***Subject:*** Toplantının başlığı veya konusu
-    - ***Start/End:*** Toplantının başlangıç ve bitiş tarihi/saati
-    - ***Repeat:*** Gerekirse toplantının tekrar sıklığı
-    - ***Location:*** Toplantının yapılacağı yer veya link
-    - ***Label:*** Toplantılarınızı kategorize etmek için kullanbilirsiniz
-    - ***Status:*** Toplantı zamanındaki uygunluk durumunuzu belirtebilirsiniz
-    - ***Description:*** Toplantı ile ilgili ek bilgiler veya notlar
+2. Fill in the meeting details in the pop-up window:  
+   - ***Subject:*** The title or topic of the meeting  
+   - ***Start/End:*** Start and end date/time of the meeting  
+   - ***Repeat:*** Set recurrence frequency if necessary  
+   - ***Location:*** Physical location or meeting link  
+   - ***Label:*** Used to categorize your meetings  
+   - ***Status:*** Indicate your availability during the meeting time  
+   - ***Description:*** Add any extra details or notes about the meeting  
 
-3. Bilgileri girip kontrol ettikten sonra etkinliğinizi kaydetmek için pop-up ekranının sağ üst köşesinde bulunan **Save** butonuna, iptal etmek içinse **Discard** butonuna tıkalyınız.
+3. After reviewing the information, click **Save** (top right of the pop-up window) to confirm, or **Discard** to cancel.  
 
-4. Save butonuna tıkladıktan sonra, takvimde ilgili tarih ve saatte etkinliğiniz görünür hale gelir.
+4. Once saved, your event will appear in the calendar on the selected date and time.
 
 :::note
-
-Takviminiz bölümüne eklediğiniz etkinlikler yada toplantılar size toplantılarınızı gerçekleştirmeniz için canlı bir ortam sunmaz, sadece bunları not etmenizi sağlar.
-
+Events or meetings added to your calendar do **not** create a live meeting environment — they are for note-taking and reminder purposes only.
 :::
 
 ---
 
-### Favori Ekranlarınız
+### Favorite Screens
 
-Favori Ekranlarınız, sık kullandığınız ve hızlı erişmek istediğiniz servis sayfalarına tek tıklamayla ulaşmanızı sağlar.
+**Favorite Screens** allow you to quickly access the service pages you use most often — with just one click.
 
-#### *Favori Ekran Ekleme*
+#### *Adding a Favorite Screen*
 
-1. Anasayfanın sol üst köşesinde bulunan gezinme çubuğunu açın.
-2. Favoriye eklemek istediğiniz ekranın bulunduğu dizine gidin.
-3. Gezinme çubuğunda ilgili ekranın yanında bulunan yıldız (⭐️) ikonuna tıklayın. Bu işlem ekranı favori listenize ekler.
+1. Open the navigation bar located in the upper-left corner of the homepage.  
+2. Navigate to the directory where the screen you want to favorite is located.  
+3. Click the star icon (⭐️) next to the relevant screen in the navigation bar.  
+   This action adds the screen to your favorites list.
 
-#### *Favori Ekrandan Çıkarma*
+#### *Removing a Favorite Screen*
 
-Daha önce eklediğiniz bir ekranı favorilerinizden çıkarmak için, tekrar ilgili ekranın bulunduğu dizine gezinme çubuğu içinde gidin ve yıldız (⭐️) ikonuna tıklayın. Bu işlem ekranı favori listenizden kaldırır.
+To remove a screen that you’ve previously added to your favorites, go to the same directory in the navigation bar and click the star icon (⭐️) again. This will remove the screen from your favorites list.
 
-#### *Favori Ekranlarınıza Erişim*
+#### *Accessing Your Favorite Screens*
 
-Eklediğiniz veya çıkardığınız ekranlar, **Ana Sayfa > Favori Ekranlarım** bölümünde görüntülenir.
-Alternatif olarak, **Gezinme Çubuğu’nu** açıp en üstte bulunan **Favori Ekranlar** bölümüne tıklayarak da favori ekranlarınıza ulaşabilirsiniz.
-![Gezinme Çubuğu](./assets/favori_ekranlar_1.webp)
+The screens you’ve added or removed are displayed under **Homepage > My Favorite Screens**. Alternatively, you can open the **Navigation Bar** and click **Favorite Screens** at the top to view them.
+
+![Navigation Bar](./assets/favori_ekranlar_1.webp)
 
 ---
 
-### Arama Çubuğu
+### Search Bar
 
-Arama çubuğuna tıkladığınızda, aramak istediğiniz ekranın adını veya veriyi yazabilirsiniz. Doğrudan ilgili ekranların veya verilerin bulunduğu sayfalar listelenir, böylece ihtiyaç duyduğunuz bilgilere hızlı ve kolay bir şekilde ulaşabilirsiniz.
+Click the search bar and type the name of the screen or data you want to find. Relevant pages containing that screen or data will be listed, allowing you to access the information you need quickly and easily.
 
 :::tip
-Gezinme Menüsü’ndeki arama fonksiyonuna ek olarak, Arama Çubuğu **hem ekranlar hem de veriler** için arama yapmanızı sağlar. 
+In addition to the search function in the **Navigation Menu**, the Search Bar lets you search across **both screens and data**.
 :::
 
 ---
 
-## Menüler
+## Menus
 
-### Sol Menü
+### Left Menu
 
-Sol Menü, ekranın sol üst köşesinde bulunan **≡** sembolüne tıklayarak açılıp kapatılabilir. Bu menü sayesinde platform içindeki modül ve modül alt gruplarını görüntüleyebilir ve hızlıca erişebilirsiniz.
+The **Left Menu** can be opened or closed by clicking the **≡** icon located in the upper-left corner of the screen.  
+This menu allows you to view and quickly access the modules and submodules within the platform.
 
+![Navigation Menu](./assets/sol_menü_1.webp)
 
-  ![Gezinme Menüsü](./assets/sol_menü_1.webp)
+**Module:**
+- Used to group screens that serve similar functions.
+- Common examples of modules in ERP systems include:
+  * Products  
+  * Inventory  
+  * Sales  
+  * Planning  
+  * Production, etc.
 
-
-**Modül:**
-- Benzer fonksiyonlara sahip ekranları gruplandırmak için kullanılır.
-- ERP sistemlerinde bazı yaygın modüller şunlardır:
-    * Ürünler
-    * Stok
-    * Satış
-    * Planlama
-    * Üretim vb.
-
-**Modül Alt Grup:**
-- Modül içinde belirli bir işlevi daha da detaylı bir şekilde yönetmek için ayrılmış daha küçük gruplardır. Ekran sayısının çok olduğu modüllerde istenen ekranlara ulaşımı kolaylaştırmak için kullanılabilmektedir.
+**Submodule:**
+- Smaller groups within a module that manage more specific functions. Submodules are useful when a module contains many screens, helping users quickly find the page they need.
 
 :::warning
-Kullanıcılar; sol menüde yetkisi olduğu ekran, modül ve modül alt grupları görebilmektedir. Bu sebeple sol menü kullanıcıların yetkisine göre değişiklik göstermektedir.
+Users can only see the modules, submodules, and screens they are authorized to access. Therefore, the left menu may vary depending on each user's permissions.
 :::
 
-- Menü açıldıktan sonra beliren Menüde Ara fonksiyonunu kullanarak istediğiniz ekranı hızlıca bulabilirsiniz.
-- Menüde listelenen başlıklara tıklayarak farklı modüllere veya sayfalara geçiş yapabilirsiniz.
+- Once the menu is open, you can use the **Search in Menu** function to find a screen quickly.  
+- Click on the listed titles to navigate between different modules or pages.
 
-    :::tip
-    Modül ve Modül Alt Gruplarının yanında bulunan numaralar da o ekranlara ait numaralardır. Ekran araması yaparken ismiyle yada bu numarayla arayabilirsiniz.
-    :::
+:::tip
+The numbers displayed next to modules and submodules represent their unique screen codes. You can search for a screen using either its name or its code.
+:::
 
-    ![Gezinme Menüsü](./assets/sol_menü_2.webp)
-
+![Navigation Menu](./assets/sol_menü_2.webp)
 
 ---
-## Araç Çubuğu
 
-Araç çubuğu, ekranın üst kısmında yer alan ve en sık kullanılan işlemlere hızlı erişim sağlayan alandır. Araç çubuğu standart olarak; Log, Yeni, Düzenle, Sil, İçeri Aktar ve Arama işlevlerinden oluşur fakat sayfalara göre farklılıklar gösterebilir.
+## Toolbar
 
-![Araç Çubuğu](./assets/araç_çubuğu_1.webp)
+The **Toolbar** is located at the top of the screen and provides quick access to commonly used actions. By default, it includes **Log**, **New**, **Edit**, **Delete**, **Import**, and **Search** functions, although these may vary depending on the page.
+
+![Toolbar](./assets/araç_çubuğu_1.webp)
 
 #### Log
-Platformdaki tüm ekranlarda yapılan işlemler için **kayıt logları** tutulmaktadır. Bu loglar yalnızca **sistem yöneticileri** tarafından görüntülenebilir.  
 
-Bir satır veya tabloya ait log bilgilerini görmek için, ilgili alanın yanındaki **⚙️ simgesine** tıklayın. Açılan menüden **“Log Satır”** veya **“Log Tablo”** seçeneğini seçerek ilgili kayıtların geçmişine ulaşabilirsiniz.
+All actions performed on the platform are recorded as **activity logs**, which can only be viewed by **system administrators**.  
 
-![Log Satır](./assets/log_satır_2.gif)
+To view the log information for a specific row or table, click the **⚙️ icon** next to the relevant field. From the dropdown menu, select **“Row Log”** or **“Table Log”** to see the change history.
 
+![Row Log](./assets/log_satır_2.gif)
 
+---
 
-#### <i class="dxbl-image fa-regular fa-file image"></i> Yeni
+#### New
 
-*Yeni* butonu, bulunduğunuz ekrana yeni bir kayıt eklemenizi sağlar. Bu işlemin adımlarını daha detaylı öğrenmek için dokümantasyonun [Yeni Kayıt Ekleme](#yeni-kayıt-ekleme) bölümünü inceleyebilirsiniz.
+The **New** button allows you to add a new record to the current screen. For detailed steps, refer to the [Adding a New Record](#adding-a-new-record) section of this documentation.
 
-#### <i class="dxbl-image fa-regular fa-pen-to-square image"></i> Düzenle
+---
 
-*Düzenle* butonu, bulunduğunuz ekrandaki bir kayıdı güncellemenizi sağlar. Bu işlemin adımlarını daha detaylı öğrenmek için dokümantasyonun [Kayıt Güncelleme](#kayıt-güncelleme) bölümünü inceleyebilirsiniz.
+#### Edit
 
-#### <i class="dxbl-image fa-regular fa-trash-can image"></i>Sil
+The **Edit** button allows you to update an existing record on the current screen. For more information, see the [Updating a Record](#updating-a-record) section.
 
-*Sil* butonu, bulunduğunuz ekrandaki bir veye birkaç kaydı silmenizi sağlar. Bu işlemin adımlarını daha detaylı öğrenmek için dokümantasyonun [Kayıt Silme](#kayıt-silme) bölümünü inceleyebilirsiniz.
+---
 
-#### <i class="fa-solid fa-arrow-rotate-right"></i> Yenile
+#### Delete
 
-Sistemde herhangi bir değişiklik yaptıktan sonra, bu değişikliğin ekrana yansıması biraz zaman alabilir. Değişiklikleri daha hızlı görebilmek için **yenile butonuna** tıklayabilirsiniz. Bu işlem, arka plandaki sorguların tekrar çalışmasını sağlayarak verilerin güncel hâlde görüntülenmesini sağlar.
+The **Delete** button lets you remove one or multiple records from the current screen. You can find detailed instructions in the [Deleting a Record](#deleting-a-record) section.
 
-#### İçe Aktar
+---
 
-*İçeri Aktar* butonu, elinizde bulunan **Excel dosyalarındaki verileri** doğrudan ilgili tabloya yüklemenizi sağlar.  
+#### Refresh
 
-Yükleme sırasında dosyanın **ilk satırı sütun adları** olarak kabul edilir ve bu başlıklar, Octo Web’deki sütun isimlerinizle eşleştirilir. Eşleştirme tamamlandığında, verileriniz tabloya eklenir ve sistemde kullanılabilir hale gelir.
+After making changes in the system, it may take a few moments for updates to appear on your screen. Click the **Refresh** button to reload the page data immediately. This action re-runs the background queries and ensures that the displayed information is up to date.
+
+---
+
+#### Import
+
+The **Import** button allows you to upload data directly from an **Excel file** into the corresponding table.  
+
+During import, the **first row of your Excel file** is treated as column headers, which must match the column names in Octo Web. Once mapping is complete, your data will be added to the table and become available for use in the system.
 
 :::note
-Excel dosyanızdaki kolon isimlerinin, sistemdeki kolonlarla uyumlu olması gerekir. Aksi durumda veriler doğru şekilde eşleşmeyebilir.
+Make sure the column names in your Excel file match those in the system. Otherwise, the data may not be mapped correctly.
 :::
 
-#### Arama
+---
 
-Tablo içindeki veriler arasında arama yapmanızı sağlar. İlgili alana herhangi bir değer veya özelliği yazarak hızlıca istediğiniz kaydı bulabilirsiniz.
+#### Search
+
+The **Search** function allows you to quickly locate a specific record within a table. Simply type any relevant value or attribute, and the matching entries will be displayed instantly.
 
 ---
 
-## Ekran Özellikleri
+## Screen Features
 
-Ekran yapısı tablo (grid) biçiminde, görüntü ve fonksiyon olarak excel' e oldukça benzemektedir. Ekran yapısı sırasıyla üst kısmında araç çubuğu, alan başlıkları ve verilerden oluşturmaktadır.
+The screen layout is table (grid) based, similar in appearance and functionality to Excel. The structure of a screen typically consists of the **toolbar** at the top, followed by **column headers** and **data rows**.
 
-![Ekran Özellikleri](./assets/ekran_özellikleri_1.webp)
+![Screen Features](./assets/ekran_özellikleri_1.webp)
 
-### Sadece Okunabilir Ekran
+### Read-Only Screens
 
-Standart olarak yeni veri girişi yapabildiğiniz ekranlarda bunun için *Yeni* alanı bulunur fakat, bu alanın olmadığı ekranlar da bulunmaktadır. Bu ekranlar Sadece Okunabilir (Read Only) Ekranlardır. 
+By default, screens that allow new data entry have a **New** button. However, some screens do not include this option. These are **Read-Only Screens**.
 
-Bu tür ekranlarda *Yeni*, *Düzenle* veya *Sil* gibi işlem butonları bulunmaz; bu nedenle veri ekleme ya da güncelleme işlemleri yapılamaz. **Read Only** ekranlar genellikle **veri analizi**, **raporlama** veya **izleme amaçlı** kullanılır.
+On such screens, buttons like **New**, **Edit**, or **Delete** are not available; therefore, adding or updating data is not possible. **Read-Only** screens are generally used for **data analysis**, **reporting**, or **monitoring purposes**.
 
-![Sadece Okunabilir Ekran](./assets/readonly_ekran.webp)
-
-
-### Master - Master Detay Ekranları
-
-Bir ekranın içinde iki tablonun bulunduğu ekran çeşidi Master-Detay ekran olarak adlandırılır ve resimdeki gibidir. Burada ikinci tablo ilk tabloda seçili kaydın bağlantılı detay kayıtlarını gösterir.
-
-***Örn; Resimdeki ürün ekranında ürün bilgileri 1. tabloda yer alır. Seçili 1 nolu ürünün stok bilgileri ikinci tabloda yer almaktadır.***
-
-![Master Detay](./assets/master_detay_1.webp)
-
-
-- Ekranlar sekme olarak açılmaktadır ve sekme bölümü üzerinden dolaşılabilmektedir. Sekme üzerinde sağ tıkladıktan sonra açılan menü ile ilgili işlemler yapılabilmektedir.
-
-![Sekme Yönetimi](./assets/master_detay_2.webp)
+![Read-Only Screen](./assets/readonly_ekran.webp)
 
 ---
 
-## Veri İşlemleri
+### Master - Master Detail Screens
 
-### Yeni Kayıt Ekleme
-Kayıt ekleme, ilgili modül alt sayfalarındaki **Yeni** tuşuna tıklanarak yapılabilmektedir. 
+Screens that contain two tables are called **Master-Detail Screens**, as shown in the image below. The second table displays the related detail records of the selected entry in the first table.
 
-Yeni kayıt eklemesi yapılırken;
-- Alanın **Kırmızı** renk olması zorunlu olduğunu ifade eder. Bu tip alanlar doldurulmadan veri girişi yapılamaz.
-- **Gri** renk olması alanın sadece okunabilir (read only) olduğunu ifade eder.
-- **Siyah** renk olması isteğe bağlı doldurulması gereken doldurulması zorunluluk gerektirmeyen alanlardır.
+***Example: In the product screen shown, product information is displayed in the first table. The stock information for the selected product (Product #1) is displayed in the second table.***
 
-![Yeni Kayıt](./assets/yeni_kayıt_1.webp)
+![Master Detail](./assets/master_detay_1.webp)
 
-- Bazı alanlar sadece kütüphane de tanımlı alanlardaki değeri alabilir. Bu tür alanlarda **(↓)** işareti görünmektedir. Bu işarete tıklayarak tanımlı değerlerden birini seçebilirsiniz.
-- Alan üzerinde görünen alt ok sembolü tıklanarak kütüphane listelenebilir.
-- Listeleme ekranında anahtar sözcükler yazılarak filtreleme işlemi yapılabilir.
-- Aynı alanın yanında bulunan **üç nokta (...)** tuşuna tıklanarak kütüphanenin kaynak ekranına gidilebilir. Kütüphaneye yeni kayıt eklenmek istenirse açılan ekranda yeni kayıt eklenebilir.
+- Screens are opened in **tabs**, which can be navigated via the tab bar.  
+- Right-clicking on a tab opens a menu with related options for managing that tab.
 
-![Yeni Kayıt](./assets/yeni_kayıt_2.gif)
-
-#### Satır Kopyala
-- Benzer özellikli kayıtlar eklemek için satır kopyalama özelliği kullanılabilir. 
-    - Bir satırı kopyalamak için, öncelikle kopyalamak istediğiniz satırın yanındaki **checkbox**’ı işaretleyin.
-    - Ardından satırın üzerine **sağ tıklayın**. Açılan menüden **“Satırı Kopyala”** seçeneğini seçtiğinizde, ilgili satır otomatik olarak **yeni kayıt ekleme ekranı**nda açılacaktır. Burada gerekli değişiklikleri yaptıktan sonra **Kaydet** butonuna tıklayarak yeni kaydınızı oluşturabilirsiniz.
-
-![Yeni Kayıt](./assets/satır_kopyala.gif)
-
-*Kayıt işlemleri sırasında çeşitli hata veya uyarılar alınabilir. Bu tür durumlarda işlemler tamamlanmayacaktır. Uyarı alınmıyorsa işlem başarılı bir şekilde gerçekleşmiş anlamına gelir.*
-
-### Kayıt Güncelleme
-
-Kayıt güncelleme, ekrandaki veriler üzerinde aşağıda belirtilen adımlara ve kurallara dikkat edilerek yapılmaktadır.
-
-1. İlgili kaydın en solunda bulunan **checkbox**'ı işaretleyip ilgili satırı seçiniz. 
-2. Daha sonrasında araç çubuğunda bulunan **"Güncelle"** butonuna tıklayınız.
-3. Açılan ekranda, satırla ilgili detayları görüntüleyebilir ve istediğiniz alanları değiştirebilirsiniz. 
-
-Gerekli değişiklikleri yaptıktan sonra **"Kaydet"** tuşuna tıklayarak veriyi güncelleyebilirsiniz.
-
-![Kayıt Günzelleme](./assets/kayıt_güncelleme.gif)
-
-### Kayıt Silme
-
-İlgili kaydın en solunda bulunan **checkbox**'ı işaretleyip ilgili satırı seçtikten sonra araç çubuğundaki **Sil** butonuna tıklayınız. 
-
-#### Çoklu Kayıt Silme
-
-Çoklu silme işlemi yapmak için, birden fazla satırın **checkbox**'ını seçip araç çubuğundan sil butonuna tıklayabilirsiniz.
-
-![Kayıt Silme](./assets/kayıt_silme.gif)
+![Tab Management](./assets/master_detay_2.webp)
 
 ---
 
-## Filtreleme
+## Record Operations
 
-Ekranlarda aşağıda belirtilen filtreleme yöntemi bulunmaktadır. Anlık ihtiyacı göre en uygun filtreleme yöntemini kullanarak istediğiniz verilere hızlıca ulaşabilirsiniz.
+### Adding a New Record
 
-**1. Ekran içi arama çubuğu**
-    
-> *Ekran içi arama çubuğu*, her ekranımızda standart olarak bulunan bir arama fonksiyonudur. İlgili alana aramak istediğiniz değeri girerek, tablo içindeki kayıtlar arasında hızlıca arama yapabilirsiniz.
+New records can be added by clicking the **New** button on the corresponding module sub-pages. When adding a new record:
+- **Red** fields indicate mandatory fields. These must be filled to complete the data entry.  
+- **Gray** fields are **read-only** and cannot be modified.  
+- **Black** fields are optional and do not require mandatory input.
 
-![Ekran İçi Arama](./assets/ekran_içi_arama.webp)
+![New Record](./assets/yeni_kayıt_1.webp)
+
+- Some fields can only accept values defined in a library. These fields show a **(↓)** icon. Click this icon to select a value from the predefined list.  
+- Clicking the down arrow on a field displays the library list.  
+- You can filter the library by entering keywords in the list screen.  
+- Clicking the **three dots (...)** next to a field navigates to the library’s source screen, where new entries can be added if needed.
+
+![New Record](./assets/yeni_kayıt_2.gif)
+
+- To add similar records, you can use the **row copy feature**:  
+    1. Select the **checkbox** next to the row you want to copy.  
+    2. Right-click on the row and select **“Copy Row”** from the menu. The row will open in the **new record screen**, where you can make necessary changes and click **Save** to create the new record.
+
+![New Record](./assets/satır_kopyala.gif)
+
+*During record operations, various errors or warnings may appear. If a warning occurs, the operation will not be completed. If no warnings appear, the operation has been successfully completed.*
+
+---
+
+### Updating a Record
+
+To update a record, follow the steps below:
+
+1. Select the row by checking the **checkbox** on the far left of the corresponding record.  
+2. Click the **"Edit"** button on the toolbar.  
+3. In the opened screen, you can view details of the selected row and modify the desired fields.  
+
+After making the necessary changes, click **"Save"** to update the record.
+
+![Update Record](./assets/kayıt_güncelleme.gif)
+
+---
+
+### Deleting a Record
+
+To delete a record, select the **checkbox** on the far left of the row and click the **Delete** button on the toolbar.  
+
+#### Deleting Multiple Records
+
+To delete multiple records, select the **checkboxes** of all rows you want to remove and click the **Delete** button on the toolbar.
+
+![Delete Record](./assets/kayıt_silme.gif)
+
+---
+
+## Filtering
+
+The screens provide the following filtering methods. You can quickly access the data you need by choosing the most appropriate filtering method for your current requirement.
+
+### In-Screen Search Bar
+
+The *In-Screen Search Bar* is a standard search function available on every screen. By entering the value you want to search for, you can quickly find records within the table.
+
+![In-Screen Search](./assets/ekran_içi_arama.webp)
 
 :::note
-Ekran içi arama çubuğunda, aramanızı daha etkili hale getirecek bazı gelişmiş arama fonksiyonları bulunmaktadır:
+The in-screen search bar also supports advanced search functions to make your searches more effective:
 
-Ekran içi arama çubuğu, veriler arasında daha kolay ve hedefe yönelik arama yapmanızı sağlayan gelişmiş arama fonksiyonlarını destekler:
-
-- **Birleşik Arama:**  
-  `'+'` sembolünü kullanarak birden fazla kriteri aynı anda arayabilirsiniz.  
-  **Örnek:** `seri + ham` → Hem *“seri”* hem de *“ham”* ifadelerini içeren kayıtları getirir.
-  ![Birleşik Arama](./assets/birlesik_arama.webp)
+- **Combined Search:**  
+  You can search for multiple criteria simultaneously by using the `'+'` symbol.  
+  **Example:** `rga + ham` → Returns records containing both *rga* and *“ham”*.  
+  ![Combined Search](./assets/birlesik_arama.webp)
 
 ---
 
-- **Alan Bazlı Arama:**  
-  Belirli bir alanda arama yapmak için kolon adının ilk harflerini, ardından iki nokta üst üste (`:`) ve arama kriterinizi yazınız.  
-  Alan adı boşluk içeriyorsa çift tırnak (`" "`) içine alınmalıdır.  
-  Eğer belirtilen kolon adı bulunamazsa, sistem tüm görünür alanlarda arama yapar.  
-  **Örnek:** `"Ürün Tipi": mamul`
-  ![Alan Bazlık Arama](./assets/alan_bazlı_arama.webp)
+- **Field-Based Search:**  
+  To search within a specific column, enter the first letters of the column name, followed by a colon (`:`), and then your search term.  
+  If the column name contains spaces, enclose it in double quotes (`" "`).  
+  If the specified column is not found, the system searches all visible columns.  
+  **Example:** `"Ürün Tipi": mamul`  
+  ![Field-Based Search](./assets/alan_bazlı_arama.webp)
 
 ---
 
-- **Boşluk İçeren İfadeler:**  
-  Boşluk içeren kelime gruplarını aramak için ifadeyi çift tırnak (`" "`) içinde yazınız.  
-  **Örnek:** `"Alüminyum Profil"`
-  ![Boşluklu Arama](./assets/boşluklu_arama.webp)
+- **Phrases with Spaces:**  
+  To search for phrases containing spaces, enclose the phrase in double quotes (`" "`).  
+  **Example:** `"Alüminyum Profil"`  
+  ![Search with Spaces](./assets/boşluklu_arama.webp)
 
 ---
 
-- **Hariç Tutma (Negatif Arama):**  
-  Belirli bir değeri içermeyen kayıtları listelemek için arama teriminin başına `-` ekleyiniz.  
-  **Örnek:** `-ham` → *ham* kelimesini içermeyen kayıtları getirir.
-  ![Hariç Tutma](./assets/hariç_tutma.webp)
+- **Exclusion (Negative Search):**  
+  To list records that do not contain a specific value, add a `-` at the beginning of the search term.  
+  **Example:** `-ham` → Returns records that do **not** contain *ham*.  
+  ![Exclusion Search](./assets/hariç_tutma.webp)
 
 ---
 
-- **...İle Başlayan Kayıtlar:**  
-  `'` sembolünü kullanarak belirli bir ifadeyle başlayan kayıtları listeleyebilirsiniz.  
-  **Örnek:** `'97` → *“97”* ile başlayan kayıtları getirir.
-  ![İle Başlayan](./assets/ile_başlayan_kayıtlar.webp)
+- **Records Starting With:**  
+  Use the `'` symbol to list records that start with a specific value.  
+  **Example:** `'97` → Returns records starting with *“97”*.  
+  ![Starts With](./assets/ile_başlayan_kayıtlar.webp)
 
 ---
 
-- **~ İle Arama:**
-  Arama ifadesine `~` ekleyerek joker karakterlerle eşleşme yapabilirsiniz.  
+- **Search with ~:**  
+  Add `~` to your search term to use wildcard matching.  
 
-  - `%` → Sıfır veya daha fazla karakteri temsil eder.  
-  - `_` → Yalnızca tek bir karakteri temsil eder.  
+  - `%` → Represents zero or more characters.  
+  - `_` → Represents a single character.  
 
-  **Örnekler:**  
-  - `~%gram` → “gram” ile **biten** kayıtları listeler.  
-  - `~kilo%` → “kilo” ile **başlayan** kayıtları getirir.
-
-  ![Tilde Arama](./assets/tilde_arama.webp)
+  **Examples:**  
+  - `~%gram` → Lists records that **end with** “gram”.  
+  - `~kilo%` → Lists records that **start with** “kilo”.  
+  ![Tilde Search](./assets/tilde_arama.webp)
 
 :::
 
-**2. Sütundan Filtreleme**
+### Column Filtering
 
-> Her sütunun yanında bulunan **filtre simgesine** tıklayarak, o sütundaki verileri istediğiniz kriterlere göre filtreleyebilirsiniz.
+> By clicking the **filter icon** next to each column, you can filter the data in that column according to your desired criteria.
 
-![Sütundan Filtreleme](./assets/sütundan_filtreleme.gif)
+![Column Filtering](./assets/sütundan_filtreleme.gif)
 
+---
 
-**3. Kayıt Üzerinden Filtreleme**
+### Filter by Record
 
-> * Kayıtların üzerindeki bir değere göre filtreleme yapmak isterseniz, ilgili değerin **üzerine sağ tıklayın** ve açılan menüden **Filtrele** seçeneğini tıklayın.  
-> * Bu işlem, seçtiğiniz değere göre bir filtre oluşturur.
-> * Birden fazla filtre uygulamak isterseniz, diğer değerler için de aynı adımları tekrarlayarak **bileşik filtreler** oluşturabilirsiniz.
+> * To filter based on a specific value in a record, **right-click** on the value and select **Filter** from the context menu.  
+> * This action creates a filter based on the selected value.  
+> * To apply multiple filters, repeat the same steps for other values to create **combined filters**.
 
-Oluşturduğunuz filtreleri, araç çubuğunun altında yer alan **aktif filtre** satırında görüntüleyebilirsiniz.
+You can view the filters you have created in the **active filter** row located below the toolbar.
 
-![Kayıt Üzerinden](./assets/kayıt_üzerinden_filtreleme.gif)
+![Filter by Record](./assets/kayıt_üzerinden_filtreleme.gif)
 
-**4. Filtre Satırı ile filtre düzenleme**
+---
 
-> Filtre satırına erişmek için, tablodaki **sütun isimlerinin bulunduğu alana sağ tıklayın** ve açılan menüden **Filtre Satırı** seçeneğini tıklayın. Bu işlem, tablonun en üstüne yeni bir satır ekler ve her sütun için istediğiniz değeri girerek veya seçerek filtre oluşturmanıza olanak sağlar.
+### Filter Row
 
-![Filtre Satırı](./assets/filtre_Satırı.gif)
+> To access the filter row, **right-click** on the area where the column names are displayed and select **Filter Row** from the context menu. This will add a new row at the top of the table allowing you to enter or select desired values for each column to create filters.
 
-## Görünümler
+![Filter Row](./assets/filtre_Satırı.gif)
+## Views
 
-Ekranda alan başlıkları sağ tıklanarak açılan menüden aşağıdaki işlemler yapılabilir.
+By right-clicking on column headers in the table, you can perform the following actions:
 
-* Sıralama
-* Gruplama
-* Alan Kaldırma, Değiştirme, Alan Seçici
-* Sütun Genişliği
-* Görünüm Oluşturma
-* Sütun Formatlama
+* Sorting
+* Grouping
+* Hide/Change Column, Column Selector
+* Column Width
+* Save View
+* Column Formatting
 * Panel / Preview
 
-### Sıralama
+---
 
-Alan (Sütun) başlıklarına tıklanarak excel' deki gibi sıralama özelliği aktif edilir.  Sıralama aktif olan sütunlarda`(↓)`veya`(↑)`sembolleri görünür olur.
+### Sorting
 
-Başka sütun başlığına tıklandığında önceki sıralamalar temizlenerek son tıklanan sıralama aktif olur.  Eğer bağlantılı sıralama yapılmak isteniyorsa `shift` tuşuna basarak alan başlıkları tıklanmalıdır.
+Clicking on a column header activates the sorting feature, similar to Excel. Columns with active sorting display `(↓)` or `(↑)` symbols.
 
-Sıralama yapılmış alandan sıralamayı temizlemek için sağ tıklandıktan sonra *Sıralamayı temizle* seçimiyle temizlenebilir.
+Clicking another column header clears previous sorting and activates the last clicked column. To perform linked sorting across multiple columns, hold the `Shift` key while clicking the headers.
 
-![Sıralama](./assets/sıralama.gif)
+To clear sorting on a column, right-click the column header and select **Clear Sorting**.
 
-### Gruplama
+![Sorting](./assets/sıralama.gif)
 
-Alan (Sütun) başlıklarına sağ tıklanarak **Bu Sütuna Göre Grupla** tıklanarak Gruplama özelliği aktif edilir. Excel deki gruplama ile benzer şekilde çalışmaktadır.
+---
 
-![Gruplama](./assets/gruplama.gif)
+### Grouping
 
-### Alan Değiştirme/Gizleme, Alan Seçici
+Right-click on a column header and select **Group by This Column** to enable grouping. This works similarly to Excel’s grouping feature.
 
-Alan başlıkları fare ile tutup, hareket ettirilerek sütunların yerleri değiştirilebilir.
+![Grouping](./assets/gruplama.gif)
 
-![Alan Değiştirme](./assets/alan_değiştirme_1.gif)
+---
 
-İstediğiniz alanı gizlemek için, ilgili sütunun üzerine **sağ tıklayın** ve açılan menüden **Sütunu Gizle** seçeneğini seçin. Bu işlem seçtiğiniz sütunu tabloda görünmez hale getirir.  
+### Hide/Change Column, Column Selector
 
-Gizlediğiniz alanları tekrar görünür yapmak veya farklı sütunları gizlemek için, herhangi bir sütuna **sağ tıklayın** ve menüden **Sütun Seçici** seçeneğini seçin.  
-Karşınıza tüm sütun isimlerinin bulunduğu bir **checkbox listesi** gelir:  
-- **İşaretli kutular** tabloda görünen sütunları temsil eder.  
-- **İşaretsiz kutular** ise gizlenmiş sütunları ifade eder.  
+You can rearrange columns by clicking and dragging column headers.
 
-Buradan istediğiniz sütunları işaretleyerek görünür yapabilir veya işareti kaldırarak gizleyebilirsiniz.
+![Change Column](./assets/alan_değiştirme_1.gif)
 
-![Sütun Seçici](./assets/sütun_seçici.gif)
+To hide a column, right-click the column header and select **Hide Column**. This will make the column invisible in the table.
 
-### Sütun Genişliği
+To make hidden columns visible again or hide other columns, right-click any column and select **Column Selector**.  
+A **checkbox list** of all column names will appear:  
+- **Checked boxes** represent visible columns.  
+- **Unchecked boxes** represent hidden columns.  
 
-Tablodaki sütunların genişliğini ihtiyacınıza göre ayarlayabilirsiniz. Bunun için iki farklı yöntem vardır:  
+You can check or uncheck boxes to show or hide columns as needed.
 
-1. **Elle ayarlama:**  
-   Herhangi bir sütunun başlığındaki kenarlığı farenizle sürükleyerek genişliğini dilediğiniz boyuta getirebilirsiniz.  
+![Column Selector](./assets/sütun_seçici.gif)
 
-    ![Sütun Genişliği](./assets/sütun_genişliği_1.gif)
+---
 
-2. **Otomatik en uygun boyut:**  
-   Eğer sütunların içerdiği verilere en uygun şekilde otomatik ayarlanmasını isterseniz:  
-   - Herhangi bir sütun başlığının üzerine **sağ tıklayın**  
-   - Açılan menüden **“Tüm Sütunları En İyi Boyutla”** seçeneğini seçin.  
-   Bu işlemle birlikte tüm sütun genişlikleri, içlerindeki verilerin sığabileceği en uygun boyuta getirilir.  
+### Column Width
 
-    ![Sütun Genişliği](./assets/sütun_genişliği_2.webp)
+You can adjust the width of columns as needed using two methods:
 
-Bu sayede tablolarınızı hem daha okunabilir hem de düzenli hale getirebilirsiniz.
+1. **Manual Adjustment:**  
+   Drag the edge of a column header to set the desired width.
 
-### Görünüm Oluşturma
+    ![Column Width](./assets/sütun_genişliği_1.gif)
 
-Görünümler altında belirtilen özellikleri görünüm olarak kaydedilebilir ve daha sonrasında bu özellikelrin bulunduğu görünüme kolayca ulaşabilirsiniz. İlgili görünüm seçildiğinde görünüm tanımındaki gruplama, filtreleme, sıralama vb. özellikleri otomatik olarak değişecektir.
+2. **Auto Fit:**  
+   To automatically adjust columns to fit the data inside:  
+   - Right-click on any column header  
+   - Select **“Best Fit All Columns”** from the menu  
+   All columns will adjust to the optimal width for their content.
 
-Tablonuzda istediğiniz *gruplama, filtreleme, sıralama* gibi düzenlemeleri yaptıktan sonra, bu görünümü kaydetmek için:  
+    ![Column Width](./assets/sütun_genişliği_2.webp)
 
-1. Araç çubuğundaki ⚙️ simgesine tıklayın.  
-2. Açılan menüden **“Görünüm Kaydet”** seçeneğini seçin.  
-3. Görünümünüze bir isim verin ve kaydedin.  
+This makes your tables more readable and organized.
 
-Böylece aynı ayarlara tekrar ihtiyaç duyduğunuzda, kaydettiğiniz ismi seçerek tabloda aynı görünüme kolayca ulaşabilirsiniz. Oluşturduğunuz görünümlere erişmek için araç çubuğunun yanında bulunan alandan görünümü seçmeniz yeterli olacaktır.
+---
 
+### Save View
+
+After customizing your table with grouping, filtering, or sorting, you can save it as a view for later use. Selecting a saved view automatically applies its grouping, filtering, sorting, and other settings.
+
+To save a view:  
+
+1. Click the ⚙️ icon on the toolbar.  
+2. Select **“Save View”** from the menu.  
+3. Give your view a name and save it.  
+
+Later, you can quickly access this view by selecting its name from the view selector next to the toolbar.
 
   <table>
     <tr>
-      <th>Görünüm Kaydetme</th>
-      <td>![Görünüm](./assets/görünüm.gif) </td>
+      <th>Save View</th>
+      <td>![Save View](./assets/görünüm.gif) </td>
     </tr>
     <tr>
-      <th>Görünüme Erişme</th>
-      <td>![Görünüm](./assets/görünüm_2.gif) </td>
+      <th>Access View</th>
+      <td>![Access View](./assets/görünüm_2.gif) </td>
     </tr>
   </table>
 
+---
+
 ### Panel / Preview
 
-Uzun metinler veya büyük görseller olduğunda, içeriği kolayca görüntüleyebilmeniz için yan tarafta bir önizleme paneli açılır. Buradan, grid üzerinde görüntülemesi zor olan alanları daha rahat bir şekilde inceleyebilirsiniz.
+For long text or large images, a side preview panel opens, making it easier to view content. This allows you to inspect areas that are difficult to view directly on the grid.
 
 ![Panel Preview](./assets/panel_preview.gif)

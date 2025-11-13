@@ -2,12 +2,12 @@
 sidebar_position: 4
 ---
 
-# Kısayollar
+# Shortcuts
 
-Octo Web platformunda işlerinizi daha hızlı ve verimli hâle getirmek için çeşitli *klavye ve sistem kısayolları* bulunmaktadır. Bu bölüm, sık kullandığınız işlemleri hızlıca gerçekleştirebilmeniz için kısayolların listesini ve kullanım yönergelerini sunar. Kısayollarla beraber iş akışınızı daha pratik hale getirebilirsiniz.
+Octo Web platform provides various *keyboard and system shortcuts* to help you work faster and more efficiently. This section lists the most frequently used shortcuts and instructions on how to use them. Using these shortcuts can make your workflow more practical and streamlined.
 
-| Kısayol    | Açıklama |
-| :--------: | :-------: |
-| **`F2`** | Yeni Kayıt     |
-| **`Ctrl + F`** | Ekran Arama     |
-| **`Shift + Enter`**  | En Uygun (Tüm Satırlar)    |
+| Shortcut        | Description |
+| :-------------: | :---------: |
+| **`F2`**        | New Record  |
+| **`Ctrl + F`**  | Search Screen |
+| **`Shift + Enter`** | Best Fit (All Rows) |
