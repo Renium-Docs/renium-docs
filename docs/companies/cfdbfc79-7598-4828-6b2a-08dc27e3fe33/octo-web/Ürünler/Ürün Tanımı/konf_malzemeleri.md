@@ -20,23 +20,18 @@ Konf. Malzeme ürün tipindeki alt tipler seçilebilir. Paket hariç
 ### Ürün Kodu - Adı
 ---
 
-Paket stok tipinde Kod ve Ad otomatik oluşur.
+Konf. ürünlerinin paket hariç stok tipinde Kod ve Ad otomatik oluşur.
 
-Kod ve oluşumda temel olarak Ürün Karşılama Yöntemine göre belirlenir.
-- Satın alma ise aşağıdaki kural çalışır.
-- Üretim ise ```ÜA ONAYI İLE OLUŞACAK-Ürün no``` oluşur. Ürün ağacı onayı aşağıdaki kurala yeni kod yapısı oluşur.
-
-#### Satın alma
 
 **Ürün Kodu** şu şekilde oluşturulur:
 ```
-<Ürün Alt Tipi Kodu> | <Kumaş Tipi Kodu> | <BASKI DESEN VR> veya <Renk adı>  | <Konf. ÖLÇÜ> | <DİKİŞ TİPİ> | < MARKA>
+<Ürün Alt Tipi Kodu> | <Kumaş Tipi Kodu> |  <Dokuma Desen Pano Kodu>  | <BASKI DESEN VR> veya <Renk adı>  | <Konf. ÖLÇÜ> | <DİKİŞ TİPİ> | < MARKA>
 ```
 
 **Ürün Adı** şu şekilde oluşturulur:
 
 ```
-<Ürün Alt Tipi Adı> | <Kumaş Tipi> | <BASKI DESEN VR> veya <Renk adı>  | <Konf. ÖLÇÜ> | <DİKİŞ TİPİ> | < MARKA>
+<Ürün Alt Tipi Adı> | <Kumaş Tipi> |  <Dokuma Desen Pano Adı> | <BASKI DESEN VR> veya <Renk adı>  | <Konf. ÖLÇÜ> | <DİKİŞ TİPİ> | < MARKA>
 ```
 
 
@@ -47,11 +42,6 @@ Baskı Desen Vr. ve Renk aynı anda dolu olamaz.
 Kod ve ad içeriğinde geçen alanlar zorunludur. Bir ürün için o özellik bulunmuyorsa yok seçilir.
 
 :::
-
-### Üretim
-
-Geliştme aşamasındadır.
-
 
 
 ### Özellikleri
