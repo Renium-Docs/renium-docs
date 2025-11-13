@@ -1,153 +1,139 @@
 ---
 sidebar_position: 3
 ---
-# Rapor Tasarımı
+# Report Design
 
-Rapor tasarımı, sistemdeki verileri ve tasarım aracını kullanarak dilediğiniz raporları oluşturmanıza ve görüntülemenize olanak tanır.
+Report Design allows you to create and view custom reports using system data and the design tool.
 
-## Rapor Tanımları
+## Report Definitions
 
-*Geliştirici* modülü altında yer alan *Rapor Tanımları* ekranı ile tanımladığınız raporları detaylı olarak görüntüleyebilir ve yönetebilirsiniz. Bu ekranda;
-- Yeni rapor oluşturabilir,
-- Daha önce oluşturduğunuz raporları düzenleyebilir,
-- İhtiyaç kalmadığında raporları silebilirsiniz.
+The *Report Definitions* screen under the *Developer* module lets you view and manage the reports you have defined in detail. From this screen you can:
+- Create a new report,
+- Edit reports you have previously created,
+- Delete reports that are no longer needed.
 
-## Yeni Rapor Oluşturma
+## Creating a New Report
 
-Yeni bir rapor oluşturmak için aşağıdaki adımları izleyebilirsiniz:
+To create a new report, follow these steps:
 
-![Yeni Rapor](./assets/yeni_rapor.gif)
+![New Report](./assets/yeni_rapor.gif)
 
-1. **Rapor Tasarlayıcısı** butonuna tıklayınız.  
-   Bu işlem sizi **Rapor Tasarımı** ekranına yönlendirecektir.  
-2. Sol üst köşede bulunan ☰ (**Hamburger menü**) ikonuna tıklayınız.  
-3. Açılan menüden **New** seçeneğini seçiniz.  
-   Bu adım sonucunda ekranda **boş bir rapor sayfası** oluşturulacaktır.  
-4. Raporunuzu kaydetmek için tekrar ☰ (**Hamburger menü**) ikonuna tıklayınız.  
-5. Menüden **Save** seçeneğini seçiniz.  
-6. Açılan pencerede raporunuza anlamlı bir **isim verin** ve ardından **Save** butonuna tıklayarak kaydedin.  
+1. Click the **Report Designer** button.  
+   This action will take you to the **Report Design** screen.  
+2. Click the ☰ (**Hamburger menu**) icon in the top-left corner.  
+3. From the menu that opens, select **New**.  
+   A **blank report page** will be created on the screen.  
+4. To save your report, click the ☰ (**Hamburger menu**) icon again.  
+5. From the menu, select **Save**.  
+6. In the dialog that opens, give your report a meaningful **name** and click **Save** to store it.
 
 :::tip
-Raporunuza isim vermeden kaydederseniz, daha sonra bu rapora erişemeyebilirsiniz. Bu nedenle, kolay hatırlanabilir ve içeriği yansıtan bir isim kullanmanız önerilir.
+If you save a report without giving it a name, you may not be able to access it later. It is recommended to use a memorable, descriptive name that reflects the report's content.
 :::
 
-### Veri Kaynağı Bağlantısı
+### Data Source Connection
 
-Raporunuzda göstermek istediğiniz verileri, ilgili tablolardan **SQL sorguları** aracılığıyla *Rapor Tasarlayıcısına* dahil etmeniz gerekmektedir.  
+To include the data you want to display in your report, you need to add it to the **Report Designer** through **SQL queries** from the relevant tables.  
 
-Bu işlemi gerçekleştirmek için aşağıdaki adımları izleyebilirsiniz:
+You can follow the steps below to complete this process:
 
-![Veri Kaynağı](./assets/verikaynağı_1.webp)
+![Data Source](./assets/verikaynağı_1.webp)
 
-1. Sağ tarafta bulunan menüden **Field List** sekmesine tıklayınız.  
+1. Click on the **Field List** tab from the menu on the right side.  
 
-![Veri Kaynağı 2](./assets/verikaynağı_2.gif)
+![Data Source 2](./assets/verikaynağı_2.gif)
 
-2. **SqlDataSource** başlığı yanında yer alan **Add Query** butonuna basınız.  
-3. Açılan pencerede sorgunuza bir **isim** veriniz.  
-4. SQL sorgunuzu doğrudan yazabilirsiniz, ancak tabloları ve alan adlarını daha net görebilmek için **Run Query Builder** butonuna tıklayarak **Query Builder** ekranını açmanız önerilir.  
-5. Açılan **Query Builder** ekranında, sağ tarafta yer alan **View** ve **Table** listelerinden raporunuza dahil etmek istediğiniz alanları seçiniz.  
-6. Seçtiğiniz alanlar artık **Rapor Tasarım Aracı** içinde kullanılabilir hale gelecektir.  
-7. Raporunuzun belirli filtrelerle çalışmasını istiyorsanız da, **Parameters** alanından parametre ekleyebilirsiniz:  
-      ![Veri Kaynağı 3](./assets/verikaynağı_3.gif)
-   - **+ (Ekle)** simgesine tıklayın.  
-   - Açılan alanda parametrenize bir **isim** verin isterseniz description alanına **açıklama** da ekleyebilirsiniz.  
-   - **Type (Veri Tipi)** alanından uygun veri tipini seçin (*String, Int, Date* vb.).  
-   - Gerekli ayarları tamamladıktan sonra **Kaydet** butonuna basın.  
+2. Click the **Add Query** button next to the **SqlDataSource** section.  
+3. In the window that opens, give your query a **name**.  
+4. You can write your SQL query directly, but it’s recommended to click **Run Query Builder** to open the **Query Builder** screen, where you can view the tables and field names more clearly.  
+5. In the **Query Builder** window, select the fields you want to include in your report from the **View** and **Table** lists on the right-hand side.  
+6. The fields you selected will now be available within the **Report Designer**.  
+7. If you want your report to work with specific filters, you can also add parameters from the **Parameters** section:  
 
-#### Veri Kaynağı Ayarları
+   ![Data Source 3](./assets/verikaynağı_3.gif)
 
-![Veri Kaynağı](./assets/verikaynağı_4.gif)
+   - Click the **+ (Add)** icon.  
+   - Give your parameter a **name** and optionally add a **description**.  
+   - Select the appropriate **Type (Data Type)** such as *String, Int, Date*, etc.  
+   - After completing the required settings, click **Save**.  
 
-SQL kaynağınızı ve parametrelerinizi oluşturduktan sonra, Rapor Tasarlayıcısında sağ tarafta **Properties** ekranında **Report Tasks** başlığı altında aşağıdaki değerleri giriniz:  
+#### Data Source Settings
+
+![Data Source](./assets/verikaynağı_4.gif)
+
+After creating your SQL data source and parameters, go to the **Properties** panel on the right side of the **Report Designer**.  
+Under the **Report Tasks** section, fill in the following values:  
 - **Data Source**  
 - **Data Member**  
-- **Filter String:** Raporun filtreleme koşullarını belirler.  
-  Burada, filtreleme işlemini veritabanındaki `WHERE` koşulu gibi düşünebilirsiniz.  
-  **Oluşturduğunuz parametrelerin hangi durumda kullanılacağını bu alanda tanımlayabilirsiniz.**
+- **Filter String:** Defines the filtering conditions of your report.  
+  Think of this as similar to using a `WHERE` clause in a database query.  
+  **You can specify under which conditions your created parameters will be applied in this field.**
 
-İçeri aktardığınız veriler ve oluşturduğunuz parametreler, **Field List** alanının altında **hiyerarşik bir yapı** şeklinde görüntülenir.   
-Buradan istediğiniz alanı **sürükle-bırak (drag & drop)** yöntemiyle doğrudan rapor tasarım alanına ekleyebilirsiniz.  
+The imported data and created parameters are displayed under the **Field List** section in a **hierarchical structure**.  
+From here, you can add any desired field directly to the report design area using the **drag-and-drop** method.
 
-### Raporun Tasarımı
+### Report Design
 
-![Rapor Tasarımı](./assets/raportasarımı.webp)
+![Report Design](./assets/raportasarımı.webp)
 
-- Sol tarafata bulunan tasarım aracından istediğiniz bileşeni raporunuza ekleyebilirsiniz. (grafik, resim, text, imza etc.)
-- **Report Explorer** kısmında, oluşturduğunuz raporun tüm bileşenlerinin **hiyerarşik yapısını** inceleyebilirsiniz. Bu yapı, raporun genel organizasyonunu kolayca yönetmenizi sağlar.
+- You can add any desired component (chart, image, text, signature, etc.) to your report from the design tool on the **left panel**.  
+- In the **Report Explorer** section, you can review the **hierarchical structure** of all the components in your report.  
+  This structure helps you easily manage and organize the overall layout of your report.
 
-### Raporun Ekranlarla İlişkilendirilmesi
+### Connecting the Report to Screens
 
-Oluşturduğunuz raporları belirli ekranlarda görüntüleyebilmek için bu raporları ilgili ekranlara **manuel olarak eklemeniz** gerekir. Bunun için aşağıdaki adımları izleyebilirsiniz:
+To display the reports you have created on specific screens, you need to **manually link** them to the relevant screens. Follow the steps below:
 
-![Rapor Ekran İlişkilendirilmesi](./assets/raporekranbağlantısı.gif)
+![Report Screen Linking](./assets/raporekranbağlantısı.gif)
 
-1. Raporu eklemek istediğiniz ekrana gidiniz.  
-2. Araç çubuğunun en başında bulunan ⚙️ simgesine tıklayarak **Octo Lab’e Git** seçeneğini seçiniz.  
-3. Octo Lab ekranı açıldığında **Belgeler** sekmesine gidiniz.  
-4. Araç çubuğundan **Yeni** butonuna tıklayınız.  
-5. Açılan formda aşağıdaki alanları doldurunuz:  
-   - **Rapor ID:** Oluşturduğunuz raporun ID’sini giriniz. (Eğer bilmiyorsanız, *Rapor Tanımları* ekranından rapor ID’sine ulaşabilirsiniz.)  
-   - **Rapor Adı:** Rapor için görünecek ismi giriniz.  
-   - **Eğer raporunuzda parametre kullanıyorsanız,**
-      - **ITFieldName:** Eğer raporunuzda parametre kullanıyorsanız, bu alanda parametrenizin ekran üzerindeki adını yazmanız gerekmektedir.
-      - **DITFİlterFieldName:** Raporunuzu oluştururken belirlediğiniz parametre değişkeninin adını giriniz. 
-   - **Sıra No**
-6. Bu alanları doldurduktan sonra **Kaydet** butonuna basınız.  
+1. Go to the screen where you want to add the report.  
+2. Click the ⚙️ icon located at the beginning of the toolbar and select **Go to Octo Lab**.  
+3. Once the **Octo Lab** screen opens, navigate to the **Documents** tab.  
+4. Click the **New** button in the toolbar.  
+5. In the form that appears, fill in the following fields:  
+   - **Report ID:** Enter the ID of the report you created. (If you don’t know it, you can find the report ID in the *Report Definitions* screen.)  
+   - **Report Name:** Enter a display name for the report.  
+   - **If your report includes parameters:**  
+      - **ITFieldName:** Enter the name of the parameter as it appears on the screen.  
+      - **DITFilterFieldName:** Enter the name of the parameter variable defined in your report.  
+   - **Order No:** Define the display order of your report in the list.  
+6. After filling out these fields, click **Save**.  
 
-Bu işlemler tamamlandığında, oluşturduğunuz rapor **seçtiğiniz ekran** üzerinden erişilebilir ve kolayca görüntülenebilir hale gelecektir.  
-Artık raporunuz, tanımladığınız veri kaynağı ve parametrelerle birlikte aktif olarak kullanılabilir durumdadır.
+Once completed, your report will become **accessible through the selected screen** and can be easily viewed.  
+Your report is now fully functional, ready to use with its defined data source and parameters.
 
-### Raporun Görüntülenmesi
+### Viewing the Report
 
-![RaporGörüntülenmesi](./assets/raporgörüntüleme.webp)
+![Report Viewing](./assets/raporgörüntüleme.webp)
 
-Oluşturduğunuz raporu Octo Lab ile ilgili ekranlara ekledikten sonra, raporu çalıştırmak istediğiniz kayda sağ tıklayarak **Raporlar** alanına ulaşabilirsiniz. Bu alanda oluşturduğunuz tüm raporlar listelenecektir. Görüntülemek istediğiniz raporu seçtiğinizde, sistem raporu otomatik olarak çalıştırarak ilgili verileri ekrana getirir. Böylece, seçtiğiniz kayıt üzerinden raporunuzu kolayca görüntüleyebilirsiniz.
+After linking your report to the relevant screens via **Octo Lab**, you can access it by right-clicking on the record you want to generate the report for and selecting the **Reports** section.  
+All reports associated with that screen will be listed here.  
 
-## Rapor Dosyalarının İsimlendirmesi
+When you select the desired report, the system will automatically execute it and display the corresponding data on the screen.  
+This allows you to easily view and analyze the report directly from the selected record.
 
-Raporlarınızı dışa aktarırken, sistem **dosya isimlerini otomatik ve özel kurallara göre** oluşturur. Bu işlemi **Rapor Tasarlayıcısı** ekranından yönetebilirsiniz. Sistem, rapor dışarıya aktarılmadan önce veri kaynağındaki bazı alanları kullanarak dinamik bir dosya adı üretir.
+## Naming Report Files
 
-Bu sayede her rapor, içeriğine uygun ve benzersiz bir adla kaydedilmiş olur. Bunu yapmak için:
+When exporting your reports, the system automatically generates **file names based on predefined dynamic rules**.  
+This process can be managed from within the **Report Designer**.  
+Before the report is exported, the system uses specific fields from the data source to create a unique and meaningful file name.
 
-1. Dışa aktarmak istediğiniz raporu **Rapor Tasarlayıcısı** içinde açınız.
-2. Araç çubuğunda bulunan **Scripts** butonuna tıklayınız.
-3. Bu alanda yazacağınız **script kodu** ile, dışa aktarılacak rapor dosyasının adını ve diğer özelliklerini özelleştirebilirsiniz.
+This ensures that each exported report is saved with a name that reflects its content.  
+To configure this feature:
 
-:::tip[Örnek]
-```csharp
-using System.Text.RegularExpressions;
-using System.Collections.Generic;
-private void XtraReport_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e) {
-    
-    var report = sender as XtraReport;
+1. Open the report you wish to export in the **Report Designer**.  
+2. Click the **Scripts** button on the toolbar.  
+3. In the script area, you can define custom logic to set the exported report file name and other attributes.
 
-    var activityNoValue = report.GetCurrentColumnValue("OrderId");
-    var firmNameValue = report.GetCurrentColumnValue("ProjectName");
-    var orderDateValue = report.GetCurrentColumnValue("SalesOrderDate");
-    
-    string activityNo = activityNoValue != null ? activityNoValue.ToString() : "DefaultActivity";
-    string firmName = firmNameValue != null ? firmNameValue.ToString() : "DefaultFirm";
-    string orderDate = orderDateValue != null ? orderDateValue .ToString() : "DefaultDate";
-    
-     firmName = Regex.Replace(firmName , @"[^a-zA-Z0-9çğıöşüÇĞİÖŞÜ\.\- ]", "");
-     orderDate = Regex.Replace(orderDate , @"[^a-zA-Z0-9çğıöşüÇĞİÖŞÜ\.\- ]", "");
+:::tip[Example]
+![script_example](./assets/script.png)
 
-         var fileName = string.Format("{0}_{1}_{2}", activityNo, firmName, orderDate);
-    
-    var pdfExportOptions = report.ExportOptions.Pdf;
-    pdfExportOptions.DocumentOptions.Title = fileName;
+The example script follows three main steps:
+1. Retrieve the values of `OrderID`, `ProjectName`, and `SalesOrderDate` from the report data.  
+2. Format these values to remove spaces and special characters.  
+3. Combine the formatted values to define the exported file name as `OrderID_ProjectName_SalesOrderDate.pdf`.
 
-    report.Name = fileName;
-
-}
-```
-
-Örnek scriptte üç ana adım bulunmaktadır:
-1. `OrderID`, `ProjectName` ve `SalesOrderDate` verileri rapordan alınır.  
-2. Alınan değerler, boşluk ve özel karakter içermeyecek şekilde düzenlenir.  
-3. Formatlanmış veriler kullanılarak dışa aktarılacak dosyanın adı `OrderID_ProjectName_SalesOrderDate.pdf` şeklinde belirlenir.
-
-- **OrderID = 1, ProjectName = demo, SalesOrderDate = 24.10.2025 olduğu bir rapor dosyası dışarı aktarılırken oluşacak dosya adı `1_demo_24102025.pdf` şeklindedir.**
+- **For example:**  
+  If `OrderID = 1`, `ProjectName = demo`, and `SalesOrderDate = 24.10.2025`,  
+  the exported file will be named `1_demo_24102025.pdf`.
 :::
-
