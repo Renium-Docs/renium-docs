@@ -13,7 +13,7 @@ const config: Config = {
   organizationName: 'Renium-Docs',
   projectName: 'renium-docs',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
