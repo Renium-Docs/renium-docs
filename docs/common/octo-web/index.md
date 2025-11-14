@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Octo Hakkında 
 
-Octo, farklı ölçeklerdeki işletmelerin için geliştirilmiş entegre kurumsal kaynak planlama (ERP) çözümüdür. *Tek bir sistem* aracılığıyla gerçek zamanlı kurumsal bilgilere erişmenizi sağlayarak şirketinizin her alanını yönetmenizde size destek olur. Uygulama, her biri farklı bir kurumsal işlevi kapsayan *çeşitli modüllerden* oluşur. 
+Octo, farklı ölçeklerdeki işletmeler için geliştirilmiş entegre kurumsal kaynak planlama (ERP) çözümüdür. *Tek bir sistem* aracılığıyla gerçek zamanlı kurumsal bilgilere erişmenizi sağlayarak şirketinizin her alanını yönetmenizde size destek olur. Uygulama, her biri farklı bir kurumsal işlevi kapsayan *çeşitli modüllerden* oluşur. 
 
 *Esnek ve genişletilebilir* bir çözüm olarak tasarlanmıştır. Uygulama, dahili ve harici veri kaynaklarına, mobil aygıtlara ve diğer analiz araçlarına sağladığı standart arayüzlerle, kolaylıkla geliştirilebilir.
 

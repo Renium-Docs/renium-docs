@@ -18,7 +18,7 @@ Yeni bir kullanıcıyı nasıl ekleyeceğinizi veya mevcut kullanıcıların yet
 
 ## Giriş Yapma
 
-Size ileitlen kullanıcı bilgilerini kullanarak giriş yapmak için;
+Size iletilen kullanıcı bilgilerini kullanarak giriş yapmak için;
 
 1. Tarayıcınızdan sizin için oluşturulan Octo adresine giderek platformumuza erişebilirsiniz.
 

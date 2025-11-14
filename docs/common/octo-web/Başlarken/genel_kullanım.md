@@ -45,7 +45,7 @@ Takviminiz, günlük toplantılarınızı düzenlemenizi ve yönetmenizi sağlar
     - ***Start/End:*** Toplantının başlangıç ve bitiş tarihi/saati
     - ***Repeat:*** Gerekirse toplantının tekrar sıklığı
     - ***Location:*** Toplantının yapılacağı yer veya link
-    - ***Label:*** Toplantılarınızı kategorize etmek için kullanbilirsiniz
+    - ***Label:*** Toplantılarınızı kategorize etmek için kullanabilirsiniz
     - ***Status:*** Toplantı zamanındaki uygunluk durumunuzu belirtebilirsiniz
     - ***Description:*** Toplantı ile ilgili ek bilgiler veya notlar
 
@@ -73,7 +73,7 @@ Favori Ekranlarınız, sık kullandığınız ve hızlı erişmek istediğiniz s
 
 #### *Favori Ekrandan Çıkarma*
 
-Daha önce eklediğiniz bir ekranı favorilerinizden çıkarmak için, tekrar ilgili ekranın bulunduğu dizine gezinme çubuğu içinde gidin ve yıldız (⭐️) ikonuna tıklayın. Bu işlem ekranı favori listenizden kaldırır.
+Daha önce eklediğiniz bir ekranı favorilerinizden çıkarmak için, tekrar ilgili ekranın yanında bulunan yıldız (⭐️) ikonuna tıklayarak ekranı favori ekranlar listenizden çıkarabilirsiniz.
 
 #### *Favori Ekranlarınıza Erişim*
 
