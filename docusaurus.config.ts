@@ -89,6 +89,21 @@ const config: Config = {
         },
       ],
     },
+    algolia: {
+      appId: 'NUDWOMOH3M',
+      apiKey: '2f31d13d31d67a92710c8d508d191129',
+      indexName: 'renium-docs',
+      contextualSearch: true,
+      externalUrlRegex: 'external\\.com|domain\\.com',
+      replaceSearchResultPathname: {
+        from: '/docs/',
+        to: '/',
+      },
+      searchParameters: {
+        facetFilters:[],
+      },
+      searchPagePath: 'search',
+    },
     footer: {
       style: 'dark',
       links: [
