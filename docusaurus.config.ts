@@ -39,6 +39,9 @@ const config: Config = {
           },
         },
         blog: false,
+        sitemap: {
+          ignorePatterns: ['/tags/**'],
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
