@@ -108,7 +108,7 @@ plugins: [
     },
     algolia: {
       appId: 'NUDWOMOH3M',
-      apiKey: '2f31d13d31d67a92710c8d508d191129',
+      apiKey: 'adc4592bd9db05b55df4244a3ca8a735',
       indexName: 'Renium Docs',
       contextualSearch: true,
       externalUrlRegex: 'external\\.com|domain\\.com',
