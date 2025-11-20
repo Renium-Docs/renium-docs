@@ -117,7 +117,7 @@ plugins: [
         to: '/',
       },
       searchParameters: {
-        facetFilters:[],
+        facetFilters:['language:LANGUAGE'],
       },
       searchPagePath: 'search',
     },
