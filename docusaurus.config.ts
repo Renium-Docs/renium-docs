@@ -109,7 +109,7 @@ plugins: [
     algolia: {
       appId: 'NUDWOMOH3M',
       apiKey: '2f31d13d31d67a92710c8d508d191129',
-      indexName: 'renium-docs',
+      indexName: 'Renium Docs',
       contextualSearch: true,
       externalUrlRegex: 'external\\.com|domain\\.com',
       replaceSearchResultPathname: {
