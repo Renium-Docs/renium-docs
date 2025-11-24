@@ -201,6 +201,10 @@ SetRangeTargetFieldName: DistrictId    // İlçe seçimi
 ### FileTableId
 - Dosya tablosu ID'si
 
+:::tip
+FileTable tanımları detaylı bilgi için bkz.->
+:::
+
 ### Preview
 - Önizleme özelliği
 
