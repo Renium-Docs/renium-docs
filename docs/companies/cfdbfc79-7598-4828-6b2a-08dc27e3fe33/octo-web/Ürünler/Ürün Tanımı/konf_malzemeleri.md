@@ -25,7 +25,7 @@ Konf. ürünlerinin paket hariç stok tipinde Kod ve Ad otomatik oluşur.
 
 **Ürün Kodu** şu şekilde oluşturulur:
 ```
-<Ürün Alt Tipi Kodu> | <Kumaş Tipi Kodu> |  <Dokuma Desen Pano Kodu>  | <BASKI DESEN VR> veya <Renk adı>  | <Konf. ÖLÇÜ> | <DİKİŞ TİPİ> | < MARKA>
+<Ürün Alt Tipi Kodu>.<Sayaç>
 ```
 
 **Ürün Adı** şu şekilde oluşturulur:
