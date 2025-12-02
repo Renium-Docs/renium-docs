@@ -49,6 +49,8 @@ const config: Config = {
   ],
 
   plugins: [
+  'docusaurus-plugin-image-zoom',
+
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -105,6 +107,15 @@ const config: Config = {
           position: 'right',
         },
       ],
+    },
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)'
+      },
+      config: {
+      }
     },
     algolia: {
       appId: 'K83XBB322R',
