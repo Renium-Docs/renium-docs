@@ -6,8 +6,6 @@ sidebar_position: 4
 
 Actionlar, Octo Lab'da nesnelere (form, grid, vb.) eklenebilen etkileşimli öğelerdir. Kullanıcı arayüzünde butonlar, menü öğeleri veya diğer tetikleyiciler olarak görünürler.
 
-
-
 ## Temel Alanlar
 
 ### ObjectId
@@ -56,7 +54,6 @@ Action'da kullanılacak simgenin adı (örn: "add", "edit", "delete").
 
 **Geçerlilik:** Tüm action tiplerinde kullanılır.
 
-
 ## Veri Kaynağı Özellikleri
 
 ### TargetObjectId
@@ -67,7 +64,6 @@ Action'ın hedef aldığı nesnenin ID'si. Action tetiklendiğinde hangi form ve
 **Kısıtlamalar:**
 - **Action**: [Nesneler](/docs/octo-web/Geliştirici/Octo%20Lab/nesne-ozellikleri.md) kütüphanesinden bir değer seçilmelidir
 - **Survey**: `Tb_Rn_System_Surveys` tablosundan seçilmelidir
-
 
 ### ResultDataSourceObjectId
 Action tamamlandıktan sonra yenilenecek veri kaynağının (DataSource) ID'si.
@@ -131,7 +127,6 @@ Boolean değer. `true` ise, action birden fazla kayıt seçiliyken de çalışab
 Boolean değer. `true` ise, action tamamlandıktan sonra ilgili veri kaynağı otomatik olarak yeniden sorgulanır.
 
 **Geçerlilik:** Yalnızca **Action** tipinde kullanılır.
-
 
 ## Kullanıcı Etkileşimi
 

@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Nesneler
+
 ```Tb_Rn_SystemObjects```
 
 
@@ -20,7 +21,6 @@ sidebar_position: 2
 
 ### ObjectTypeId
 - Nesne tipini belirler (1:Table, 2:View, 3:Stored Procedure)
-
 
 ### RequeryAfterChange
 - Değişiklik sonrası yeniden sorgulanıp sorgulanmayacağını belirler
@@ -64,7 +64,6 @@ ComponentTypeId tree seçildi ise alanlarında TreeId TreeParentId yapısında o
 - Form tüm satır genişliğinde açılır
 - Satır altında düzenleme formu görüntülenir
 
-
 ### ReadOnly
 - Nesnenin sadece okunabilir olup olmadığını belirler
 
@@ -96,6 +95,7 @@ ComponentTypeId tree seçildi ise alanlarında TreeId TreeParentId yapısında o
 - Silme mesajı
 
 ## Stored Procedure (Sp)
+
 ---
 
 ### BeforeSPObjectId
