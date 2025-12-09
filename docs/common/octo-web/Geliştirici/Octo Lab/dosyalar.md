@@ -63,7 +63,13 @@ Oluşturduğunuz dosya tablosunun bir ekranda kullanılabilmesi için, ilgili ek
 Bağlantıyı yapmak için dosya alanını eklemek istediğiniz ekrana gidiniz.  
 Ekranın üst kısmında bulunan araç çubuğundan **⚙️ ikonuna** tıklayın ve **“Octo Lab’e Git”** seçeneğini seçin. Bu işlem sizi ekranın yapılandırma (Octo Lab) alanına yönlendirecektir.
 
-Octo Lab ekranında, sayfanın alt bölümünde yer alan **Nesne Alanları** listesinden dosya nesnesiyle ilişkilendirmek istediğiniz alanı bulunuz.  
+Octo Lab ekranında, sayfanın alt bölümünde yer alan **Nesne Alanları** listesinden dosya nesnesiyle ilişkilendirmek istediğiniz alanı bulunuz. 
+
+:::danger[önemli]
+Seçtiğiniz nesne alanının **type'ı `nvarchar` olmalıdır.** 
+`nvarchar` tipi dışındaki veri tiplerinden oluşmuş alanlar için **file table oluşturamazsınız**.
+:::
+
 Ardından **FileTableID** kolonuna, [daha önce oluşturduğunuz](./dosyalar.md#dosya-nesnesinin-oluşturulması) dosya tablosunun **ID değerini** giriniz.
 
 İşlemleri tamamladıktan sonra **Kaydet** butonuna tıklayınız.  
