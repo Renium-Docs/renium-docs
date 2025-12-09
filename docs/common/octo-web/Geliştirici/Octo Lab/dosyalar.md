@@ -6,11 +6,17 @@ sidebar_position: 7
 
 Bu bölüm, tablolarınızda **dosya alanlarının** nasıl oluşturulacağını ve sistemde dosya yönetiminin nasıl yapılandırıldığını açıklamaktadır.
 
+## Database Konfigürasyonları
+
 ## Dosya Nesnesinin Oluşturulması
+
+![File Table Oluşturma](../assets/file_table_1.webp)
 
 Herhangi bir tablonuza **dosya alanı** eklemek için **Geliştirici Modülü → Nesne Yönetimi → FileTables (789)** ekranına gidiniz. Bu ekran üzerinden oluşturmak istediğiniz dosya tablosuna ait temel ayarları yapılandırabilirsiniz.
 
 Yeni bir dosya nesnesi oluşturmak için sağ üstte bulunan **“File Table Oluştur”** butonuna tıklayınız. Açılan formdaki alanları aşağıdaki açıklamalara göre doldurunuz:
+
+![File Table Oluşturma](../assets/file_table_2.webp)
 
 ---
 
@@ -68,9 +74,12 @@ Octo Lab ekranında, sayfanın alt bölümünde yer alan **Nesne Alanları** lis
 :::danger[önemli]
 Seçtiğiniz nesne alanının **type'ı `nvarchar` olmalıdır.** 
 `nvarchar` tipi dışındaki veri tiplerinden oluşmuş alanlar için **file table oluşturamazsınız**.
+![File Table Type](../assets/file_table_nvarchar.webp)
 :::
 
-Ardından **FileTableID** kolonuna, [daha önce oluşturduğunuz](./dosyalar.md#dosya-nesnesinin-oluşturulması) dosya tablosunun **ID değerini** giriniz.
+![File Table Atama](../assets/file_table_atama.gif)
+
+Ardından araç çubuğundan düzenle butonuna tıkladıktan sonra, **FileTableID** kolonuna, [daha önce oluşturduğunuz](./dosyalar.md#dosya-nesnesinin-oluşturulması) dosya tablosunun **ID değerini** giriniz.
 
 İşlemleri tamamladıktan sonra **Kaydet** butonuna tıklayınız.  
 Bu sayede ilgili nesne alanı ile dosya tablosu doğru şekilde ilişkilendirilmiş olur.
