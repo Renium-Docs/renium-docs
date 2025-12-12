@@ -69,6 +69,11 @@ ComponentTypeId tree seçildi ise alanlarında TreeId TreeParentId yapısında o
 
 ### WhereClause
 - SQL WHERE koşulu
+- Belirli bir ekran/datasource üzerinde **kullanıcının sadece kendi kayıtlarını görmesi** isteniyorsa, filtre ifadesinde `@UserId` anahtar kelimesi kullanılır.
+```sql
+AddUser = '@UserId'
+--Bu örneğin çalışması için datasource’ta AddUser alanının bulunuyor olması gerekir.
+```
 
 ### OrderByClause
 - SQL ORDER BY sıralaması
