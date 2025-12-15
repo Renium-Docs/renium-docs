@@ -71,9 +71,13 @@ ComponentTypeId tree seçildi ise alanlarında TreeId TreeParentId yapısında o
 - SQL WHERE koşulu
 - Belirli bir ekran/datasource üzerinde **kullanıcının sadece kendi kayıtlarını görmesi** isteniyorsa, filtre ifadesinde `@UserId` anahtar kelimesi kullanılır.
 ```sql
-AddUser = '@UserId'
 --Bu örneğin çalışması için datasource’ta AddUser alanının bulunuyor olması gerekir.
+AddUser = '@UserId'
+
+--Options value 1 ile yönetilen nesneler için aşağdakli şartın yazılması gerekmektedir. @sssip ile program LegacyUserId yi vermektedir.
+AddUser = @sssip
 ```
+
 
 ### OrderByClause
 - SQL ORDER BY sıralaması
