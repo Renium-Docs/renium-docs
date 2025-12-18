@@ -10,15 +10,27 @@ Bu bölüm, tablolarınızda **dosya alanlarının** nasıl oluşturulacağını
 
 Yeni bir **FileTable** oluşturabilmek için, veritabanınızda **FILESTREAM** ile ilgili bazı ayarların yapılması gerekmektedir. Bu ayarlar, SQL Server üzerinden veritabanı özellikleri ekranından gerçekleştirilir.
 
-### FILESTREAM Directory Name Ayarı
+### FILESTREAM Directory Name ve Non-Transacted Access Ayarı
 
 1. SQL Server Management Studio (SSMS) üzerinden ilgili veritabanına **sağ tıklayın**.
 2. **Properties** (Özellikler) menüsünü açın.
 3. Sol menüden **Options** sekmesine gidin.
 4. Açılan ekranda **FILESTREAM** başlığı altında yer alan  
    **FILESTREAM Directory Name** alanını bulun.
-5. Bu alana, resimdeki örnekte olduğu gibi bir dizin adı tanımlayın.  
-   (Örnek: `OCTO_QUA_FILES_DIR`)
+5. **FILESTREAM Directory Name** alanı, mutlaka veritabanı adını içermelidir.  
+Önerilen ve standart kullanım şekli aşağıdaki gibidir:
+    ```text
+    {DB_NAME}_FILES_DIR
+    ```
+
+> **Örnek:**
+> Veritabanı adı OCTO_PROD ise:
+> ``` OCTO_PROD_FILES_DIR```
+> Bu yapılandırma, FILESTREAM dizininin veritabanı ile doğru şekilde ilişkilendirilmesini sağlar.
+
+6. Aynı ekranda yer alan FILESTREAM Non-Transacted Access alanı ise aşağıdaki gibi **Off** olarak yapılandırılmalıdır.
+
+    ![Database Konfigurasyon](../assets/database_config_1.webp)
 
 > Yapılan değişiklikler sonrasında ayarların geçerli olabilmesi için **OK** butonuna tıklayarak veritabanı özelliklerini kaydetmeniz gerekmektedir.
 
@@ -36,6 +48,8 @@ Aşağıdaki adımları izleyerek bu ayarı kontrol edebilir ve etkinleştirebil
 
 Bu ayar, FILESTREAM verilerine **Transact-SQL (T-SQL)** üzerinden erişilebilmesini sağlar.  
 İlgili seçenek aktif değilse, FileTable nesneleri oluşturulamaz veya beklenen şekilde çalışmaz.
+
+    ![Database Konfigurasyon](../assets/database_config_2.webp)
 
 > Ayar değişikliği yapıldıktan sonra, gerekirse SQL Server servisinin yeniden başlatılması önerilir.
 
