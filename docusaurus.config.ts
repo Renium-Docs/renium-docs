@@ -85,6 +85,12 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
+    docs: {
+    sidebar: {
+      hideable: true,
+      autoCollapseCategories: true,
+    },
+  },
     navbar: {
       title: 'Renium Docs',
       logo: {
