@@ -98,3 +98,5 @@ Açılan **Yetkilendirme** ekranında;
 iki ayrı liste halinde görüntülenir.
 
 Bir kullanıcının yetkisini kaldırmak veya yeni bir yetki eklemek için, ilgili kullanıcının yanındaki imleci kullanarak **sürükle-bırak** yöntemiyle kullanıcıyı **yetkili** ya da **yetkisiz** listeye taşımanız yeterlidir.
+
+![frmYetki](./assets/ekranlar_yetki.gif)
