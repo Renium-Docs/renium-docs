@@ -74,14 +74,13 @@ Ana bir kayda bağlı detay bilgilerin görüntülenmesi ve yönetilmesi amacıy
 ---
 
 - **Sıra**
-Ekranın, ilgili modül içerisinde hangi sırada görüntüleceğini belirler.
+  Ekranın, ilgili modül içerisinde hangi sırada görüntüleceğini belirler.
 
 - **Aktiflik**
-Aktif olmayan ekranlar menüde görüntülenmez. Ekranın aktif olması için ilgili checkbox işaretlenmelidir. 
+  Aktif olmayan ekranlar menüde görüntülenmez. Ekranın aktif olması için ilgili checkbox işaretlenmelidir. 
 
 - **Nesne**
-**Nesne** alanı, ilgili ekranın hangi **veri nesnesi (tablo veya view)** ile çalışacağını belirtir.  
-Bu alan sayesinde ekran ile veritabanı arasındaki ilişki kurulmuş olur ve ekranda hangi verilerin listeleneceği, düzenleneceği veya detaylarının görüntüleneceği belirlenir.
+  Nesne alanı, ilgili ekranın hangi **veri nesnesi (tablo veya view)** ile çalışacağını belirtir. Bu alan sayesinde ekran ile veritabanı arasındaki ilişki kurulmuş olur ve ekranda hangi verilerin listeleneceği, düzenleneceği veya detaylarının görüntüleneceği belirlenir.
 
 :::warning
 **Yukarıda belirtilen alanlar, tüm ekran tipleri için tanımlanması zorunlu alanlardır.**
@@ -99,14 +98,3 @@ Açılan **Yetkilendirme** ekranında;
 iki ayrı liste halinde görüntülenir.
 
 Bir kullanıcının yetkisini kaldırmak veya yeni bir yetki eklemek için, ilgili kullanıcının yanındaki imleci kullanarak **sürükle-bırak** yöntemiyle kullanıcıyı **yetkili** ya da **yetkisiz** listeye taşımanız yeterlidir.
-
-
-sql server configuraiton
-Select sorgusunu yükseltityor 
-Sp çalıştığı anda ekrnaın verisini yenile - splerde
-
-exploded from copy - satır kopyalada dahil etme password
-
-value ver itabanına 
-popup fields virglle birden fazla alan
-index pragmantation - istatistik
