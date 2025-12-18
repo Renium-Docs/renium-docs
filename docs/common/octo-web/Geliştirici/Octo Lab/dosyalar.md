@@ -8,6 +8,37 @@ Bu bölüm, tablolarınızda **dosya alanlarının** nasıl oluşturulacağını
 
 ## Database Konfigürasyonları
 
+Yeni bir **FileTable** oluşturabilmek için, veritabanınızda **FILESTREAM** ile ilgili bazı ayarların yapılması gerekmektedir. Bu ayarlar, SQL Server üzerinden veritabanı özellikleri ekranından gerçekleştirilir.
+
+### FILESTREAM Directory Name Ayarı
+
+1. SQL Server Management Studio (SSMS) üzerinden ilgili veritabanına **sağ tıklayın**.
+2. **Properties** (Özellikler) menüsünü açın.
+3. Sol menüden **Options** sekmesine gidin.
+4. Açılan ekranda **FILESTREAM** başlığı altında yer alan  
+   **FILESTREAM Directory Name** alanını bulun.
+5. Bu alana, resimdeki örnekte olduğu gibi bir dizin adı tanımlayın.  
+   (Örnek: `OCTO_QUA_FILES_DIR`)
+
+> Yapılan değişiklikler sonrasında ayarların geçerli olabilmesi için **OK** butonuna tıklayarak veritabanı özelliklerini kaydetmeniz gerekmektedir.
+
+### Enable FILESTREAM for Transact-SQL Access
+
+FileTable yapısının doğru şekilde çalışabilmesi için, veritabanı ayarlarına ek olarak **SQL Server seviyesinde FILESTREAM erişiminin** de aktif olması gerekmektedir.
+
+Aşağıdaki adımları izleyerek bu ayarı kontrol edebilir ve etkinleştirebilirsiniz:
+
+1. **SQL Server Management Studio (SSMS)** üzerinden ilgili SQL Server instance’ına bağlanın.
+2. Sunucuya **sağ tıklayın** ve **Properties** (Özellikler) menüsünü açın.
+3. Açılan pencerede **Advanced** sekmesine gidin.
+4. **FILESTREAM** başlığı altında yer alan  
+   **Enable FILESTREAM for Transact-SQL access** seçeneğinin **işaretli (True)** olduğundan emin olun.
+
+Bu ayar, FILESTREAM verilerine **Transact-SQL (T-SQL)** üzerinden erişilebilmesini sağlar.  
+İlgili seçenek aktif değilse, FileTable nesneleri oluşturulamaz veya beklenen şekilde çalışmaz.
+
+> Ayar değişikliği yapıldıktan sonra, gerekirse SQL Server servisinin yeniden başlatılması önerilir.
+
 ## Dosya Nesnesinin Oluşturulması
 
 ![File Table Oluşturma](../assets/file_table_1.webp)
