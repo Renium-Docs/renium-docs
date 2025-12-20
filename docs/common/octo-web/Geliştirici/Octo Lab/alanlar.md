@@ -11,6 +11,8 @@ Bu bölümde Octo Lab'da kullanılan alan özelliklerini detaylı olarak inceley
 ## Ortak Özellikler
 ---
 
+![Alanlar](../assets/alanlar_1.webp)
+
 ### ObjectFieldId
 - Alanın benzersiz kimlik numarası
 
@@ -69,6 +71,8 @@ FieldCaption: Müşteri Adı
 ```
 :::
 
+![Alanlar 2](../assets/alanlar_2.webp)
+
 ### Width
 - Alanın ekrandaki genişliği
 
@@ -81,6 +85,8 @@ FieldCaption: Müşteri Adı
 
 ### Required
 - Alanın zorunlu olup olmadığını belirler
+
+![Alanlar 3](../assets/alanlar_3.webp)
 
 ### DefaultValue
 - Alanın varsayılan değeri
@@ -239,7 +245,7 @@ FileTable tanımları detaylı bilgi için bkz.->
 - Alanın doğrulama deseni
 
 ### AutoCodePrefix
-- Otomatik kod öneki
+- Otomatik kod örneği
 
 ### AutoCodeLength
 - Otomatik kod uzunluğu
