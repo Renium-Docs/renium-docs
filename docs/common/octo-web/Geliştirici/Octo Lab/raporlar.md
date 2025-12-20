@@ -7,6 +7,5 @@ sidebar_position: 6
 
 
 :::tip
-
-[Linkten detaylı bilgi sahibi olabilirsiz.](docs\octo-web\Geliştirici\rapor_tasarımı.md#raporun-ekranlarla-i̇lişkilendirilmesi)
+[Linkten detaylı bilgi sahibi olabilirsiniz.](/docs/octo-web/Geliştirici/rapor_tasarımı#raporun-ekranlarla-i̇lişkilendirilmesi)
 :::
