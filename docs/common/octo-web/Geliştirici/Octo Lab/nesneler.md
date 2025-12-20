@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Nesneler
 
-```Tb_Rn_SystemObjects```
+Sistemde ```Tb_Rn_SystemObjects``` olarak tanımlanmıştır.
 
 
 ## Ortak Özellikler
@@ -70,6 +70,7 @@ ComponentTypeId tree seçildi ise alanlarında TreeId TreeParentId yapısında o
 ### WhereClause
 - SQL WHERE koşulu
 - Belirli bir ekran/datasource üzerinde **kullanıcının sadece kendi kayıtlarını görmesi** isteniyorsa, filtre ifadesinde `@UserId` anahtar kelimesi kullanılır.
+
 ```sql
 --Bu örneğin çalışması için datasource’ta AddUser alanının bulunuyor olması gerekir.
 AddUser = '@UserId'
