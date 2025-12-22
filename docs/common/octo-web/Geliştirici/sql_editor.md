@@ -1,3 +1,7 @@
+---
+toc_max_heading_level: 5
+---
+
 # SQL Editor
 
 Octo içerisinde, sağ üst köşede yer alan **Kullanıcı** menüsünden **SQL Editor** seçildiğinde sistemin dahili SQL Editörü açılır. SQL Editor, yetkili kullanıcıların veritabanı nesneleri üzerinde sorgulama, inceleme ve veri yönetimi yapabilmesi için tasarlanmıştır.
@@ -76,7 +80,7 @@ Object Explorer, SQL Editor kullanımının başlangıç noktasıdır ve kullan�
 
 ### Object Explorer Üzerinden Yapılabilecek İşlemler
 
-### 1. Nesne Arama
+#### 1. Nesne Arama
 
 Sol panelin üst kısmındaki **Search objects** alanı ile:
 
@@ -90,7 +94,7 @@ Bu özellik, nesne sayısının fazla olduğu veritabanlarında hızlı erişim 
 
 ---
 
-### 2. Nesne Seçme ve Detay İnceleme
+#### 2. Nesne Seçme ve Detay İnceleme
 
 Object Explorer’dan bir nesne seçildiğinde:
 
@@ -103,7 +107,7 @@ Object Explorer’dan bir nesne seçildiğinde:
 
 ---
 
-### 3. Veri Listeleme
+#### 3. Veri Listeleme
 
 Table veya View seçildikten sonra:
 
@@ -113,7 +117,7 @@ Table veya View seçildikten sonra:
 
 ---
 
-### 4. Kayıt İşlemleri
+#### 4. Kayıt İşlemleri
 
 - **Yeni Kayıt** ile tabloya veri eklenebilir
 - Mevcut kayıtlar düzenlenebilir veya silinebilir
@@ -122,7 +126,7 @@ Table veya View seçildikten sonra:
 
 ---
 
-### 5. Nesne Yapısını İnceleme
+#### 5. Nesne Yapısını İnceleme
 
 Object Explorer üzerinden aşağıdaki yapılar SQL yazmadan görüntülenebilir:
 
@@ -133,7 +137,7 @@ Object Explorer üzerinden aşağıdaki yapılar SQL yazmadan görüntülenebili
 
 ---
 
-### 6. SQL Editor ile Entegrasyon
+#### 6. SQL Editor ile Entegrasyon
 
 Object Explorer, SQL Editor ile entegre çalışır:
 
