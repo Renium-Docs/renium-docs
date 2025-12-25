@@ -7,7 +7,7 @@ toc_max_heading_level: 5
 :::danger
 SQL Editor ve Object Explorer, doğrudan veritabanı üzerinde işlem yapılmasına olanak tanır.  
 Bu nedenle **SQL Editor**, yalnızca **yetkili ve teknik kullanıcılar** tarafından kullanılmalıdır.  
-**Roller** sayfasında **Admin** yetkisine sahip olan kullanıcılar için SQL Editor erişimi aktif hale gelir.  
+**Roller** sayfasında **Admin** yetkisine sahip olan rollere ait kullanıcılar için SQL Editor erişimi aktif hale gelir.  
 Bu yetkinin nasıl tanımlanacağına dair detaylı bilgiye, **[Yetkilendirme](/docs/octo-web/Yönetim/yetkilendirme)** sayfasının başında yer alan açıklamalardan ulaşabilirsiniz.
 :::
 
