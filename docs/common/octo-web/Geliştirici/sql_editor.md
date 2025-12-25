@@ -6,11 +6,15 @@ toc_max_heading_level: 5
 
 Octo içerisinde, sağ üst köşede yer alan **Kullanıcı** menüsünden **SQL Editor** seçildiğinde sistemin dahili SQL Editörü açılır. SQL Editor, yetkili kullanıcıların veritabanı nesneleri üzerinde sorgulama, inceleme ve veri yönetimi yapabilmesi için tasarlanmıştır.
 
+![sql_editor](./assets/sql_editor.webp)
+
 ---
 
 ## SQL Editor Genel Yapısı
 
 SQL Editor ekranı üç ana bölümden oluşur:
+
+![Sql Editor Alanları](./assets/sql_editor_alanları.webp)
 
 ### 1. Object Explorer (Sol Panel)
 
@@ -40,9 +44,13 @@ Object Explorer’dan bir nesne seçildiğinde, orta alanda seçilen nesneye ait
 
 Bu alan, kullanıcıların SQL yazmadan nesne yapısını ve içeriğini analiz edebilmesini sağlar.
 
+Ayrıca herhangi bir nesne seçmediğiniz durumda da, yeni query oluşturup çalıştırabileceğiniz alanı gösterir.
+
 ---
 
-### 3. Üst Aksiyon Butonları
+### 3. Aksiyon Butonları
+
+![Sql Action Buttons](./assets/sql_action_buttons.webp)
 
 Seçilen nesneye göre aktif olan aksiyonlar:
 
@@ -56,7 +64,9 @@ Seçilen nesneye göre aktif olan aksiyonlar:
   Yetkili kullanıcıların tabloya yeni kayıt eklemesini sağlar.
 
 - **Düzenleme**  
-  Mevcut kayıtların düzenlenmesini aktif veya pasif hale getirir.
+  Mevcut kayıtların düzenlenmesini aktif veya pasif hale getirir. Düzenlemeyi aktif hale getirdikten sonra kayıtlardaki değerleri değişteribilir yada verileri silebilirsiniz.
+
+  ![Sql Editor Düzenleme](./assets/sql_editor_düzenleme.gif)
 
 ---
 
