@@ -2,7 +2,14 @@
 toc_max_heading_level: 5
 ---
 
-# SQL Editor
+# SQL Editor 
+
+:::danger
+SQL Editor ve Object Explorer, doğrudan veritabanı üzerinde işlem yapılmasına olanak tanır.  
+Bu nedenle **SQL Editor**, yalnızca **yetkili ve teknik kullanıcılar** tarafından kullanılmalıdır.  
+**Roller** sayfasında **Admin** yetkisine sahip olan kullanıcılar için SQL Editor erişimi aktif hale gelir.  
+Bu yetkinin nasıl tanımlanacağına dair detaylı bilgiye, **[Yetkilendirme](/docs/octo-web/Yönetim/yetkilendirme)** sayfasının başında yer alan açıklamalardan ulaşabilirsiniz.
+:::
 
 Octo içerisinde, sağ üst köşede yer alan **Kullanıcı** menüsünden **SQL Editor** seçildiğinde sistemin dahili SQL Editörü açılır. SQL Editor, yetkili kullanıcıların veritabanı nesneleri üzerinde sorgulama, inceleme ve veri yönetimi yapabilmesi için tasarlanmıştır.
 
@@ -153,10 +160,3 @@ Object Explorer, SQL Editor ile entegre çalışır:
 
 - Seçilen nesne üzerinden **New Query** başlatılabilir
 - Kullanıcı, ilgili tablo veya view için doğrudan SQL sorgusu yazabilir
-
----
-
-:::warning
-SQL Editor ve Object Explorer, doğrudan veritabanı üzerinde işlem yapılmasına olanak tanır.  
-Bu nedenle yalnızca yetkili ve teknik kullanıcılar tarafından kullanılmalıdır.
-:::
