@@ -44,6 +44,12 @@ Kullanıcılar, roller ve erişim izinleri bu ekran üzerinden tanımlanır ve y
 
 3. `Master`
 
+Master tipinde oluşturulan ekranlar **tabsız** olarak çalışır.
+Nesne üzerinde MasterDetail yapısına ait tab tanımları bulunsa dahi, bu tablar ekranda açılmaz.
+Ekran, yalnızca tek bir **ana (master) ekran** olacak şekilde görüntülenir.
+
+    ![frmYetki](./assets/master_tipi.webp)
+
 ---
 
 4. `MasterDetail`
@@ -70,6 +76,10 @@ Ana bir kayda bağlı detay bilgilerin görüntülenmesi ve yönetilmesi amacıy
 ---
 
 8. `Screen`
+
+Screen tipindeki oluşturulan bir ekran aslında direkt olarak 'Ekranlar' ekranını temsil etmektedir. Bu yapıda yeni bir ekran oluşturacaktır.
+
+    ![Screen Ekran Tipi](./assets/screen_tipi.webp)
 
 ---
 
